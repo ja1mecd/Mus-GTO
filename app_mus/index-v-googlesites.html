@@ -1,0 +1,1292 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Mus GTO - Google Apps Script</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+        }
+        .section {
+            display: none;
+        }
+        .section.active {
+            display: block;
+        }
+        .menu {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .menu-button {
+            background: linear-gradient(45deg, #007bff, #0056b3);
+            color: white;
+            padding: 15px 30px;
+            margin: 10px;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
+        }
+        .menu-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 123, 255, 0.4);
+        }
+        .input-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #333;
+        }
+        input, select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 14px;
+            box-sizing: border-box;
+            transition: border-color 0.3s ease;
+        }
+        input:focus, select:focus {
+            border-color: #007bff;
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+        }
+        button {
+            background: linear-gradient(45deg, #28a745, #20c997);
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 5px;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+        button:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(40, 167, 69, 0.3);
+        }
+        .back-button {
+            background: linear-gradient(45deg, #6c757d, #5a6268);
+            margin-bottom: 20px;
+        }
+        .api-status {
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        .status-loading {
+            background: linear-gradient(45deg, #ffc107, #fd7e14);
+            color: #495057;
+        }
+        .status-online {
+            background: linear-gradient(45deg, #28a745, #20c997);
+            color: white;
+        }
+        .status-offline {
+            background: linear-gradient(45deg, #dc3545, #c82333);
+            color: white;
+        }
+        .help {
+            background: linear-gradient(45deg, #d4edda, #c3e6cb);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            border-left: 5px solid #28a745;
+        }
+        .result-item {
+            margin: 15px 0;
+            padding: 15px;
+            background: linear-gradient(45deg, #f8f9fa, #e9ecef);
+            border-radius: 10px;
+            border-left: 4px solid #007bff;
+            transition: transform 0.2s ease;
+        }
+        .result-item:hover {
+            transform: translateX(5px);
+        }
+        .probabilidades-resultado {
+            margin-top: 30px;
+            padding: 25px;
+            background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+            border-radius: 15px;
+            display: none;
+            border: 2px solid #2196f3;
+        }
+        .error {
+            color: #721c24;
+            background: linear-gradient(45deg, #f8d7da, #f5c6cb);
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 15px;
+            border-left: 4px solid #dc3545;
+        }
+        .loading {
+            display: none;
+            color: #007bff;
+            text-align: center;
+            padding: 20px;
+            font-weight: 600;
+        }
+        .ranking-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            margin: 10px 0;
+            background: linear-gradient(45deg, #ffffff, #f8f9fa);
+            border-radius: 10px;
+            border: 1px solid #dee2e6;
+            transition: all 0.3s ease;
+        }
+        .ranking-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        .ranking-number {
+            font-weight: bold;
+            color: #007bff;
+            min-width: 40px;
+            font-size: 18px;
+        }
+        .ranking-mano {
+            font-family: 'Courier New', monospace;
+            font-weight: bold;
+            background: #e9ecef;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        .ranking-piedras {
+            color: #28a745;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .config-section {
+            background: linear-gradient(45deg, #fff3cd, #ffeaa7);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            border-left: 5px solid #ffc107;
+        }
+        .config-step {
+            margin: 10px 0;
+            padding: 10px;
+            background: white;
+            border-radius: 5px;
+            border-left: 3px solid #007bff;
+        }
+        code {
+            background: #f8f9fa;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Estado de la API -->
+        <div id="apiStatus" class="api-status status-loading">
+            🔄 Conectando con Google Apps Script...
+        </div>
+
+        <!-- Menú Principal -->
+        <div id="menu" class="section active">
+            <h1 style="text-align: center; color: #333; margin-bottom: 30px;">
+                🃏 App Mus GTO - Google Apps Script
+            </h1>
+            <div class="menu">
+                <button class="menu-button" onclick="mostrarSeccion('config')">
+                    ⚙️ Configuración Inicial
+                </button>
+                <button class="menu-button" onclick="mostrarSeccion('analizador')">
+                    🃏 Analizador de Manos
+                </button>
+                <button class="menu-button" onclick="mostrarSeccion('estadisticas')">
+                    📊 Estadísticas
+                </button>
+                <button class="menu-button" onclick="mostrarSeccion('mejores')">
+                    🏆 Mejores Manos
+                </button>
+                <button class="menu-button" onclick="mostrarSeccion('busquedas')">
+                    🔍 Búsquedas Avanzadas
+                </button>
+                <button class="menu-button" onclick="mostrarSeccion('contador-config')">
+                    🎯 Contador de Partidas
+                </button>
+            </div>
+        </div>
+
+        <!-- Sección de Configuración -->
+        <div id="config" class="section">
+            <button class="back-button" onclick="mostrarSeccion('menu')">← Volver al Menú</button>
+            <h1>⚙️ Configuración Inicial</h1>
+            
+            <div class="config-section">
+                <h3>📋 Pasos para configurar:</h3>
+                <div class="config-step">
+                    <strong>1.</strong> Ejecuta el script Python para generar <code>manos_mus_google_sheets.csv</code>
+                </div>
+                <div class="config-step">
+                    <strong>2.</strong> Crea un nuevo Google Sheet e importa el CSV
+                </div>
+                <div class="config-step">
+                    <strong>3.</strong> Copia el ID del Sheet de la URL
+                </div>
+                <div class="config-step">
+                    <strong>4.</strong> Ve a <a href="https://script.google.com" target="_blank">script.google.com</a>
+                </div>
+                <div class="config-step">
+                    <strong>5.</strong> Crea un nuevo proyecto y pega el código Apps Script
+                </div>
+                <div class="config-step">
+                    <strong>6.</strong> Reemplaza <code>SPREADSHEET_ID</code> con tu ID real
+                </div>
+                <div class="config-step">
+                    <strong>7.</strong> Implementa como Web App (acceso: Anyone)
+                </div>
+                <div class="config-step">
+                    <strong>8.</strong> Copia la URL del Web App aquí abajo
+                </div>
+            </div>
+            
+            <div class="input-group">
+                <label for="webAppUrl">URL de tu Web App de Google Apps Script:</label>
+                <input type="url" id="webAppUrl" placeholder="https://script.google.com/macros/s/.../exec" />
+            </div>
+            
+            <button onclick="configurarAPI()">💾 Guardar Configuración</button>
+            <button onclick="probarConexion()">🧪 Probar Conexión</button>
+        </div>
+
+        <!-- Sección del Analizador -->
+        <div id="analizador" class="section">
+            <button class="back-button" onclick="mostrarSeccion('menu')">← Volver al Menú</button>
+            <h1>🃏 Analizador de Probabilidades</h1>
+            
+            <div class="help">
+                <strong>💡 Instrucciones:</strong> Introduce tu mano separando las cartas con comas. 
+                Usa los valores: 1, 4, 5, 6, 7, 10, 11, 12 (donde 1=As, 10=Sota, 11=Caballo, 12=Rey).
+                <br><br><strong>📝 Ejemplos:</strong> 
+                <br>• <code>1,1,7,12</code> → Pareja de ases
+                <br>• <code>12,12,1,1</code> → Duples (reyes y ases)
+                <br>• <code>7,7,7,5</code> → Medias de sietes
+            </div>
+            
+            <div class="input-group">
+                <label for="manoInput">🎯 Tu mano (4 cartas separadas por comas):</label>
+                <input type="text" id="manoInput" placeholder="Ej: 1,1,7,12" />
+            </div>
+            
+            <button onclick="calcularProbabilidades()">🚀 Analizar Probabilidades</button>
+            <div class="loading" id="loading">🔄 Analizando mano...</div>
+            <div id="errorProbabilidades"></div>
+            <div id="resultadoProbabilidades" class="probabilidades-resultado"></div>
+        </div>
+
+        <!-- Sección de Estadísticas -->
+        <div id="estadisticas" class="section">
+            <button class="back-button" onclick="mostrarSeccion('menu')">← Volver al Menú</button>
+            <h1>📊 Estadísticas Globales</h1>
+            
+            <button onclick="cargarEstadisticas()">📈 Cargar Estadísticas</button>
+            <div id="estadisticasContent"></div>
+        </div>
+
+        <!-- Sección de Mejores Manos -->
+        <div id="mejores" class="section">
+            <button class="back-button" onclick="mostrarSeccion('menu')">← Volver al Menú</button>
+            <h1>🏆 Ranking de Mejores Manos</h1>
+            
+            <div class="input-group">
+                <label for="limiteMejores">📊 Número de manos a mostrar:</label>
+                <input type="number" id="limiteMejores" value="20" min="5" max="100" />
+            </div>
+            
+            <button onclick="cargarMejoresManos()">🎯 Cargar Ranking</button>
+            <div id="mejoresContent"></div>
+        </div>
+
+        <!-- Sección de Búsquedas Avanzadas -->
+        <div id="busquedas" class="section">
+            <button class="back-button" onclick="mostrarSeccion('menu')">← Volver al Menú</button>
+            <h1>🔍 Búsquedas Avanzadas</h1>
+            
+            <div class="input-group">
+                <label for="tipoFiltro">🎭 Filtrar por tipo de mano:</label>
+                <select id="tipoFiltro">
+                    <option value="">Todos los tipos</option>
+                    <option value="Sin pares">Sin pares</option>
+                    <option value="Pareja">Parejas</option>
+                    <option value="Medias">Medias</option>
+                    <option value="Duples">Duples</option>
+                    <option value="Cuaternas">Cuaternas</option>
+                </select>
+            </div>
+            
+            <div style="display: flex; gap: 15px;">
+                <div class="input-group" style="flex: 1;">
+                    <label for="piedrasMin">⬇️ Piedras mínimas:</label>
+                    <input type="number" id="piedrasMin" step="0.1" placeholder="Ej: 2.0" />
+                </div>
+                <div class="input-group" style="flex: 1;">
+                    <label for="piedrasMax">⬆️ Piedras máximas:</label>
+                    <input type="number" id="piedrasMax" step="0.1" placeholder="Ej: 5.0" />
+                </div>
+            </div>
+            
+            <div class="input-group">
+                <label for="limiteBusqueda">📊 Límite de resultados:</label>
+                <input type="number" id="limiteBusqueda" value="30" min="10" max="100" />
+            </div>
+            
+            <button onclick="buscarManosAvanzado()">🔍 Buscar</button>
+            <div id="busquedasContent"></div>
+        </div>
+
+        <!-- Sección de Configuración de Contador -->
+        <div id="contador-config" class="section">
+            <button class="back-button" onclick="mostrarSeccion('menu')">← Volver al Menú</button>
+            <h1>🎯 Configuración del Contador</h1>
+            
+            <div class="help">
+                <strong>💡 Información:</strong> Configura los nombres de las parejas para empezar a contar los puntos de la partida de Mus.
+            </div>
+            
+            <div style="display: flex; gap: 20px;">
+                <div class="input-group" style="flex: 1;">
+                    <label for="nombrePareja1">🏆 Primera pareja:</label>
+                    <input type="text" id="nombrePareja1" placeholder="Ej: Jaime y Alejandro" />
+                </div>
+                <div class="input-group" style="flex: 1;">
+                    <label for="nombrePareja2">🏆 Segunda pareja:</label>
+                    <input type="text" id="nombrePareja2" placeholder="Ej: Cortés y Damas" />
+                </div>
+            </div>
+            
+            <button onclick="empezarContador()" style="width: 100%; font-size: 18px; padding: 15px;">
+                🚀 Empezar Partida
+            </button>
+        </div>
+
+        <!-- Sección del Contador -->
+        <div id="contador" class="section">
+            <button class="back-button" onclick="mostrarSeccion('contador-config')">← Volver a Configuración</button>
+            <h1 style="text-align: center; margin-bottom: 30px;">🎯 Contador de Partida</h1>
+            
+            <div style="display: flex; justify-content: space-between; gap: 20px; align-items: flex-start;">
+                <!-- Pareja 1 -->
+                <div style="flex: 1; text-align: center;">
+                    <div style="background: linear-gradient(45deg, #e3f2fd, #bbdefb); padding: 20px; border-radius: 15px; border: 2px solid #2196f3;">
+                        <div id="displayNombrePareja1" style="font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #1565c0;">
+                            Pareja 1
+                        </div>
+                        <div style="display: flex; align-items: center; justify-content: center; gap: 15px; margin: 30px 0;">
+                            <button onclick="cambiarContadorPareja(1, -1)" style="background: linear-gradient(45deg, #f44336, #d32f2f); font-size: 20px; width: 50px; height: 50px; border-radius: 50%;">
+                                −
+                            </button>
+                            <div id="contadorPareja1" style="font-size: 60px; font-weight: bold; color: #1565c0; min-width: 100px;">
+                                0
+                            </div>
+                            <button onclick="cambiarContadorPareja(1, 1)" style="background: linear-gradient(45deg, #4caf50, #388e3c); font-size: 20px; width: 50px; height: 50px; border-radius: 50%;">
+                                +
+                            </button>
+                        </div>
+                        
+                        <!-- Contador pequeño para juegos -->
+                        <div style="margin-top: 20px;">
+                            <label style="font-size: 14px; color: #666;">Juegos:</label>
+                            <div style="display: flex; align-items: center; justify-content: center; gap: 10px; margin-top: 10px;">
+                                <button onclick="cambiarContadorPequeno(1, -1)" style="background: #6c757d; color: white; width: 30px; height: 30px; border-radius: 50%; font-size: 14px;">
+                                    −
+                                </button>
+                                <div id="contadorPequeno1" style="font-size: 24px; font-weight: bold; color: #28a745; min-width: 40px;">
+                                    0
+                                </div>
+                                <button onclick="cambiarContadorPequeno(1, 1)" style="background: #6c757d; color: white; width: 30px; height: 30px; border-radius: 50%; font-size: 14px;">
+                                    +
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Centro - Lances -->
+                <div style="flex: 0.6; display: flex; flex-direction: column; gap: 15px;">
+                    <h3 style="text-align: center; margin: 0;">Lances</h3>
+                    
+                    <!-- Grande -->
+                    <div style="background: #f8f9fa; padding: 15px; border-radius: 10px; border: 2px solid #dee2e6;">
+                        <h4 style="text-align: center; margin: 0 0 10px 0;">Grande</h4>
+                        <div style="display: flex; align-items: center; justify-content: center; gap: 10px; margin-bottom: 10px;">
+                            <button onclick="asignarPuntos(1, 1)" style="background: linear-gradient(45deg, #007bff, #0056b3); font-size: 16px;">
+                                ←
+                            </button>
+                            <div id="contador1" style="font-size: 28px; font-weight: bold; color: #007bff; min-width: 40px; text-align: center;">
+                                0
+                            </div>
+                            <button onclick="asignarPuntos(1, 2)" style="background: linear-gradient(45deg, #007bff, #0056b3); font-size: 16px;">
+                                →
+                            </button>
+                        </div>
+                        <div style="display: flex; justify-content: center; gap: 5px; flex-wrap: wrap;">
+                            <button onclick="cambiarContador(1, 2)" style="background: #28a745; font-size: 12px; padding: 5px 10px;">+2</button>
+                            <button onclick="cambiarContador(1, 1)" style="background: #17a2b8; font-size: 12px; padding: 5px 10px;">+1</button>
+                            <button onclick="cambiarContador(1, -1)" style="background: #dc3545; font-size: 12px; padding: 5px 10px;">-1</button>
+                        </div>
+                    </div>
+
+                    <!-- Chica -->
+                    <div style="background: #f8f9fa; padding: 15px; border-radius: 10px; border: 2px solid #dee2e6;">
+                        <h4 style="text-align: center; margin: 0 0 10px 0;">Chica</h4>
+                        <div style="display: flex; align-items: center; justify-content: center; gap: 10px; margin-bottom: 10px;">
+                            <button onclick="asignarPuntos(2, 1)" style="background: linear-gradient(45deg, #007bff, #0056b3); font-size: 16px;">
+                                ←
+                            </button>
+                            <div id="contador2" style="font-size: 28px; font-weight: bold; color: #007bff; min-width: 40px; text-align: center;">
+                                0
+                            </div>
+                            <button onclick="asignarPuntos(2, 2)" style="background: linear-gradient(45deg, #007bff, #0056b3); font-size: 16px;">
+                                →
+                            </button>
+                        </div>
+                        <div style="display: flex; justify-content: center; gap: 5px; flex-wrap: wrap;">
+                            <button onclick="cambiarContador(2, 2)" style="background: #28a745; font-size: 12px; padding: 5px 10px;">+2</button>
+                            <button onclick="cambiarContador(2, 1)" style="background: #17a2b8; font-size: 12px; padding: 5px 10px;">+1</button>
+                            <button onclick="cambiarContador(2, -1)" style="background: #dc3545; font-size: 12px; padding: 5px 10px;">-1</button>
+                        </div>
+                    </div>
+
+                    <!-- Pares -->
+                    <div style="background: #f8f9fa; padding: 15px; border-radius: 10px; border: 2px solid #dee2e6;">
+                        <h4 style="text-align: center; margin: 0 0 10px 0;">Pares</h4>
+                        <div style="display: flex; align-items: center; justify-content: center; gap: 10px; margin-bottom: 10px;">
+                            <button onclick="asignarPuntos(3, 1)" style="background: linear-gradient(45deg, #007bff, #0056b3); font-size: 16px;">
+                                ←
+                            </button>
+                            <div id="contador3" style="font-size: 28px; font-weight: bold; color: #007bff; min-width: 40px; text-align: center;">
+                                0
+                            </div>
+                            <button onclick="asignarPuntos(3, 2)" style="background: linear-gradient(45deg, #007bff, #0056b3); font-size: 16px;">
+                                →
+                            </button>
+                        </div>
+                        <div style="display: flex; justify-content: center; gap: 5px; flex-wrap: wrap;">
+                            <button onclick="cambiarContador(3, 2)" style="background: #28a745; font-size: 12px; padding: 5px 10px;">+2</button>
+                            <button onclick="cambiarContador(3, 1)" style="background: #17a2b8; font-size: 12px; padding: 5px 10px;">+1</button>
+                            <button onclick="cambiarContador(3, -1)" style="background: #dc3545; font-size: 12px; padding: 5px 10px;">-1</button>
+                        </div>
+                    </div>
+
+                    <!-- Juego -->
+                    <div style="background: #f8f9fa; padding: 15px; border-radius: 10px; border: 2px solid #dee2e6;">
+                        <h4 style="text-align: center; margin: 0 0 10px 0;">Juego</h4>
+                        <div style="display: flex; align-items: center; justify-content: center; gap: 10px; margin-bottom: 10px;">
+                            <button onclick="asignarPuntos(4, 1)" style="background: linear-gradient(45deg, #007bff, #0056b3); font-size: 16px;">
+                                ←
+                            </button>
+                            <div id="contador4" style="font-size: 28px; font-weight: bold; color: #007bff; min-width: 40px; text-align: center;">
+                                0
+                            </div>
+                            <button onclick="asignarPuntos(4, 2)" style="background: linear-gradient(45deg, #007bff, #0056b3); font-size: 16px;">
+                                →
+                            </button>
+                        </div>
+                        <div style="display: flex; justify-content: center; gap: 5px; flex-wrap: wrap;">
+                            <button onclick="cambiarContador(4, 2)" style="background: #28a745; font-size: 12px; padding: 5px 10px;">+2</button>
+                            <button onclick="cambiarContador(4, 1)" style="background: #17a2b8; font-size: 12px; padding: 5px 10px;">+1</button>
+                            <button onclick="cambiarContador(4, -1)" style="background: #dc3545; font-size: 12px; padding: 5px 10px;">-1</button>
+                        </div>
+                    </div>
+
+                    <!-- Reset -->
+                    <button onclick="resetearContadores()" style="background: linear-gradient(45deg, #6c757d, #5a6268); margin-top: 10px;">
+                        🔄 Resetear Todo
+                    </button>
+                </div>
+
+                <!-- Pareja 2 -->
+                <div style="flex: 1; text-align: center;">
+                    <div style="background: linear-gradient(45deg, #fff3e0, #ffcc02); padding: 20px; border-radius: 15px; border: 2px solid #ff9800;">
+                        <div id="displayNombrePareja2" style="font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #e65100;">
+                            Pareja 2
+                        </div>
+                        <div style="display: flex; align-items: center; justify-content: center; gap: 15px; margin: 30px 0;">
+                            <button onclick="cambiarContadorPareja(2, -1)" style="background: linear-gradient(45deg, #f44336, #d32f2f); font-size: 20px; width: 50px; height: 50px; border-radius: 50%;">
+                                −
+                            </button>
+                            <div id="contadorPareja2" style="font-size: 60px; font-weight: bold; color: #e65100; min-width: 100px;">
+                                0
+                            </div>
+                            <button onclick="cambiarContadorPareja(2, 1)" style="background: linear-gradient(45deg, #4caf50, #388e3c); font-size: 20px; width: 50px; height: 50px; border-radius: 50%;">
+                                +
+                            </button>
+                        </div>
+                        
+                        <!-- Contador pequeño para juegos -->
+                        <div style="margin-top: 20px;">
+                            <label style="font-size: 14px; color: #666;">Juegos:</label>
+                            <div style="display: flex; align-items: center; justify-content: center; gap: 10px; margin-top: 10px;">
+                                <button onclick="cambiarContadorPequeno(2, -1)" style="background: #6c757d; color: white; width: 30px; height: 30px; border-radius: 50%; font-size: 14px;">
+                                    −
+                                </button>
+                                <div id="contadorPequeno2" style="font-size: 24px; font-weight: bold; color: #28a745; min-width: 40px;">
+                                    0
+                                </div>
+                                <button onclick="cambiarContadorPequeno(2, 1)" style="background: #6c757d; color: white; width: 30px; height: 30px; border-radius: 50%; font-size: 14px;">
+                                    +
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // ========== CONFIGURACIÓN AUTOMÁTICA ==========
+        
+        // 🎯 CONFIGURACIÓN PERMANENTE - Reemplaza con tu URL real
+        const API_URL_HARDCODED = 'https://script.google.com/macros/s/AKfycbyFsulXBatmrtwVnHoCtdcb7My9d-8wK21U02YB4pG-7aNiXulNADN9rh37dVnmDIxovA/exec';
+        
+        let API_URL = API_URL_HARDCODED; // Usar URL hardcodeada por defecto
+        let apiConectada = false;
+
+        // ========== GESTIÓN DE LA API ==========
+        
+        function configurarAPI() {
+            const url = document.getElementById('webAppUrl').value.trim();
+            
+            if (!url) {
+                alert('❌ Por favor, introduce la URL de tu Web App');
+                return;
+            }
+            
+            if (!url.includes('script.google.com')) {
+                alert('❌ La URL debe ser de Google Apps Script');
+                return;
+            }
+            
+            // Guardar en localStorage
+            localStorage.setItem('musAPIUrl', url);
+            API_URL = url;
+            
+            alert('✅ Configuración guardada. Ahora prueba la conexión.');
+            probarConexion();
+        }
+
+        async function probarConexion() {
+            const statusDiv = document.getElementById('apiStatus');
+            statusDiv.className = 'api-status status-loading';
+            statusDiv.innerHTML = '🔄 Probando conexión...';
+            
+            try {
+                if (!API_URL) {
+                    throw new Error('URL de API no configurada');
+                }
+                
+                const response = await fetch(`${API_URL}?action=test`, {
+                    method: 'GET',
+                    mode: 'cors'
+                });
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    apiConectada = true;
+                    statusDiv.className = 'api-status status-online';
+                    statusDiv.innerHTML = `✅ Conectado - ${data.data.totalFilas} manos disponibles`;
+                } else {
+                    throw new Error(data.error);
+                }
+                
+            } catch (error) {
+                apiConectada = false;
+                statusDiv.className = 'api-status status-offline';
+                statusDiv.innerHTML = `❌ Error: ${error.message}`;
+                console.error('Error de conexión:', error);
+            }
+        }
+
+        async function llamarAPI(action, params = {}) {
+            if (!apiConectada) {
+                throw new Error('API no conectada. Ve a Configuración para conectar.');
+            }
+            
+            try {
+                const url = new URL(API_URL);
+                url.searchParams.append('action', action);
+                
+                // Agregar parámetros
+                Object.keys(params).forEach(key => {
+                    if (params[key] !== null && params[key] !== undefined && params[key] !== '') {
+                        url.searchParams.append(key, params[key]);
+                    }
+                });
+                
+                const response = await fetch(url.toString(), {
+                    method: 'GET',
+                    mode: 'cors'
+                });
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+                
+                const data = await response.json();
+                
+                if (!data.success) {
+                    throw new Error(data.error);
+                }
+                
+                return data.data;
+                
+            } catch (error) {
+                console.error('Error en llamada a API:', error);
+                throw error;
+            }
+        }
+
+        // ========== FUNCIONES DEL ANALIZADOR ==========
+        
+        async function calcularProbabilidades() {
+            const errorDiv = document.getElementById('errorProbabilidades');
+            const resultsDiv = document.getElementById('resultadoProbabilidades');
+            const loadingDiv = document.getElementById('loading');
+            
+            errorDiv.innerHTML = '';
+            resultsDiv.style.display = 'none';
+            loadingDiv.style.display = 'block';
+            
+            try {
+                const input = document.getElementById('manoInput').value.trim();
+                if (!input) {
+                    throw new Error('Por favor, introduce una mano.');
+                }
+                
+                const mano = input.split(',').map(x => {
+                    const num = parseInt(x.trim());
+                    if (isNaN(num)) {
+                        throw new Error(`"${x.trim()}" no es un número válido.`);
+                    }
+                    return num;
+                });
+                
+                if (mano.length !== 4) {
+                    throw new Error('Debes introducir exactamente 4 cartas.');
+                }
+                
+                const cartasValidas = [1, 4, 5, 6, 7, 10, 11, 12];
+                for (let carta of mano) {
+                    if (!cartasValidas.includes(carta)) {
+                        throw new Error(`La carta ${carta} no es válida. Usa: 1, 4, 5, 6, 7, 10, 11, 12`);
+                    }
+                }
+                
+                const resultado = await llamarAPI('buscar', {
+                    carta1: mano[0],
+                    carta2: mano[1],
+                    carta3: mano[2],
+                    carta4: mano[3]
+                });
+                
+                resultsDiv.innerHTML = `
+                    <h3>🎯 Análisis de la mano [${mano.join(', ')}]:</h3>
+                    <div class="result-item">
+                        <strong>🎭 Tipo de mano:</strong> ${resultado.analisis.tipoMano}<br>
+                        <strong>🎲 Estado:</strong> ${resultado.analisis.estadoJuego}
+                    </div>
+                    <h3>📊 Probabilidades de ganar:</h3>
+                    <div class="result-item"><strong>🏔️ Grande:</strong> ${resultado.probabilidades.grande.toFixed(2)}%</div>
+                    <div class="result-item"><strong>🐁 Chica:</strong> ${resultado.probabilidades.chica.toFixed(2)}%</div>
+                    <div class="result-item"><strong>👥 Pares:</strong> ${resultado.probabilidades.pares.toFixed(2)}%</div>
+                    <div class="result-item"><strong>🎮 Juego:</strong> ${resultado.probabilidades.juego.toFixed(2)}%</div>
+                    <div class="result-item"><strong>📍 Punto:</strong> ${resultado.probabilidades.punto.toFixed(2)}%</div>
+                    <div class="result-item" style="background: linear-gradient(45deg, #e7f3ff, #cce7ff); border-left-color: #007bff; font-size: 18px; font-weight: bold;">
+                        <strong>🏆 Piedras esperadas:</strong> ${resultado.piedrasEsperadas.toFixed(3)}
+                    </div>
+                `;
+                
+                resultsDiv.style.display = 'block';
+                
+            } catch (error) {
+                errorDiv.innerHTML = `<div class="error">❌ Error: ${error.message}</div>`;
+            }
+            
+            loadingDiv.style.display = 'none';
+        }
+
+        // ========== FUNCIONES DE ESTADÍSTICAS ==========
+        
+        async function cargarEstadisticas() {
+            const contentDiv = document.getElementById('estadisticasContent');
+            
+            try {
+                contentDiv.innerHTML = '<div class="loading" style="display: block;">📊 Cargando estadísticas...</div>';
+                
+                const stats = await llamarAPI('estadisticas');
+                
+                // Validar datos de estadísticas
+                const promedio = (stats.promedioPiedras !== null && !isNaN(stats.promedioPiedras)) ? 
+                                parseFloat(stats.promedioPiedras) : 0;
+                const minPiedras = (stats.minPiedras !== null && !isNaN(stats.minPiedras)) ? 
+                                  parseFloat(stats.minPiedras) : 0;
+                const maxPiedras = (stats.maxPiedras !== null && !isNaN(stats.maxPiedras)) ? 
+                                  parseFloat(stats.maxPiedras) : 0;
+                
+                contentDiv.innerHTML = `
+                    <div class="result-item">
+                        <strong>📚 Total de manos únicas:</strong> ${stats.totalManos || 0}
+                    </div>
+                    <div class="result-item">
+                        <strong>📈 Promedio de piedras esperadas:</strong> ${promedio.toFixed(3)}
+                    </div>
+                    <div class="result-item">
+                        <strong>📊 Rango de piedras:</strong> ${minPiedras.toFixed(3)} - ${maxPiedras.toFixed(3)}
+                    </div>
+                    ${stats.mejorMano ? `
+                    <div class="result-item" style="background: linear-gradient(45deg, #d4edda, #c3e6cb);">
+                        <strong>🏆 Mejor mano:</strong> ${stats.mejorMano.mano || 'N/A'}<br>
+                        <strong>🎭 Tipo:</strong> ${stats.mejorMano.tipoMano || 'N/A'}<br>
+                        <strong>💎 Piedras esperadas:</strong> ${(parseFloat(stats.mejorMano.piedrasEsperadas) || 0).toFixed(3)}
+                    </div>
+                    ` : '<div class="result-item">⚠️ No se pudo cargar información de la mejor mano</div>'}
+                    ${stats.peorMano ? `
+                    <div class="result-item" style="background: linear-gradient(45deg, #f8d7da, #f5c6cb);">
+                        <strong>💀 Peor mano:</strong> ${stats.peorMano.mano || 'N/A'}<br>
+                        <strong>🎭 Tipo:</strong> ${stats.peorMano.tipoMano || 'N/A'}<br>
+                        <strong>💔 Piedras esperadas:</strong> ${(parseFloat(stats.peorMano.piedrasEsperadas) || 0).toFixed(3)}
+                    </div>
+                    ` : '<div class="result-item">⚠️ No se pudo cargar información de la peor mano</div>'}
+                `;
+                
+            } catch (error) {
+                contentDiv.innerHTML = `<div class="error">❌ Error cargando estadísticas: ${error.message}</div>`;
+            }
+        }
+
+        async function cargarMejoresManos() {
+            const contentDiv = document.getElementById('mejoresContent');
+            const limite = parseInt(document.getElementById('limiteMejores').value) || 20;
+            
+            try {
+                contentDiv.innerHTML = '<div class="loading" style="display: block;">🏆 Cargando mejores manos...</div>';
+                
+                const mejores = await llamarAPI('mejores', { limite: limite });
+                
+                let html = '<h3>🏆 Ranking de Mejores Manos:</h3>';
+                
+                // Filtrar y validar datos antes de mostrar
+                const mejoresValidos = mejores.filter(mano => {
+                    return mano && 
+                           mano.piedrasEsperadas !== null && 
+                           mano.piedrasEsperadas !== undefined && 
+                           !isNaN(mano.piedrasEsperadas) &&
+                           mano.mano &&
+                           mano.tipoMano;
+                });
+                
+                if (mejoresValidos.length === 0) {
+                    html += '<div class="result-item">❌ No se encontraron manos válidas. Verifica la base de datos.</div>';
+                } else {
+                    mejoresValidos.forEach((mano, index) => {
+                        const emoji = index === 0 ? '🥇' : index === 1 ? '🥈' : index === 2 ? '🥉' : '🏅';
+                        const piedras = parseFloat(mano.piedrasEsperadas) || 0;
+                        
+                        html += `
+                            <div class="ranking-item">
+                                <span class="ranking-number">${emoji} #${index + 1}</span>
+                                <span class="ranking-mano">${mano.mano || 'N/A'}</span>
+                                <span style="flex: 1; margin: 0 15px;">${mano.tipoMano || 'Tipo desconocido'}</span>
+                                <span class="ranking-piedras">${piedras.toFixed(3)}</span>
+                            </div>
+                        `;
+                    });
+                    
+                    if (mejores.length > mejoresValidos.length) {
+                        html += `<div class="result-item">⚠️ Se filtraron ${mejores.length - mejoresValidos.length} manos con datos inválidos.</div>`;
+                    }
+                }
+                
+                contentDiv.innerHTML = html;
+                
+            } catch (error) {
+                contentDiv.innerHTML = `<div class="error">❌ Error cargando mejores manos: ${error.message}</div>`;
+            }
+        }
+
+        async function buscarManosAvanzado() {
+            const contentDiv = document.getElementById('busquedasContent');
+            
+            try {
+                const tipo = document.getElementById('tipoFiltro').value;
+                const piedrasMin = document.getElementById('piedrasMin').value;
+                const piedrasMax = document.getElementById('piedrasMax').value;
+                const limite = parseInt(document.getElementById('limiteBusqueda').value) || 30;
+                
+                contentDiv.innerHTML = '<div class="loading" style="display: block;">🔍 Buscando manos...</div>';
+                
+                const resultado = await llamarAPI('filtrar', {
+                    tipo: tipo,
+                    piedrasMin: piedrasMin,
+                    piedrasMax: piedrasMax,
+                    limite: limite
+                });
+                
+                let html = `<h3>🔍 Resultados de búsqueda:</h3>`;
+                html += `<div class="result-item"><strong>📊 Total encontradas:</strong> ${resultado.total} manos</div>`;
+                
+                if (resultado.manos.length === 0) {
+                    html += '<div class="result-item">❌ No se encontraron manos con esos criterios.</div>';
+                } else {
+                    resultado.manos.forEach((mano, index) => {
+                        html += `
+                            <div class="ranking-item">
+                                <span class="ranking-number">#${index + 1}</span>
+                                <span class="ranking-mano">${mano.mano}</span>
+                                <span style="flex: 1; margin: 0 15px;">
+                                    <strong>${mano.tipoMano}</strong><br>
+                                    <small>${mano.estadoJuego}</small>
+                                </span>
+                                <span class="ranking-piedras">${mano.piedrasEsperadas.toFixed(3)}</span>
+                            </div>
+                        `;
+                    });
+                    
+                    if (resultado.total > limite) {
+                        html += `<div class="result-item">ℹ️ Mostrando ${limite} de ${resultado.total} resultados. Ajusta los filtros para ver más específicos.</div>`;
+                    }
+                }
+                
+                contentDiv.innerHTML = html;
+                
+            } catch (error) {
+                contentDiv.innerHTML = `<div class="error">❌ Error en búsqueda: ${error.message}</div>`;
+            }
+        }
+
+        // ========== FUNCIONES DEL CONTADOR ==========
+        
+        // Variables globales para el contador
+        let contadores = [0, 0, 0, 0]; // Grande, Chica, Pares, Juego
+        let contadoresPareja = [0, 0]; // Pareja 1, Pareja 2
+        let contadoresPequenos = [0, 0]; // Contadores pequeños de cada pareja
+
+        function empezarContador() {
+            try {
+                const nombre1 = document.getElementById('nombrePareja1').value.trim();
+                const nombre2 = document.getElementById('nombrePareja2').value.trim();
+                
+                // Actualizar nombres de las parejas
+                document.getElementById('displayNombrePareja1').textContent = nombre1 || 'Pareja 1';
+                document.getElementById('displayNombrePareja2').textContent = nombre2 || 'Pareja 2';
+                
+                // Resetear todos los contadores
+                contadores = [0, 0, 0, 0];
+                contadoresPareja = [0, 0];
+                contadoresPequenos = [0, 0];
+                
+                // Actualizar la visualización
+                actualizarTodosLosContadores();
+                
+                // Mostrar la sección de contadores
+                mostrarSeccion('contador');
+                
+                console.log('✅ Contador iniciado correctamente');
+            } catch (error) {
+                console.error('❌ Error en empezarContador:', error);
+                alert('Error al iniciar el contador. Por favor, recarga la página.');
+            }
+        }
+
+        function cambiarContador(numero, cambio) {
+            const index = numero - 1;
+            contadores[index] += cambio;
+            
+            // No permitir valores negativos
+            if (contadores[index] < 0) {
+                contadores[index] = 0;
+            }
+            
+            actualizarContadoresCentrales();
+        }
+
+        function asignarPuntos(contadorNumero, pareja) {
+            const valor = contadores[contadorNumero - 1];
+            
+            if (valor > 0) {
+                // Sumar el valor al contador de la pareja correspondiente
+                contadoresPareja[pareja - 1] += valor;
+                
+                // Resetear el contador central a 0
+                contadores[contadorNumero - 1] = 0;
+                
+                actualizarTodosLosContadores();
+                
+                // Mostrar animación visual
+                const parejaElement = document.getElementById(`contadorPareja${pareja}`);
+                if (parejaElement) {
+                    parejaElement.style.transform = 'scale(1.2)';
+                    setTimeout(() => {
+                        parejaElement.style.transform = 'scale(1)';
+                    }, 200);
+                }
+            }
+        }
+
+        function cambiarContadorPequeno(pareja, cambio) {
+            const index = pareja - 1;
+            contadoresPequenos[index] += cambio;
+            
+            // No permitir valores negativos
+            if (contadoresPequenos[index] < 0) {
+                contadoresPequenos[index] = 0;
+            }
+            
+            actualizarContadoresPequenos();
+        }
+
+        function cambiarContadorPareja(pareja, cambio) {
+            const index = pareja - 1;
+            contadoresPareja[index] += cambio;
+            
+            // No permitir valores negativos
+            if (contadoresPareja[index] < 0) {
+                contadoresPareja[index] = 0;
+            }
+
+            actualizarContadoresPareja();
+        }
+
+        function actualizarTodosLosContadores() {
+            try {
+                actualizarContadoresCentrales();
+                actualizarContadoresPareja();
+                actualizarContadoresPequenos();
+            } catch (error) {
+                console.error('Error al actualizar contadores:', error);
+            }
+        }
+
+        function actualizarContadoresCentrales() {
+            for (let i = 0; i < 4; i++) {
+                const elemento = document.getElementById(`contador${i + 1}`);
+                if (elemento) {
+                    elemento.textContent = contadores[i];
+                }
+            }
+        }
+
+        function actualizarContadoresPareja() {
+            const contador1 = document.getElementById('contadorPareja1');
+            const contador2 = document.getElementById('contadorPareja2');
+            
+            if (contador1) contador1.textContent = contadoresPareja[0];
+            if (contador2) contador2.textContent = contadoresPareja[1];
+        }
+
+        function actualizarContadoresPequenos() {
+            const pequeno1 = document.getElementById('contadorPequeno1');
+            const pequeno2 = document.getElementById('contadorPequeno2');
+            
+            if (pequeno1) pequeno1.textContent = contadoresPequenos[0];
+            if (pequeno2) pequeno2.textContent = contadoresPequenos[1];
+        }
+
+        function resetearContadores() {
+            if (confirm('🔄 ¿Estás seguro de que quieres resetear todos los contadores?')) {
+                contadores = [0, 0, 0, 0];
+                contadoresPareja = [0, 0];
+                contadoresPequenos = [0, 0];
+                
+                actualizarTodosLosContadores();
+                
+                // Mostrar mensaje de confirmación
+                const mensaje = document.createElement('div');
+                mensaje.innerHTML = '✅ Contadores reseteados';
+                mensaje.style.cssText = `
+                    position: fixed;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    background: linear-gradient(45deg, #28a745, #20c997);
+                    color: white;
+                    padding: 15px 30px;
+                    border-radius: 10px;
+                    z-index: 1000;
+                    font-weight: bold;
+                `;
+                document.body.appendChild(mensaje);
+                
+                setTimeout(() => {
+                    document.body.removeChild(mensaje);
+                }, 2000);
+            }
+        }
+
+        // ========== FUNCIONES DE NAVEGACIÓN ==========
+        
+        function mostrarSeccion(seccionId) {
+            const secciones = document.querySelectorAll('.section');
+            secciones.forEach(seccion => {
+                seccion.classList.remove('active');
+            });
+            document.getElementById(seccionId).classList.add('active');
+        }
+
+        // ========== INICIALIZACIÓN ==========
+        
+        function inicializarApp() {
+            // Usar URL hardcodeada si no hay configuración guardada
+            const urlGuardada = localStorage.getItem('musAPIUrl');
+            if (urlGuardada) {
+                API_URL = urlGuardada;
+                document.getElementById('webAppUrl').value = urlGuardada;
+            } else {
+                // Usar URL hardcodeada y guardarla automáticamente
+                API_URL = API_URL_HARDCODED;
+                localStorage.setItem('musAPIUrl', API_URL_HARDCODED);
+                document.getElementById('webAppUrl').value = API_URL_HARDCODED;
+                console.log('✅ URL configurada automáticamente');
+            }
+            
+            // Probar conexión automáticamente
+            setTimeout(() => {
+                probarConexion();
+                
+                // Si la conexión falla, intentar cada 30 segundos
+                if (!apiConectada) {
+                    const reconectarInterval = setInterval(() => {
+                        if (!apiConectada) {
+                            console.log('🔄 Reintentando conexión automática...');
+                            probarConexion();
+                        } else {
+                            clearInterval(reconectarInterval);
+                        }
+                    }, 30000);
+                }
+            }, 1000);
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            inicializarApp();
+            
+            // Verificar conexión cada 2 minutos Y reconectar automáticamente
+            setInterval(() => {
+                if (API_URL) {
+                    probarConexion();
+                    
+                    // Si perdemos conexión, intentar reconectar cada 30 segundos
+                    if (!apiConectada) {
+                        setTimeout(() => {
+                            if (!apiConectada) {
+                                console.log('🔄 Reconexión automática...');
+                                probarConexion();
+                            }
+                        }, 30000);
+                    }
+                }
+            }, 120000);
+            
+            // Verificar conexión cuando la ventana vuelve a tener foco
+            window.addEventListener('focus', () => {
+                if (API_URL && !apiConectada) {
+                    console.log('🔄 Verificando conexión al volver a la ventana...');
+                    probarConexion();
+                }
+            });
+            
+            // Permitir Enter en el campo de mano
+            const manoInput = document.getElementById('manoInput');
+            if (manoInput) {
+                manoInput.addEventListener('keypress', function(e) {
+                    if (e.key === 'Enter') {
+                        calcularProbabilidades();
+                    }
+                });
+            }
+        });
+
+        // ========== FUNCIONES AUXILIARES ==========
+        
+        function limpiarFormularios() {
+            // Limpiar campos de búsqueda avanzada
+            document.getElementById('tipoFiltro').value = '';
+            document.getElementById('piedrasMin').value = '';
+            document.getElementById('piedrasMax').value = '';
+            document.getElementById('limiteBusqueda').value = '30';
+            
+            // Limpiar campo de mano
+            document.getElementById('manoInput').value = '';
+            
+            // Limpiar resultados
+            document.getElementById('busquedasContent').innerHTML = '';
+            document.getElementById('resultadoProbabilidades').style.display = 'none';
+        }
+
+        function mostrarAyuda() {
+            alert(`
+🃏 AYUDA - APP MUS GTO
+
+📋 CONFIGURACIÓN:
+1. Necesitas tener tu Google Apps Script configurado
+2. La URL debe terminar en /exec
+3. El Web App debe tener acceso "Anyone"
+
+🎯 ANALIZADOR:
+- Introduce 4 cartas separadas por comas
+- Valores válidos: 1, 4, 5, 6, 7, 10, 11, 12
+- Ejemplo: 1,1,7,12
+
+📊 BÚSQUEDAS:
+- Filtra por tipo de mano
+- Establece rangos de piedras esperadas
+- Ajusta el límite de resultados
+
+❓ PROBLEMAS COMUNES:
+- Error 403: Verificar permisos del Web App
+- Error de red: Revisar URL y conexión
+- Mano no encontrada: Verificar formato de entrada
+
+💡 CONSEJOS:
+- Las piedras esperadas indican la rentabilidad
+- Valores >3 son muy buenas manos
+- Valores <1 son manos pobres
+            `);
+        }
+
+        // Agregar botón de ayuda al menú
+        function agregarBotonAyuda() {
+            const menu = document.querySelector('.menu');
+            const botonAyuda = document.createElement('button');
+            botonAyuda.className = 'menu-button';
+            botonAyuda.style.background = 'linear-gradient(45deg, #17a2b8, #138496)';
+            botonAyuda.innerHTML = '❓ Ayuda';
+            botonAyuda.onclick = mostrarAyuda;
+            menu.appendChild(botonAyuda);
+        }
+
+        // Función para debug (consola del navegador)
+        function debug() {
+            console.log('=== DEBUG INFO ===');
+            console.log('API_URL:', API_URL);
+            console.log('apiConectada:', apiConectada);
+            console.log('localStorage musAPIUrl:', localStorage.getItem('musAPIUrl'));
+            
+            if (API_URL) {
+                console.log('Probando conexión...');
+                probarConexion();
+            }
+        }
+
+        // Función para exportar configuración
+        function exportarConfiguracion() {
+            const config = {
+                apiUrl: API_URL,
+                timestamp: new Date().toISOString(),
+                version: '1.0'
+            };
+            
+            const dataStr = JSON.stringify(config, null, 2);
+            const dataBlob = new Blob([dataStr], {type: 'application/json'});
+            const url = URL.createObjectURL(dataBlob);
+            
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = 'configuracion_mus.json';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            URL.revokeObjectURL(url);
+            
+            alert('✅ Configuración exportada');
+        }
+
+        // Función para importar configuración
+        function importarConfiguracion(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+            
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    const config = JSON.parse(e.target.result);
+                    if (config.apiUrl) {
+                        document.getElementById('webAppUrl').value = config.apiUrl;
+                        alert('✅ Configuración importada. Haz click en "Guardar Configuración"');
+                    } else {
+                        alert('❌ Archivo de configuración inválido');
+                    }
+                } catch (error) {
+                    alert('❌ Error leyendo archivo: ' + error.message);
+                }
+            };
+            reader.readAsText(file);
+        }
+
+        // Agregar funcionalidades adicionales cuando se carga la página
+        document.addEventListener('DOMContentLoaded', function() {
+            // Agregar botón de ayuda
+            setTimeout(agregarBotonAyuda, 100);
+            
+            // Agregar funcionalidades de importar/exportar en configuración
+            const configSection = document.getElementById('config');
+            if (configSection) {
+                const exportButton = document.createElement('button');
+                exportButton.innerHTML = '📤 Exportar Config';
+                exportButton.onclick = exportarConfiguracion;
+                exportButton.style.background = 'linear-gradient(45deg, #6c757d, #5a6268)';
+                
+                const importInput = document.createElement('input');
+                importInput.type = 'file';
+                importInput.accept = '.json';
+                importInput.style.display = 'none';
+                importInput.onchange = importarConfiguracion;
+                
+                const importButton = document.createElement('button');
+                importButton.innerHTML = '📥 Importar Config';
+                importButton.onclick = () => importInput.click();
+                importButton.style.background = 'linear-gradient(45deg, #6c757d, #5a6268)';
+                
+                // Agregar al final de la sección de configuración
+                configSection.appendChild(document.createElement('hr'));
+                configSection.appendChild(exportButton);
+                configSection.appendChild(importButton);
+                configSection.appendChild(importInput);
+            }
+        });
+
+        // Hacer funciones disponibles globalmente para debug
+        window.debug = debug;
+        window.limpiarFormularios = limpiarFormularios;
+    </script>
+</body>
+</html>

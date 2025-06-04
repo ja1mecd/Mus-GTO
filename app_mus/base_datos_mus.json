@@ -1,0 +1,7592 @@
+{
+  "1,1,1,1": {
+    "mano": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "probabilidades": {
+      "grande": 0,
+      "chica": 100,
+      "pares": 87.83088985798057,
+      "juego": 0,
+      "punto": 0
+    },
+    "piedrasEsperadas": 6.391544492899028,
+    "analisis": {
+      "tipoMano": "Cuaternas de 1s",
+      "estadoJuego": "Punto de 4",
+      "suma": 4,
+      "valorPar": 3,
+      "valorJuego": 0
+    }
+  },
+  "1,1,1,4": {
+    "mano": [
+      1,
+      1,
+      1,
+      4
+    ],
+    "probabilidades": {
+      "grande": 0,
+      "chica": 99.98302351243528,
+      "pares": 75.32151330263073,
+      "juego": 0,
+      "punto": 0
+    },
+    "piedrasEsperadas": 5.012521002353935,
+    "analisis": {
+      "tipoMano": "Medias de 1s",
+      "estadoJuego": "Punto de 7",
+      "suma": 7,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "1,1,1,5": {
+    "mano": [
+      1,
+      1,
+      1,
+      5
+    ],
+    "probabilidades": {
+      "grande": 0.0000722303280701501,
+      "chica": 99.8472116119175,
+      "pares": 75.32151330263073,
+      "juego": 0,
+      "punto": 0
+    },
+    "piedrasEsperadas": 5.009806208950141,
+    "analisis": {
+      "tipoMano": "Medias de 1s",
+      "estadoJuego": "Punto de 8",
+      "suma": 8,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "1,1,1,6": {
+    "mano": [
+      1,
+      1,
+      1,
+      6
+    ],
+    "probabilidades": {
+      "grande": 0.004847929666355368,
+      "chica": 99.71139971139971,
+      "pares": 75.32151330263073,
+      "juego": 0,
+      "punto": 0
+    },
+    "piedrasEsperadas": 5.00718548492655,
+    "analisis": {
+      "tipoMano": "Medias de 1s",
+      "estadoJuego": "Punto de 9",
+      "suma": 9,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "1,1,1,7": {
+    "mano": [
+      1,
+      1,
+      1,
+      7
+    ],
+    "probabilidades": {
+      "grande": 0.08317157044501153,
+      "chica": 99.57558781088193,
+      "pares": 75.32151330263073,
+      "juego": 0,
+      "punto": 0.00019978963299861527
+    },
+    "piedrasEsperadas": 5.006041713420759,
+    "analisis": {
+      "tipoMano": "Medias de 1s",
+      "estadoJuego": "Punto de 10",
+      "suma": 10,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "1,1,1,10": {
+    "mano": [
+      1,
+      1,
+      1,
+      10
+    ],
+    "probabilidades": {
+      "grande": 0.6811319937015153,
+      "chica": 99.0323402088108,
+      "pares": 75.32151330263073,
+      "juego": 0,
+      "punto": 0.019277409907631205
+    },
+    "piedrasEsperadas": 5.007708298452705,
+    "analisis": {
+      "tipoMano": "Medias de 1s",
+      "estadoJuego": "Punto de 13",
+      "suma": 13,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "1,1,1,11": {
+    "mano": [
+      1,
+      1,
+      1,
+      11
+    ],
+    "probabilidades": {
+      "grande": 3.5949529978843597,
+      "chica": 99.0323402088108,
+      "pares": 75.32151330263073,
+      "juego": 0,
+      "punto": 0.019277409907631205
+    },
+    "piedrasEsperadas": 5.065984718536362,
+    "analisis": {
+      "tipoMano": "Medias de 1s",
+      "estadoJuego": "Punto de 13",
+      "suma": 13,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "1,1,1,12": {
+    "mano": [
+      1,
+      1,
+      1,
+      12
+    ],
+    "probabilidades": {
+      "grande": 14.282869921487995,
+      "chica": 99.16815210932857,
+      "pares": 77.72554550319325,
+      "juego": 0,
+      "punto": 0.019277409907631205
+    },
+    "piedrasEsperadas": 5.3786205830412905,
+    "analisis": {
+      "tipoMano": "Medias de 1s",
+      "estadoJuego": "Punto de 13",
+      "suma": 13,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "1,1,4,4": {
+    "mano": [
+      1,
+      1,
+      4,
+      4
+    ],
+    "probabilidades": {
+      "grande": 0.0000033046555326212465,
+      "chica": 97.91271347248576,
+      "pares": 87.17051175909756,
+      "juego": 0,
+      "punto": 0.0006168388508140112
+    },
+    "piedrasEsperadas": 5.445093311072253,
+    "analisis": {
+      "tipoMano": "Duples (4s y 1s)",
+      "estadoJuego": "Punto de 10",
+      "suma": 10,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "1,1,4,5": {
+    "mano": [
+      1,
+      1,
+      4,
+      5
+    ],
+    "probabilidades": {
+      "grande": 0.0005665123770207851,
+      "chica": 97.76040520364279,
+      "pares": 1.682786516929087,
+      "juego": 0,
+      "punto": 0.003070719468161726
+    },
+    "piedrasEsperadas": 2.005795151412314,
+    "analisis": {
+      "tipoMano": "Pareja de 1s",
+      "estadoJuego": "Punto de 11",
+      "suma": 11,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,1,4,6": {
+    "mano": [
+      1,
+      1,
+      4,
+      6
+    ],
+    "probabilidades": {
+      "grande": 0.008380134337079962,
+      "chica": 97.15158001718231,
+      "pares": 1.682786516929087,
+      "juego": 0,
+      "punto": 0.010842740679197658
+    },
+    "piedrasEsperadas": 1.9940080807586364,
+    "analisis": {
+      "tipoMano": "Pareja de 1s",
+      "estadoJuego": "Punto de 12",
+      "suma": 12,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,1,4,7": {
+    "mano": [
+      1,
+      1,
+      4,
+      7
+    ],
+    "probabilidades": {
+      "grande": 0.09902683559688075,
+      "chica": 96.54357060854475,
+      "pares": 1.682786516929087,
+      "juego": 0,
+      "punto": 0.047977270227944936
+    },
+    "piedrasEsperadas": 1.9847748624975439,
+    "analisis": {
+      "tipoMano": "Pareja de 1s",
+      "estadoJuego": "Punto de 13",
+      "suma": 13,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,1,4,10": {
+    "mano": [
+      1,
+      1,
+      4,
+      10
+    ],
+    "probabilidades": {
+      "grande": 0.729064605921244,
+      "chica": 94.11969075222363,
+      "pares": 1.682786516929087,
+      "juego": 0,
+      "punto": 0.3882185846913212
+    },
+    "piedrasEsperadas": 1.9591052602115098,
+    "analisis": {
+      "tipoMano": "Pareja de 1s",
+      "estadoJuego": "Punto de 16",
+      "suma": 16,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,1,4,11": {
+    "mano": [
+      1,
+      1,
+      4,
+      11
+    ],
+    "probabilidades": {
+      "grande": 3.709174639620233,
+      "chica": 94.11969075222363,
+      "pares": 1.682786516929087,
+      "juego": 0,
+      "punto": 0.3882185846913212
+    },
+    "piedrasEsperadas": 2.01870746088549,
+    "analisis": {
+      "tipoMano": "Pareja de 1s",
+      "estadoJuego": "Punto de 16",
+      "suma": 16,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,1,4,12": {
+    "mano": [
+      1,
+      1,
+      4,
+      12
+    ],
+    "probabilidades": {
+      "grande": 14.828144693681564,
+      "chica": 94.72443704956956,
+      "pares": 1.8256895766111638,
+      "juego": 0,
+      "punto": 0.3882185846913212
+    },
+    "piedrasEsperadas": 2.2574688797040965,
+    "analisis": {
+      "tipoMano": "Pareja de 1s",
+      "estadoJuego": "Punto de 16",
+      "suma": 16,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,1,5,5": {
+    "mano": [
+      1,
+      1,
+      5,
+      5
+    ],
+    "probabilidades": {
+      "grande": 0.0014375251566902422,
+      "chica": 92.36389469328029,
+      "pares": 87.68296062843186,
+      "juego": 0,
+      "punto": 0.011330348519782088
+    },
+    "piedrasEsperadas": 5.354964979961607,
+    "analisis": {
+      "tipoMano": "Duples (5s y 1s)",
+      "estadoJuego": "Punto de 12",
+      "suma": 12,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "1,1,5,6": {
+    "mano": [
+      1,
+      1,
+      5,
+      6
+    ],
+    "probabilidades": {
+      "grande": 0.016838164126000282,
+      "chica": 92.21418671624782,
+      "pares": 1.682786516929087,
+      "juego": 0,
+      "punto": 0.05011602436347988
+    },
+    "piedrasEsperadas": 1.8966075738462536,
+    "analisis": {
+      "tipoMano": "Pareja de 1s",
+      "estadoJuego": "Punto de 13",
+      "suma": 13,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,1,5,7": {
+    "mano": [
+      1,
+      1,
+      5,
+      7
+    ],
+    "probabilidades": {
+      "grande": 0.1298904298969731,
+      "chica": 91.61576269702947,
+      "pares": 1.682786516929087,
+      "juego": 0,
+      "punto": 0.09049254192552472
+    },
+    "piedrasEsperadas": 1.8881114343041672,
+    "analisis": {
+      "tipoMano": "Pareja de 1s",
+      "estadoJuego": "Punto de 14",
+      "suma": 14,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,1,5,10": {
+    "mano": [
+      1,
+      1,
+      5,
+      10
+    ],
+    "probabilidades": {
+      "grande": 0.8182506494356262,
+      "chica": 89.2302243983851,
+      "pares": 1.682786516929087,
+      "juego": 0,
+      "punto": 0.9065317807885889
+    },
+    "piedrasEsperadas": 1.878649049887945,
+    "analisis": {
+      "tipoMano": "Pareja de 1s",
+      "estadoJuego": "Punto de 17",
+      "suma": 17,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,1,5,11": {
+    "mano": [
+      1,
+      1,
+      5,
+      11
+    ],
+    "probabilidades": {
+      "grande": 3.918886191345787,
+      "chica": 89.2302243983851,
+      "pares": 1.682786516929087,
+      "juego": 0,
+      "punto": 0.9065317807885889
+    },
+    "piedrasEsperadas": 1.940661760726148,
+    "analisis": {
+      "tipoMano": "Pareja de 1s",
+      "estadoJuego": "Punto de 17",
+      "suma": 17,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,1,5,12": {
+    "mano": [
+      1,
+      1,
+      5,
+      12
+    ],
+    "probabilidades": {
+      "grande": 15.833804246746732,
+      "chica": 89.82538530631182,
+      "pares": 1.8256895766111638,
+      "juego": 0,
+      "punto": 0.9065317807885889
+    },
+    "piedrasEsperadas": 2.1951504317831634,
+    "analisis": {
+      "tipoMano": "Pareja de 1s",
+      "estadoJuego": "Punto de 17",
+      "suma": 17,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,1,6,6": {
+    "mano": [
+      1,
+      1,
+      6,
+      6
+    ],
+    "probabilidades": {
+      "grande": 0.038978884100915115,
+      "chica": 87.69886921296984,
+      "pares": 88.40950363276835,
+      "juego": 0,
+      "punto": 0.09870866591905449
+    },
+    "piedrasEsperadas": 5.29409836722972,
+    "analisis": {
+      "tipoMano": "Duples (6s y 1s)",
+      "estadoJuego": "Punto de 14",
+      "suma": 14,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "1,1,6,7": {
+    "mano": [
+      1,
+      1,
+      6,
+      7
+    ],
+    "probabilidades": {
+      "grande": 0.21907760643610935,
+      "chica": 87.55135363883646,
+      "pares": 1.682786516929087,
+      "juego": 0,
+      "punto": 0.16358594043160973
+    },
+    "piedrasEsperadas": 1.8107997986262723,
+    "analisis": {
+      "tipoMano": "Pareja de 1s",
+      "estadoJuego": "Punto de 15",
+      "suma": 15,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,1,6,10": {
+    "mano": [
+      1,
+      1,
+      6,
+      10
+    ],
+    "probabilidades": {
+      "grande": 1.0497446020576295,
+      "chica": 85.19763067528558,
+      "pares": 1.682786516929087,
+      "juego": 0,
+      "punto": 1.6934321736513709
+    },
+    "piedrasEsperadas": 1.826234066264278,
+    "analisis": {
+      "tipoMano": "Pareja de 1s",
+      "estadoJuego": "Punto de 18",
+      "suma": 18,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,1,6,11": {
+    "mano": [
+      1,
+      1,
+      6,
+      11
+    ],
+    "probabilidades": {
+      "grande": 4.4444623840030495,
+      "chica": 85.19763067528558,
+      "pares": 1.682786516929087,
+      "juego": 0,
+      "punto": 1.6934321736513709
+    },
+    "piedrasEsperadas": 1.8941284219031862,
+    "analisis": {
+      "tipoMano": "Pareja de 1s",
+      "estadoJuego": "Punto de 18",
+      "suma": 18,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,1,6,12": {
+    "mano": [
+      1,
+      1,
+      6,
+      12
+    ],
+    "probabilidades": {
+      "grande": 18.384773601354116,
+      "chica": 85.78483774943894,
+      "pares": 1.8256895766111638,
+      "juego": 0,
+      "punto": 1.6934321736513709
+    },
+    "piedrasEsperadas": 2.188965879523737,
+    "analisis": {
+      "tipoMano": "Pareja de 1s",
+      "estadoJuego": "Punto de 18",
+      "suma": 18,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,1,7,7": {
+    "mano": [
+      1,
+      1,
+      7,
+      7
+    ],
+    "probabilidades": {
+      "grande": 0.39257324934220833,
+      "chica": 83.8809270295235,
+      "pares": 89.35321274534675,
+      "juego": 0,
+      "punto": 0.5043128974536678
+    },
+    "piedrasEsperadas": 5.274727902314794,
+    "analisis": {
+      "tipoMano": "Duples (7s y 1s)",
+      "estadoJuego": "Punto de 16",
+      "suma": 16,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "1,1,7,10": {
+    "mano": [
+      1,
+      1,
+      7,
+      10
+    ],
+    "probabilidades": {
+      "grande": 1.5383445318667461,
+      "chica": 81.9900942478316,
+      "pares": 1.682786516929087,
+      "juego": 0,
+      "punto": 3.1054654707416725
+    },
+    "piedrasEsperadas": 1.8142163352240896,
+    "analisis": {
+      "tipoMano": "Pareja de 1s",
+      "estadoJuego": "Punto de 19",
+      "suma": 19,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,1,7,11": {
+    "mano": [
+      1,
+      1,
+      7,
+      11
+    ],
+    "probabilidades": {
+      "grande": 5.477837610926664,
+      "chica": 81.9900942478316,
+      "pares": 1.682786516929087,
+      "juego": 0,
+      "punto": 3.1054654707416725
+    },
+    "piedrasEsperadas": 1.893006196805288,
+    "analisis": {
+      "tipoMano": "Pareja de 1s",
+      "estadoJuego": "Punto de 19",
+      "suma": 19,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,1,7,12": {
+    "mano": [
+      1,
+      1,
+      7,
+      12
+    ],
+    "probabilidades": {
+      "grande": 23.528707873077433,
+      "chica": 82.5709790438574,
+      "pares": 1.8256895766111638,
+      "juego": 0,
+      "punto": 3.1054654707416725
+    },
+    "piedrasEsperadas": 2.2699283897592815,
+    "analisis": {
+      "tipoMano": "Pareja de 1s",
+      "estadoJuego": "Punto de 19",
+      "suma": 19,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,1,10,10": {
+    "mano": [
+      1,
+      1,
+      10,
+      10
+    ],
+    "probabilidades": {
+      "grande": 2.3316672204325153,
+      "chica": 76.57420901417498,
+      "pares": 90.51831192937165,
+      "juego": 0,
+      "punto": 14.948640196521787
+    },
+    "piedrasEsperadas": 5.64730920776267,
+    "analisis": {
+      "tipoMano": "Duples (10s y 1s)",
+      "estadoJuego": "Punto de 22",
+      "suma": 22,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "1,1,10,11": {
+    "mano": [
+      1,
+      1,
+      10,
+      11
+    ],
+    "probabilidades": {
+      "grande": 7.310289875885635,
+      "chica": 76.9548203546764,
+      "pares": 1.682786516929087,
+      "juego": 0,
+      "punto": 14.948640196521787
+    },
+    "piedrasEsperadas": 2.184245006014767,
+    "analisis": {
+      "tipoMano": "Pareja de 1s",
+      "estadoJuego": "Punto de 22",
+      "suma": 22,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,1,10,12": {
+    "mano": [
+      1,
+      1,
+      10,
+      12
+    ],
+    "probabilidades": {
+      "grande": 33.00866745053096,
+      "chica": 77.5264256779666,
+      "pares": 1.8256895766111638,
+      "juego": 0,
+      "punto": 14.948640196521787
+    },
+    "piedrasEsperadas": 2.7139317557639395,
+    "analisis": {
+      "tipoMano": "Pareja de 1s",
+      "estadoJuego": "Punto de 22",
+      "suma": 22,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,1,11,11": {
+    "mano": [
+      1,
+      1,
+      11,
+      11
+    ],
+    "probabilidades": {
+      "grande": 9.960195424109578,
+      "chica": 76.57420901417498,
+      "pares": 91.91017713801249,
+      "juego": 0,
+      "punto": 14.948640196521787
+    },
+    "piedrasEsperadas": 5.855554380181844,
+    "analisis": {
+      "tipoMano": "Duples (11s y 1s)",
+      "estadoJuego": "Punto de 22",
+      "suma": 22,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "1,1,11,12": {
+    "mano": [
+      1,
+      1,
+      11,
+      12
+    ],
+    "probabilidades": {
+      "grande": 49.811320692364994,
+      "chica": 77.5264256779666,
+      "pares": 1.8256895766111638,
+      "juego": 0,
+      "punto": 14.948640196521787
+    },
+    "piedrasEsperadas": 3.04998482060062,
+    "analisis": {
+      "tipoMano": "Pareja de 1s",
+      "estadoJuego": "Punto de 22",
+      "suma": 22,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,1,12,12": {
+    "mano": [
+      1,
+      1,
+      12,
+      12
+    ],
+    "probabilidades": {
+      "grande": 77.2403935788088,
+      "chica": 77.2403935788088,
+      "pares": 96.41177644965711,
+      "juego": 0,
+      "punto": 14.948640196521787
+    },
+    "piedrasEsperadas": 7.394546007034291,
+    "analisis": {
+      "tipoMano": "Duples (12s y 1s)",
+      "estadoJuego": "Punto de 22",
+      "suma": 22,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "1,4,4,4": {
+    "mano": [
+      1,
+      4,
+      4,
+      4
+    ],
+    "probabilidades": {
+      "grande": 0.0000033046555326212465,
+      "chica": 69.12627220976367,
+      "pares": 74.78630546859148,
+      "juego": 0,
+      "punto": 0.07665909361404502
+    },
+    "piedrasEsperadas": 4.376277501840464,
+    "analisis": {
+      "tipoMano": "Medias de 4s",
+      "estadoJuego": "Punto de 13",
+      "suma": 13,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "1,4,4,5": {
+    "mano": [
+      1,
+      4,
+      4,
+      5
+    ],
+    "probabilidades": {
+      "grande": 0.0008625150940141453,
+      "chica": 69.12627220976367,
+      "pares": 3.80815242019978,
+      "juego": 0,
+      "punto": 0.14226088241480367
+    },
+    "piedrasEsperadas": 1.5010550935755913,
+    "analisis": {
+      "tipoMano": "Pareja de 4s",
+      "estadoJuego": "Punto de 14",
+      "suma": 14,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,4,4,6": {
+    "mano": [
+      1,
+      4,
+      4,
+      6
+    ],
+    "probabilidades": {
+      "grande": 0.009725601232504329,
+      "chica": 69.04550642854642,
+      "pares": 3.80815242019978,
+      "juego": 0,
+      "punto": 0.2252759495673664
+    },
+    "piedrasEsperadas": 1.502107491688593,
+    "analisis": {
+      "tipoMano": "Pareja de 4s",
+      "estadoJuego": "Punto de 15",
+      "suma": 15,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,4,4,7": {
+    "mano": [
+      1,
+      4,
+      4,
+      7
+    ],
+    "probabilidades": {
+      "grande": 0.1046293597494278,
+      "chica": 68.96474064732915,
+      "pares": 3.80815242019978,
+      "juego": 0,
+      "punto": 0.49391738734845614
+    },
+    "piedrasEsperadas": 1.5104494943680187,
+    "analisis": {
+      "tipoMano": "Pareja de 4s",
+      "estadoJuego": "Punto de 16",
+      "suma": 16,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,4,4,10": {
+    "mano": [
+      1,
+      4,
+      4,
+      10
+    ],
+    "probabilidades": {
+      "grande": 0.7457483954245061,
+      "chica": 68.64167752246009,
+      "pares": 3.80815242019978,
+      "juego": 0,
+      "punto": 3.877879480999915
+    },
+    "piedrasEsperadas": 1.6183294753936828,
+    "analisis": {
+      "tipoMano": "Pareja de 4s",
+      "estadoJuego": "Punto de 19",
+      "suma": 19,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,4,4,11": {
+    "mano": [
+      1,
+      4,
+      4,
+      11
+    ],
+    "probabilidades": {
+      "grande": 3.7487582756836177,
+      "chica": 68.64167752246009,
+      "pares": 3.80815242019978,
+      "juego": 0,
+      "punto": 3.877879480999915
+    },
+    "piedrasEsperadas": 1.678389672998865,
+    "analisis": {
+      "tipoMano": "Pareja de 4s",
+      "estadoJuego": "Punto de 19",
+      "suma": 19,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,4,4,12": {
+    "mano": [
+      1,
+      4,
+      4,
+      12
+    ],
+    "probabilidades": {
+      "grande": 15.017389097412654,
+      "chica": 68.72244330367735,
+      "pares": 4.127980445783919,
+      "juego": 0,
+      "punto": 3.877879480999915
+    },
+    "piedrasEsperadas": 1.914972445825315,
+    "analisis": {
+      "tipoMano": "Pareja de 4s",
+      "estadoJuego": "Punto de 19",
+      "suma": 19,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,4,5,5": {
+    "mano": [
+      1,
+      4,
+      5,
+      5
+    ],
+    "probabilidades": {
+      "grande": 0.0016159765554517893,
+      "chica": 67.53114803072272,
+      "pares": 5.806314628534459,
+      "juego": 0,
+      "punto": 0.22909992459490394
+    },
+    "piedrasEsperadas": 1.531717716739444,
+    "analisis": {
+      "tipoMano": "Pareja de 5s",
+      "estadoJuego": "Punto de 15",
+      "suma": 15,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,4,5,6": {
+    "mano": [
+      1,
+      4,
+      5,
+      6
+    ],
+    "probabilidades": {
+      "grande": 0.025928988240052818,
+      "chica": 67.35028158969794,
+      "pares": 0,
+      "juego": 0,
+      "punto": 0.6210328375445002
+    },
+    "piedrasEsperadas": 1.366155196685095,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 16",
+      "suma": 16,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "1,4,5,7": {
+    "mano": [
+      1,
+      4,
+      5,
+      7
+    ],
+    "probabilidades": {
+      "grande": 0.15712976126507502,
+      "chica": 66.62795791455086,
+      "pares": 0,
+      "juego": 0,
+      "punto": 1.2389512830868974
+    },
+    "piedrasEsperadas": 1.3728702920089255,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 17",
+      "suma": 17,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "1,4,5,10": {
+    "mano": [
+      1,
+      4,
+      5,
+      10
+    ],
+    "probabilidades": {
+      "grande": 0.8927311646673028,
+      "chica": 63.761504993004046,
+      "pares": 0,
+      "juego": 0,
+      "punto": 5.503928883595589
+    },
+    "piedrasEsperadas": 1.4582025896612947,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 20",
+      "suma": 20,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "1,4,5,11": {
+    "mano": [
+      1,
+      4,
+      5,
+      11
+    ],
+    "probabilidades": {
+      "grande": 4.090992368228513,
+      "chica": 63.761504993004046,
+      "pares": 0,
+      "juego": 0,
+      "punto": 5.503928883595589
+    },
+    "piedrasEsperadas": 1.5221678137325187,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 20",
+      "suma": 20,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "1,4,5,12": {
+    "mano": [
+      1,
+      4,
+      5,
+      12
+    ],
+    "probabilidades": {
+      "grande": 16.664067224624706,
+      "chica": 64.47469195653453,
+      "pares": 0,
+      "juego": 0,
+      "punto": 5.503928883595589
+    },
+    "piedrasEsperadas": 1.7878930501310522,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 20",
+      "suma": 20,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "1,4,6,6": {
+    "mano": [
+      1,
+      4,
+      6,
+      6
+    ],
+    "probabilidades": {
+      "grande": 0.040240790420728915,
+      "chica": 61.936308052057576,
+      "pares": 10.346918821894612,
+      "juego": 0,
+      "punto": 1.4385739445256356
+    },
+    "piedrasEsperadas": 1.5930957598421736,
+    "analisis": {
+      "tipoMano": "Pareja de 6s",
+      "estadoJuego": "Punto de 17",
+      "suma": 17,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,4,6,7": {
+    "mano": [
+      1,
+      4,
+      6,
+      7
+    ],
+    "probabilidades": {
+      "grande": 0.25384248822055533,
+      "chica": 61.76158033915019,
+      "pares": 0,
+      "juego": 0,
+      "punto": 2.364305284546731
+    },
+    "piedrasEsperadas": 1.311237615083817,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 18",
+      "suma": 18,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "1,4,6,10": {
+    "mano": [
+      1,
+      4,
+      6,
+      10
+    ],
+    "probabilidades": {
+      "grande": 1.1317506677056504,
+      "chica": 58.984210355865144,
+      "pares": 0,
+      "juego": 0,
+      "punto": 8.28052558729924
+    },
+    "piedrasEsperadas": 1.450734988090393,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 21",
+      "suma": 21,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "1,4,6,11": {
+    "mano": [
+      1,
+      4,
+      6,
+      11
+    ],
+    "probabilidades": {
+      "grande": 4.624094111302121,
+      "chica": 58.984210355865144,
+      "pares": 0,
+      "juego": 0,
+      "punto": 8.28052558729924
+    },
+    "piedrasEsperadas": 1.5205818569623224,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 21",
+      "suma": 21,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "1,4,6,12": {
+    "mano": [
+      1,
+      4,
+      6,
+      12
+    ],
+    "probabilidades": {
+      "grande": 19.2677154321465,
+      "chica": 59.675126584830174,
+      "pares": 0,
+      "juego": 0,
+      "punto": 8.28052558729924
+    },
+    "piedrasEsperadas": 1.8272726079585107,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 21",
+      "suma": 21,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "1,4,7,7": {
+    "mano": [
+      1,
+      4,
+      7,
+      7
+    ],
+    "probabilidades": {
+      "grande": 0.39721298571000857,
+      "chica": 57.442283199726106,
+      "pares": 16.10695087936885,
+      "juego": 0,
+      "punto": 3.7959822231752485
+    },
+    "piedrasEsperadas": 1.7538779167850451,
+    "analisis": {
+      "tipoMano": "Pareja de 7s",
+      "estadoJuego": "Punto de 19",
+      "suma": 19,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,4,7,10": {
+    "mano": [
+      1,
+      4,
+      7,
+      10
+    ],
+    "probabilidades": {
+      "grande": 1.635952348377919,
+      "chica": 55.24605804164791,
+      "pares": 0,
+      "juego": 0,
+      "punto": 17.35625303545819
+    },
+    "piedrasEsperadas": 1.6583277988642626,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 22",
+      "suma": 22,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "1,4,7,11": {
+    "mano": [
+      1,
+      4,
+      7,
+      11
+    ],
+    "probabilidades": {
+      "grande": 5.673071089088887,
+      "chica": 55.24605804164791,
+      "pares": 0,
+      "juego": 0,
+      "punto": 17.35625303545819
+    },
+    "piedrasEsperadas": 1.7390701736784817,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 22",
+      "suma": 22,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "1,4,7,12": {
+    "mano": [
+      1,
+      4,
+      7,
+      12
+    ],
+    "probabilidades": {
+      "grande": 24.520861959911887,
+      "chica": 55.91927189185581,
+      "pares": 0,
+      "juego": 0,
+      "punto": 17.35625303545819
+    },
+    "piedrasEsperadas": 2.1294902680990995,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 22",
+      "suma": 22,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "1,4,10,10": {
+    "mano": [
+      1,
+      4,
+      10,
+      10
+    ],
+    "probabilidades": {
+      "grande": 2.3440186065325106,
+      "chica": 49.058144753165365,
+      "pares": 23.086410800957175,
+      "juego": 0,
+      "punto": 38.252510155332644
+    },
+    "piedrasEsperadas": 2.868210895882652,
+    "analisis": {
+      "tipoMano": "Pareja de 10s",
+      "estadoJuego": "Punto de 25",
+      "suma": 25,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,4,10,11": {
+    "mano": [
+      1,
+      4,
+      10,
+      11
+    ],
+    "probabilidades": {
+      "grande": 7.5321381055202945,
+      "chica": 49.488347454126426,
+      "pares": 0,
+      "juego": 0,
+      "punto": 38.252510155332644
+    },
+    "piedrasEsperadas": 2.2879850158529136,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 25",
+      "suma": 25,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "1,4,10,12": {
+    "mano": [
+      1,
+      4,
+      10,
+      12
+    ],
+    "probabilidades": {
+      "grande": 34.18712479767246,
+      "chica": 50.13557878067464,
+      "pares": 0,
+      "juego": 0,
+      "punto": 38.252510155332644
+    },
+    "piedrasEsperadas": 2.8340293762269213,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 25",
+      "suma": 25,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "1,4,11,11": {
+    "mano": [
+      1,
+      4,
+      11,
+      11
+    ],
+    "probabilidades": {
+      "grande": 9.98728434644158,
+      "chica": 49.058144753165365,
+      "pares": 31.28529858665959,
+      "juego": 0,
+      "punto": 38.252510155332644
+    },
+    "piedrasEsperadas": 3.2670428442519057,
+    "analisis": {
+      "tipoMano": "Pareja de 11s",
+      "estadoJuego": "Punto de 25",
+      "suma": 25,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,4,11,12": {
+    "mano": [
+      1,
+      4,
+      11,
+      12
+    ],
+    "probabilidades": {
+      "grande": 51.27372990521587,
+      "chica": 50.13557878067464,
+      "pares": 0,
+      "juego": 0,
+      "punto": 38.252510155332644
+    },
+    "piedrasEsperadas": 3.1757614783777894,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 25",
+      "suma": 25,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "1,4,12,12": {
+    "mano": [
+      1,
+      4,
+      12,
+      12
+    ],
+    "probabilidades": {
+      "grande": 78.52869795911084,
+      "chica": 49.811320692364994,
+      "pares": 74.89776705768874,
+      "juego": 0,
+      "punto": 38.252510155332644
+    },
+    "piedrasEsperadas": 5.961308689420159,
+    "analisis": {
+      "tipoMano": "Pareja de 12s",
+      "estadoJuego": "Punto de 25",
+      "suma": 25,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,5,5,5": {
+    "mano": [
+      1,
+      5,
+      5,
+      5
+    ],
+    "probabilidades": {
+      "grande": 0.0016358044886475168,
+      "chica": 43.9332307568256,
+      "pares": 75.4512731966978,
+      "juego": 0,
+      "punto": 0.746358593137675
+    },
+    "piedrasEsperadas": 3.919139016888327,
+    "analisis": {
+      "tipoMano": "Medias de 5s",
+      "estadoJuego": "Punto de 16",
+      "suma": 16,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "1,5,5,6": {
+    "mano": [
+      1,
+      5,
+      5,
+      6
+    ],
+    "probabilidades": {
+      "grande": 0.030476949602775683,
+      "chica": 43.9332307568256,
+      "pares": 7.698437860110636,
+      "juego": 0,
+      "punto": 1.2392567407665367
+    },
+    "piedrasEsperadas": 1.147404992154883,
+    "analisis": {
+      "tipoMano": "Pareja de 5s",
+      "estadoJuego": "Punto de 17",
+      "suma": 17,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,5,5,7": {
+    "mano": [
+      1,
+      5,
+      5,
+      7
+    ],
+    "probabilidades": {
+      "grande": 0.16974372585181982,
+      "chica": 43.86927906295831,
+      "pares": 7.698437860110636,
+      "juego": 0,
+      "punto": 2.355489923501938
+    },
+    "piedrasEsperadas": 1.18239828928458,
+    "analisis": {
+      "tipoMano": "Pareja de 5s",
+      "estadoJuego": "Punto de 18",
+      "suma": 18,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,5,5,10": {
+    "mano": [
+      1,
+      5,
+      5,
+      10
+    ],
+    "probabilidades": {
+      "grande": 0.926341210971192,
+      "chica": 43.61347228748917,
+      "pares": 7.698437860110636,
+      "juego": 0,
+      "punto": 8.395287511159731
+    },
+    "piedrasEsperadas": 1.3736080311073182,
+    "analisis": {
+      "tipoMano": "Pareja de 5s",
+      "estadoJuego": "Punto de 21",
+      "suma": 21,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,5,5,11": {
+    "mano": [
+      1,
+      5,
+      5,
+      11
+    ],
+    "probabilidades": {
+      "grande": 4.167991597488424,
+      "chica": 43.61347228748917,
+      "pares": 7.698437860110636,
+      "juego": 0,
+      "punto": 8.395287511159731
+    },
+    "piedrasEsperadas": 1.438441038837663,
+    "analisis": {
+      "tipoMano": "Pareja de 5s",
+      "estadoJuego": "Punto de 21",
+      "suma": 21,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,5,5,12": {
+    "mano": [
+      1,
+      5,
+      5,
+      12
+    ],
+    "probabilidades": {
+      "grande": 17.036626158199148,
+      "chica": 43.677423981356455,
+      "pares": 8.346645078789102,
+      "juego": 0,
+      "punto": 8.395287511159731
+    },
+    "piedrasEsperadas": 1.716538980489577,
+    "analisis": {
+      "tipoMano": "Pareja de 5s",
+      "estadoJuego": "Punto de 21",
+      "suma": 21,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,5,6,6": {
+    "mano": [
+      1,
+      5,
+      6,
+      6
+    ],
+    "probabilidades": {
+      "grande": 0.04182985763827222,
+      "chica": 42.86203988454855,
+      "pares": 10.346918821894612,
+      "juego": 0,
+      "punto": 2.1225732165159616
+    },
+    "piedrasEsperadas": 1.2321621559960536,
+    "analisis": {
+      "tipoMano": "Pareja de 6s",
+      "estadoJuego": "Punto de 18",
+      "suma": 18,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,5,6,7": {
+    "mano": [
+      1,
+      5,
+      6,
+      7
+    ],
+    "probabilidades": {
+      "grande": 0.3006256468273088,
+      "chica": 42.718862378942205,
+      "pares": 0,
+      "juego": 0,
+      "punto": 4.103949701665113
+    },
+    "piedrasEsperadas": 0.9835082515653436,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 19",
+      "suma": 19,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "1,5,6,10": {
+    "mano": [
+      1,
+      5,
+      6,
+      10
+    ],
+    "probabilidades": {
+      "grande": 1.2380227245109794,
+      "chica": 40.44629571247382,
+      "pares": 0,
+      "juego": 0,
+      "punto": 17.471090630013546
+    },
+    "piedrasEsperadas": 1.3578190876401024,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 22",
+      "suma": 22,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "1,5,6,11": {
+    "mano": [
+      1,
+      5,
+      6,
+      11
+    ],
+    "probabilidades": {
+      "grande": 4.8533021864828445,
+      "chica": 40.44629571247382,
+      "pares": 0,
+      "juego": 0,
+      "punto": 17.471090630013546
+    },
+    "piedrasEsperadas": 1.4301246768795397,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 22",
+      "suma": 22,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "1,5,6,12": {
+    "mano": [
+      1,
+      5,
+      6,
+      12
+    ],
+    "probabilidades": {
+      "grande": 20.400604223217584,
+      "chica": 41.0110111122347,
+      "pares": 0,
+      "juego": 0,
+      "punto": 17.471090630013546
+    },
+    "piedrasEsperadas": 1.7523650256094518,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 22",
+      "suma": 22,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "1,5,7,7": {
+    "mano": [
+      1,
+      5,
+      7,
+      7
+    ],
+    "probabilidades": {
+      "grande": 0.4030556166916829,
+      "chica": 39.188320422044164,
+      "pares": 16.10695087936885,
+      "juego": 0,
+      "punto": 5.788258408558636
+    },
+    "piedrasEsperadas": 1.4486837994125414,
+    "analisis": {
+      "tipoMano": "Pareja de 7s",
+      "estadoJuego": "Punto de 20",
+      "suma": 20,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,5,7,10": {
+    "mano": [
+      1,
+      5,
+      7,
+      10
+    ],
+    "probabilidades": {
+      "grande": 1.7618710544183291,
+      "chica": 37.40224795887951,
+      "pares": 0,
+      "juego": 0,
+      "punto": 22.2502249194381
+    },
+    "piedrasEsperadas": 1.4507891278490996,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 23",
+      "suma": 23,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "1,5,7,11": {
+    "mano": [
+      1,
+      5,
+      7,
+      11
+    ],
+    "probabilidades": {
+      "grande": 5.921925813504692,
+      "chica": 37.40224795887951,
+      "pares": 0,
+      "juego": 0,
+      "punto": 22.2502249194381
+    },
+    "piedrasEsperadas": 1.5339902230308269,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 23",
+      "suma": 23,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "1,5,7,12": {
+    "mano": [
+      1,
+      5,
+      7,
+      12
+    ],
+    "probabilidades": {
+      "grande": 25.791277295628532,
+      "chica": 37.94926097988324,
+      "pares": 0,
+      "juego": 0,
+      "punto": 22.2502249194381
+    },
+    "piedrasEsperadas": 1.9423175130933785,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 23",
+      "suma": 23,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "1,5,10,10": {
+    "mano": [
+      1,
+      5,
+      10,
+      10
+    ],
+    "probabilidades": {
+      "grande": 2.3595722038436167,
+      "chica": 32.40272581206953,
+      "pares": 23.086410800957175,
+      "juego": 0,
+      "punto": 50.814759731547475
+    },
+    "piedrasEsperadas": 2.912281076293403,
+    "analisis": {
+      "tipoMano": "Pareja de 10s",
+      "estadoJuego": "Punto de 26",
+      "suma": 26,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,5,10,11": {
+    "mano": [
+      1,
+      5,
+      10,
+      11
+    ],
+    "probabilidades": {
+      "grande": 7.81450770216065,
+      "chica": 32.74879462689448,
+      "pares": 0,
+      "juego": 0,
+      "punto": 50.814759731547475
+    },
+    "piedrasEsperadas": 2.335708838527527,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 26",
+      "suma": 26,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "1,5,10,12": {
+    "mano": [
+      1,
+      5,
+      10,
+      12
+    ],
+    "probabilidades": {
+      "grande": 35.692144238960964,
+      "chica": 33.26982512423852,
+      "pares": 0,
+      "juego": 0,
+      "punto": 50.814759731547475
+    },
+    "piedrasEsperadas": 2.9036821792104144,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 26",
+      "suma": 26,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "1,5,11,11": {
+    "mano": [
+      1,
+      5,
+      11,
+      11
+    ],
+    "probabilidades": {
+      "grande": 10.02139632271151,
+      "chica": 32.40272581206953,
+      "pares": 31.28529858665959,
+      "juego": 0,
+      "punto": 50.814759731547475
+    },
+    "piedrasEsperadas": 3.3114841922418323,
+    "analisis": {
+      "tipoMano": "Pareja de 11s",
+      "estadoJuego": "Punto de 26",
+      "suma": 26,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,5,11,12": {
+    "mano": [
+      1,
+      5,
+      11,
+      12
+    ],
+    "probabilidades": {
+      "grande": 53.136318362582834,
+      "chica": 33.26982512423852,
+      "pares": 0,
+      "juego": 0,
+      "punto": 50.814759731547475
+    },
+    "piedrasEsperadas": 3.2525656616828513,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 26",
+      "suma": 26,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "1,5,12,12": {
+    "mano": [
+      1,
+      5,
+      12,
+      12
+    ],
+    "probabilidades": {
+      "grande": 80.15852007705702,
+      "chica": 33.00866745053096,
+      "pares": 74.89776705768874,
+      "juego": 0,
+      "punto": 50.814759731547475
+    },
+    "piedrasEsperadas": 6.034719554228846,
+    "analisis": {
+      "tipoMano": "Pareja de 12s",
+      "estadoJuego": "Punto de 26",
+      "suma": 26,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,6,6,6": {
+    "mano": [
+      1,
+      6,
+      6,
+      6
+    ],
+    "probabilidades": {
+      "grande": 0.04253091670483544,
+      "chica": 29.477570311503438,
+      "pares": 76.11975351187148,
+      "juego": 0,
+      "punto": 4.098198473693158
+    },
+    "piedrasEsperadas": 3.758138119249819,
+    "analisis": {
+      "tipoMano": "Medias de 6s",
+      "estadoJuego": "Punto de 19",
+      "suma": 19,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "1,6,6,7": {
+    "mano": [
+      1,
+      6,
+      6,
+      7
+    ],
+    "probabilidades": {
+      "grande": 0.3393365705738931,
+      "chica": 29.477570311503438,
+      "pares": 12.808151164135579,
+      "juego": 0,
+      "punto": 6.361975673698485
+    },
+    "piedrasEsperadas": 1.1714419427765685,
+    "analisis": {
+      "tipoMano": "Pareja de 6s",
+      "estadoJuego": "Punto de 20",
+      "suma": 20,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,6,6,10": {
+    "mano": [
+      1,
+      6,
+      6,
+      10
+    ],
+    "probabilidades": {
+      "grande": 1.3233916076289955,
+      "chica": 29.26770089166216,
+      "pares": 12.808151164135579,
+      "juego": 0,
+      "punto": 22.865271087268095
+    },
+    "piedrasEsperadas": 1.6820245175279334,
+    "analisis": {
+      "tipoMano": "Pareja de 6s",
+      "estadoJuego": "Punto de 23",
+      "suma": 23,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,6,6,11": {
+    "mano": [
+      1,
+      6,
+      6,
+      11
+    ],
+    "probabilidades": {
+      "grande": 5.035091476169798,
+      "chica": 29.26770089166216,
+      "pares": 12.808151164135579,
+      "juego": 0,
+      "punto": 22.865271087268095
+    },
+    "piedrasEsperadas": 1.7562585148987495,
+    "analisis": {
+      "tipoMano": "Pareja de 6s",
+      "estadoJuego": "Punto de 23",
+      "suma": 23,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,6,6,12": {
+    "mano": [
+      1,
+      6,
+      6,
+      12
+    ],
+    "probabilidades": {
+      "grande": 21.30327220381529,
+      "chica": 29.320168246622476,
+      "pares": 13.885176150285282,
+      "juego": 0,
+      "punto": 22.865271087268095
+    },
+    "piedrasEsperadas": 2.1149822261353566,
+    "analisis": {
+      "tipoMano": "Pareja de 6s",
+      "estadoJuego": "Punto de 23",
+      "suma": 23,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,6,7,7": {
+    "mano": [
+      1,
+      6,
+      7,
+      7
+    ],
+    "probabilidades": {
+      "grande": 0.4116477210764981,
+      "chica": 28.756144180799026,
+      "pares": 16.10695087936885,
+      "juego": 0,
+      "punto": 9.245501696395939
+    },
+    "piedrasEsperadas": 1.343929415310454,
+    "analisis": {
+      "tipoMano": "Pareja de 7s",
+      "estadoJuego": "Punto de 21",
+      "suma": 21,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,6,7,10": {
+    "mano": [
+      1,
+      6,
+      7,
+      10
+    ],
+    "probabilidades": {
+      "grande": 1.953310315935455,
+      "chica": 27.239176426966782,
+      "pares": 0,
+      "juego": 0,
+      "punto": 27.04048841415406
+    },
+    "piedrasEsperadas": 1.3950643872826665,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 24",
+      "suma": 24,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "1,6,7,11": {
+    "mano": [
+      1,
+      6,
+      7,
+      11
+    ],
+    "probabilidades": {
+      "grande": 6.294153337338576,
+      "chica": 27.239176426966782,
+      "pares": 0,
+      "juego": 0,
+      "punto": 27.04048841415406
+    },
+    "piedrasEsperadas": 1.4818812477107288,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 24",
+      "suma": 24,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "1,6,7,12": {
+    "mano": [
+      1,
+      6,
+      7,
+      12
+    ],
+    "probabilidades": {
+      "grande": 27.703387998945157,
+      "chica": 27.703387998945157,
+      "pares": 0,
+      "juego": 0,
+      "punto": 27.04048841415406
+    },
+    "piedrasEsperadas": 1.919350172382428,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 24",
+      "suma": 24,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "1,6,10,10": {
+    "mano": [
+      1,
+      6,
+      10,
+      10
+    ],
+    "probabilidades": {
+      "grande": 2.3824451410658307,
+      "chica": 23.019367925145588,
+      "pares": 23.086410800957175,
+      "juego": 0,
+      "punto": 65.15991496639612
+    },
+    "piedrasEsperadas": 3.1554260343448273,
+    "analisis": {
+      "tipoMano": "Pareja de 10s",
+      "estadoJuego": "Punto de 27",
+      "suma": 27,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,6,10,11": {
+    "mano": [
+      1,
+      6,
+      10,
+      11
+    ],
+    "probabilidades": {
+      "grande": 8.236021802795342,
+      "chica": 23.31023577395363,
+      "pares": 0,
+      "juego": 0,
+      "punto": 65.15991496639612
+    },
+    "piedrasEsperadas": 2.585722600526863,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 27",
+      "suma": 27,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "1,6,10,12": {
+    "mano": [
+      1,
+      6,
+      10,
+      12
+    ],
+    "probabilidades": {
+      "grande": 37.94926097988324,
+      "chica": 23.74846482227232,
+      "pares": 0,
+      "juego": 0,
+      "punto": 65.15991496639612
+    },
+    "piedrasEsperadas": 3.188751965034995,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 27",
+      "suma": 27,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "1,6,11,11": {
+    "mano": [
+      1,
+      6,
+      11,
+      11
+    ],
+    "probabilidades": {
+      "grande": 10.0715609936967,
+      "chica": 23.019367925145588,
+      "pares": 31.28529858665959,
+      "juego": 0,
+      "punto": 65.15991496639612
+    },
+    "piedrasEsperadas": 3.5551749849685166,
+    "analisis": {
+      "tipoMano": "Pareja de 11s",
+      "estadoJuego": "Punto de 27",
+      "suma": 27,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,6,11,12": {
+    "mano": [
+      1,
+      6,
+      11,
+      12
+    ],
+    "probabilidades": {
+      "grande": 55.91927189185581,
+      "chica": 23.74846482227232,
+      "pares": 0,
+      "juego": 0,
+      "punto": 65.15991496639612
+    },
+    "piedrasEsperadas": 3.5481521832744463,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 27",
+      "suma": 27,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "1,6,12,12": {
+    "mano": [
+      1,
+      6,
+      12,
+      12
+    ],
+    "probabilidades": {
+      "grande": 82.5709790438574,
+      "chica": 23.528707873077433,
+      "pares": 74.89776705768874,
+      "juego": 0,
+      "punto": 65.15991496639612
+    },
+    "piedrasEsperadas": 6.3237241990612425,
+    "analisis": {
+      "tipoMano": "Pareja de 12s",
+      "estadoJuego": "Punto de 27",
+      "suma": 27,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,7,7,7": {
+    "mano": [
+      1,
+      7,
+      7,
+      7
+    ],
+    "probabilidades": {
+      "grande": 0.4162874574442984,
+      "chica": 21.393867352448783,
+      "pares": 76.79174641411251,
+      "juego": 0,
+      "punto": 18.675466107134298
+    },
+    "piedrasEsperadas": 4.068136935976391,
+    "analisis": {
+      "tipoMano": "Medias de 7s",
+      "estadoJuego": "Punto de 22",
+      "suma": 22,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "1,7,7,10": {
+    "mano": [
+      1,
+      7,
+      7,
+      10
+    ],
+    "probabilidades": {
+      "grande": 2.1167242101613626,
+      "chica": 21.257974629498545,
+      "pares": 19.13729233227461,
+      "juego": 0,
+      "punto": 39.31615397170034
+    },
+    "piedrasEsperadas": 2.2210973659124464,
+    "analisis": {
+      "tipoMano": "Pareja de 7s",
+      "estadoJuego": "Punto de 25",
+      "suma": 25,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,7,7,11": {
+    "mano": [
+      1,
+      7,
+      7,
+      11
+    ],
+    "probabilidades": {
+      "grande": 6.6070188617463375,
+      "chica": 21.257974629498545,
+      "pares": 19.13729233227461,
+      "juego": 0,
+      "punto": 39.31615397170034
+    },
+    "piedrasEsperadas": 2.310903258944146,
+    "analisis": {
+      "tipoMano": "Pareja de 7s",
+      "estadoJuego": "Punto de 25",
+      "suma": 25,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,7,7,12": {
+    "mano": [
+      1,
+      7,
+      7,
+      12
+    ],
+    "probabilidades": {
+      "grande": 29.320168246622476,
+      "chica": 21.30327220381529,
+      "pares": 20.743573660272464,
+      "juego": 0,
+      "punto": 39.31615397170034
+    },
+    "piedrasEsperadas": 2.81426063796794,
+    "analisis": {
+      "tipoMano": "Pareja de 7s",
+      "estadoJuego": "Punto de 25",
+      "suma": 25,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,7,10,10": {
+    "mano": [
+      1,
+      7,
+      10,
+      10
+    ],
+    "probabilidades": {
+      "grande": 2.4126374181991537,
+      "chica": 17.932062230629267,
+      "pares": 23.086410800957175,
+      "juego": 0,
+      "punto": 81.5850588046703
+    },
+    "piedrasEsperadas": 3.5470380811453928,
+    "analisis": {
+      "tipoMano": "Pareja de 10s",
+      "estadoJuego": "Punto de 28",
+      "suma": 28,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,7,10,11": {
+    "mano": [
+      1,
+      7,
+      10,
+      11
+    ],
+    "probabilidades": {
+      "grande": 8.804185563395142,
+      "chica": 18.19057089246188,
+      "pares": 0,
+      "juego": 0,
+      "punto": 81.5850588046703
+    },
+    "piedrasEsperadas": 2.9874468932572498,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 28",
+      "suma": 28,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "1,7,10,12": {
+    "mano": [
+      1,
+      7,
+      10,
+      12
+    ],
+    "probabilidades": {
+      "grande": 41.0110111122347,
+      "chica": 18.58026116031743,
+      "pares": 0,
+      "juego": 0,
+      "punto": 81.5850588046703
+    },
+    "piedrasEsperadas": 3.639377209591151,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 28",
+      "suma": 28,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "1,7,11,11": {
+    "mano": [
+      1,
+      7,
+      11,
+      11
+    ],
+    "probabilidades": {
+      "grande": 10.137778359397151,
+      "chica": 17.932062230629267,
+      "pares": 31.28529858665959,
+      "juego": 0,
+      "punto": 81.5850588046703
+    },
+    "piedrasEsperadas": 3.947507533540425,
+    "analisis": {
+      "tipoMano": "Pareja de 11s",
+      "estadoJuego": "Punto de 28",
+      "suma": 28,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,7,11,12": {
+    "mano": [
+      1,
+      7,
+      11,
+      12
+    ],
+    "probabilidades": {
+      "grande": 59.675126584830174,
+      "chica": 18.58026116031743,
+      "pares": 0,
+      "juego": 0,
+      "punto": 81.5850588046703
+    },
+    "piedrasEsperadas": 4.012659519043061,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 28",
+      "suma": 28,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "1,7,12,12": {
+    "mano": [
+      1,
+      7,
+      12,
+      12
+    ],
+    "probabilidades": {
+      "grande": 85.78483774943894,
+      "chica": 18.384773601354116,
+      "pares": 74.89776705768874,
+      "juego": 0,
+      "punto": 81.5850588046703
+    },
+    "piedrasEsperadas": 6.777877002886632,
+    "analisis": {
+      "tipoMano": "Pareja de 12s",
+      "estadoJuego": "Punto de 28",
+      "suma": 28,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "1,10,10,10": {
+    "mano": [
+      1,
+      10,
+      10,
+      10
+    ],
+    "probabilidades": {
+      "grande": 2.4304783092324804,
+      "chica": 14.184060721062618,
+      "pares": 77.46725190342092,
+      "juego": 100,
+      "punto": 0
+    },
+    "piedrasEsperadas": 6.430980856742739,
+    "analisis": {
+      "tipoMano": "Medias de 10s",
+      "estadoJuego": "Juego de 31",
+      "suma": 31,
+      "valorPar": 2,
+      "valorJuego": 1
+    }
+  },
+  "1,10,10,11": {
+    "mano": [
+      1,
+      10,
+      10,
+      11
+    ],
+    "probabilidades": {
+      "grande": 9.296058801718685,
+      "chica": 14.213703481190231,
+      "pares": 26.685861364527725,
+      "juego": 100,
+      "punto": 0
+    },
+    "piedrasEsperadas": 4.27077108659401,
+    "analisis": {
+      "tipoMano": "Pareja de 10s",
+      "estadoJuego": "Juego de 31",
+      "suma": 31,
+      "valorPar": 1,
+      "valorJuego": 1
+    }
+  },
+  "1,10,10,12": {
+    "mano": [
+      1,
+      10,
+      10,
+      12
+    ],
+    "probabilidades": {
+      "grande": 43.677423981356455,
+      "chica": 14.253227161360382,
+      "pares": 28.92183760875064,
+      "juego": 100,
+      "punto": 0
+    },
+    "piedrasEsperadas": 5.026268151116856,
+    "analisis": {
+      "tipoMano": "Pareja de 10s",
+      "estadoJuego": "Juego de 31",
+      "suma": 31,
+      "valorPar": 1,
+      "valorJuego": 1
+    }
+  },
+  "1,10,11,11": {
+    "mano": [
+      1,
+      10,
+      11,
+      11
+    ],
+    "probabilidades": {
+      "grande": 10.220048419812864,
+      "chica": 14.213703481190231,
+      "pares": 31.28529858665959,
+      "juego": 100,
+      "punto": 0
+    },
+    "piedrasEsperadas": 4.427233995619849,
+    "analisis": {
+      "tipoMano": "Pareja de 11s",
+      "estadoJuego": "Juego de 31",
+      "suma": 31,
+      "valorPar": 1,
+      "valorJuego": 1
+    }
+  },
+  "1,10,11,12": {
+    "mano": [
+      1,
+      10,
+      11,
+      12
+    ],
+    "probabilidades": {
+      "grande": 64.47469195653453,
+      "chica": 14.809556667241678,
+      "pares": 0,
+      "juego": 100,
+      "punto": 0
+    },
+    "piedrasEsperadas": 4.585684972475524,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Juego de 31",
+      "suma": 31,
+      "valorPar": 0,
+      "valorJuego": 1
+    }
+  },
+  "1,10,12,12": {
+    "mano": [
+      1,
+      10,
+      12,
+      12
+    ],
+    "probabilidades": {
+      "grande": 89.82538530631182,
+      "chica": 14.629772831369376,
+      "pares": 74.89776705768874,
+      "juego": 100,
+      "punto": 0
+    },
+    "piedrasEsperadas": 7.336036174484286,
+    "analisis": {
+      "tipoMano": "Pareja de 12s",
+      "estadoJuego": "Juego de 31",
+      "suma": 31,
+      "valorPar": 1,
+      "valorJuego": 1
+    }
+  },
+  "1,11,11,11": {
+    "mano": [
+      1,
+      11,
+      11,
+      11
+    ],
+    "probabilidades": {
+      "grande": 10.271216384217759,
+      "chica": 14.184060721062618,
+      "pares": 78.14626997979668,
+      "juego": 100,
+      "punto": 0
+    },
+    "piedrasEsperadas": 6.614956341297476,
+    "analisis": {
+      "tipoMano": "Medias de 11s",
+      "estadoJuego": "Juego de 31",
+      "suma": 31,
+      "valorPar": 2,
+      "valorJuego": 1
+    }
+  },
+  "1,11,11,12": {
+    "mano": [
+      1,
+      11,
+      11,
+      12
+    ],
+    "probabilidades": {
+      "grande": 68.72244330367735,
+      "chica": 14.253227161360382,
+      "pares": 38.419967995719816,
+      "juego": 100,
+      "punto": 0
+    },
+    "piedrasEsperadas": 5.812112449172349,
+    "analisis": {
+      "tipoMano": "Pareja de 11s",
+      "estadoJuego": "Juego de 31",
+      "suma": 31,
+      "valorPar": 1,
+      "valorJuego": 1
+    }
+  },
+  "1,11,12,12": {
+    "mano": [
+      1,
+      11,
+      12,
+      12
+    ],
+    "probabilidades": {
+      "grande": 94.72443704956956,
+      "chica": 14.629772831369376,
+      "pares": 74.89776705768874,
+      "juego": 100,
+      "punto": 0
+    },
+    "piedrasEsperadas": 7.434017209349441,
+    "analisis": {
+      "tipoMano": "Pareja de 12s",
+      "estadoJuego": "Juego de 31",
+      "suma": 31,
+      "valorPar": 1,
+      "valorJuego": 1
+    }
+  },
+  "1,12,12,12": {
+    "mano": [
+      1,
+      12,
+      12,
+      12
+    ],
+    "probabilidades": {
+      "grande": 99.16815210932857,
+      "chica": 14.282869921487995,
+      "pares": 88.09954339269729,
+      "juego": 100,
+      "punto": 0
+    },
+    "piedrasEsperadas": 8.793002176324222,
+    "analisis": {
+      "tipoMano": "Medias de 12s",
+      "estadoJuego": "Juego de 31",
+      "suma": 31,
+      "valorPar": 2,
+      "valorJuego": 1
+    }
+  },
+  "4,4,4,4": {
+    "mano": [
+      4,
+      4,
+      4,
+      4
+    ],
+    "probabilidades": {
+      "grande": 0.0000033046555326212465,
+      "chica": 10.271216384217759,
+      "pares": 85.05254627265057,
+      "juego": 0,
+      "punto": 0.431353067434852
+    },
+    "piedrasEsperadas": 4.47099229943304,
+    "analisis": {
+      "tipoMano": "Cuaternas de 4s",
+      "estadoJuego": "Punto de 16",
+      "suma": 16,
+      "valorPar": 3,
+      "valorJuego": 0
+    }
+  },
+  "4,4,4,5": {
+    "mano": [
+      4,
+      4,
+      4,
+      5
+    ],
+    "probabilidades": {
+      "grande": 0.0008625150940141453,
+      "chica": 10.271216384217759,
+      "pares": 74.94285420879258,
+      "juego": 0,
+      "punto": 1.2803721174465443
+    },
+    "piedrasEsperadas": 3.2415669098613353,
+    "analisis": {
+      "tipoMano": "Medias de 4s",
+      "estadoJuego": "Punto de 17",
+      "suma": 17,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "4,4,4,6": {
+    "mano": [
+      4,
+      4,
+      4,
+      6
+    ],
+    "probabilidades": {
+      "grande": 0.009725601232504329,
+      "chica": 10.271216384217759,
+      "pares": 74.94285420879258,
+      "juego": 0,
+      "punto": 2.7581938632013223
+    },
+    "piedrasEsperadas": 3.2860788239567484,
+    "analisis": {
+      "tipoMano": "Medias de 4s",
+      "estadoJuego": "Punto de 18",
+      "suma": 18,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "4,4,4,7": {
+    "mano": [
+      4,
+      4,
+      4,
+      7
+    ],
+    "probabilidades": {
+      "grande": 0.1046293597494278,
+      "chica": 10.271216384217759,
+      "pares": 74.94285420879258,
+      "juego": 0,
+      "punto": 4.932370926858183
+    },
+    "piedrasEsperadas": 3.353202211036793,
+    "analisis": {
+      "tipoMano": "Medias de 4s",
+      "estadoJuego": "Punto de 19",
+      "suma": 19,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "4,4,4,10": {
+    "mano": [
+      4,
+      4,
+      4,
+      10
+    ],
+    "probabilidades": {
+      "grande": 0.7457483954245061,
+      "chica": 10.271216384217759,
+      "pares": 74.94285420879258,
+      "juego": 0,
+      "punto": 17.85724725729533
+    },
+    "piedrasEsperadas": 3.7537708816634088,
+    "analisis": {
+      "tipoMano": "Medias de 4s",
+      "estadoJuego": "Punto de 22",
+      "suma": 22,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "4,4,4,11": {
+    "mano": [
+      4,
+      4,
+      4,
+      11
+    ],
+    "probabilidades": {
+      "grande": 3.7487582756836177,
+      "chica": 10.271216384217759,
+      "pares": 74.94285420879258,
+      "juego": 0,
+      "punto": 17.85724725729533
+    },
+    "piedrasEsperadas": 3.8138310792685908,
+    "analisis": {
+      "tipoMano": "Medias de 4s",
+      "estadoJuego": "Punto de 22",
+      "suma": 22,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "4,4,4,12": {
+    "mano": [
+      4,
+      4,
+      4,
+      12
+    ],
+    "probabilidades": {
+      "grande": 15.017389097412654,
+      "chica": 10.271216384217759,
+      "pares": 77.39852746776658,
+      "juego": 0,
+      "punto": 17.85724725729533
+    },
+    "piedrasEsperadas": 4.137430626062132,
+    "analisis": {
+      "tipoMano": "Medias de 4s",
+      "estadoJuego": "Punto de 22",
+      "suma": 22,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "4,4,5,5": {
+    "mano": [
+      4,
+      4,
+      5,
+      5
+    ],
+    "probabilidades": {
+      "grande": 0.0016358044886475168,
+      "chica": 10.271216384217759,
+      "pares": 86.10046557657385,
+      "juego": 0,
+      "punto": 2.749799314418769
+    },
+    "piedrasEsperadas": 3.7319696462696452,
+    "analisis": {
+      "tipoMano": "Duples (5s y 4s)",
+      "estadoJuego": "Punto de 18",
+      "suma": 18,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "4,4,5,6": {
+    "mano": [
+      4,
+      4,
+      5,
+      6
+    ],
+    "probabilidades": {
+      "grande": 0.027035386912374414,
+      "chica": 10.268206503958647,
+      "pares": 5.868464795233411,
+      "juego": 0,
+      "punto": 4.964324779917521
+    },
+    "piedrasEsperadas": 0.5308885250719483,
+    "analisis": {
+      "tipoMano": "Pareja de 4s",
+      "estadoJuego": "Punto de 19",
+      "suma": 19,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "4,4,5,7": {
+    "mano": [
+      4,
+      4,
+      5,
+      7
+    ],
+    "probabilidades": {
+      "grande": 0.1602526607434021,
+      "chica": 10.2561669829222,
+      "pares": 5.868464795233411,
+      "juego": 0,
+      "punto": 6.245821049708217
+    },
+    "piedrasEsperadas": 0.571756968221561,
+    "analisis": {
+      "tipoMano": "Pareja de 4s",
+      "estadoJuego": "Punto de 20",
+      "suma": 20,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "4,4,5,10": {
+    "mano": [
+      4,
+      4,
+      5,
+      10
+    ],
+    "probabilidades": {
+      "grande": 0.901103084574916,
+      "chica": 10.208008898776418,
+      "pares": 5.868464795233411,
+      "juego": 0,
+      "punto": 24.09186823813629
+    },
+    "piedrasEsperadas": 1.1209922306681175,
+    "analisis": {
+      "tipoMano": "Pareja de 4s",
+      "estadoJuego": "Punto de 23",
+      "suma": 23,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "4,4,5,11": {
+    "mano": [
+      4,
+      4,
+      5,
+      11
+    ],
+    "probabilidades": {
+      "grande": 4.110211583875131,
+      "chica": 10.208008898776418,
+      "pares": 5.868464795233411,
+      "juego": 0,
+      "punto": 24.09186823813629
+    },
+    "piedrasEsperadas": 1.1851744006541218,
+    "analisis": {
+      "tipoMano": "Pareja de 4s",
+      "estadoJuego": "Punto de 23",
+      "suma": 23,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "4,4,5,12": {
+    "mano": [
+      4,
+      4,
+      5,
+      12
+    ],
+    "probabilidades": {
+      "grande": 16.756992816339803,
+      "chica": 10.220048419812864,
+      "pares": 6.359364788643604,
+      "juego": 0,
+      "punto": 24.09186823813629
+    },
+    "piedrasEsperadas": 1.45307781552645,
+    "analisis": {
+      "tipoMano": "Pareja de 4s",
+      "estadoJuego": "Punto de 23",
+      "suma": 23,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "4,4,6,6": {
+    "mano": [
+      4,
+      4,
+      6,
+      6
+    ],
+    "probabilidades": {
+      "grande": 0.040381002234041556,
+      "chica": 10.1769068027656,
+      "pares": 87.01514685310329,
+      "juego": 0,
+      "punto": 6.527593913304762
+    },
+    "piedrasEsperadas": 3.880779447623267,
+    "analisis": {
+      "tipoMano": "Duples (6s y 4s)",
+      "estadoJuego": "Punto de 20",
+      "suma": 20,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "4,4,6,7": {
+    "mano": [
+      4,
+      4,
+      6,
+      7
+    ],
+    "probabilidades": {
+      "grande": 0.2578015599673651,
+      "chica": 10.173896922506488,
+      "pares": 5.868464795233411,
+      "juego": 0,
+      "punto": 8.860885610055274
+    },
+    "piedrasEsperadas": 0.6505144818081375,
+    "analisis": {
+      "tipoMano": "Pareja de 4s",
+      "estadoJuego": "Punto de 21",
+      "suma": 21,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "4,4,6,10": {
+    "mano": [
+      4,
+      4,
+      6,
+      10
+    ],
+    "probabilidades": {
+      "grande": 1.140958759881746,
+      "chica": 10.125738838360705,
+      "pares": 5.868464795233411,
+      "juego": 0,
+      "punto": 29.72778291989068
+    },
+    "piedrasEsperadas": 1.2932213834185715,
+    "analisis": {
+      "tipoMano": "Pareja de 4s",
+      "estadoJuego": "Punto de 24",
+      "suma": 24,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "4,4,6,11": {
+    "mano": [
+      4,
+      4,
+      6,
+      11
+    ],
+    "probabilidades": {
+      "grande": 4.644149499217221,
+      "chica": 10.125738838360705,
+      "pares": 5.868464795233411,
+      "juego": 0,
+      "punto": 29.72778291989068
+    },
+    "piedrasEsperadas": 1.3632851982052814,
+    "analisis": {
+      "tipoMano": "Pareja de 4s",
+      "estadoJuego": "Punto de 24",
+      "suma": 24,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "4,4,6,12": {
+    "mano": [
+      4,
+      4,
+      6,
+      12
+    ],
+    "probabilidades": {
+      "grande": 19.366494229740976,
+      "chica": 10.137778359397151,
+      "pares": 6.359364788643604,
+      "juego": 0,
+      "punto": 29.72778291989068
+    },
+    "piedrasEsperadas": 1.6726998830387911,
+    "analisis": {
+      "tipoMano": "Pareja de 4s",
+      "estadoJuego": "Punto de 24",
+      "suma": 24,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "4,4,7,7": {
+    "mano": [
+      4,
+      4,
+      7,
+      7
+    ],
+    "probabilidades": {
+      "grande": 0.3977285119730975,
+      "chica": 10.098649916028704,
+      "pares": 88.13462210176482,
+      "juego": 0,
+      "punto": 20.557355923221195
+    },
+    "piedrasEsperadas": 4.352033130327264,
+    "analisis": {
+      "tipoMano": "Duples (7s y 4s)",
+      "estadoJuego": "Punto de 22",
+      "suma": 22,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "4,4,7,10": {
+    "mano": [
+      4,
+      4,
+      7,
+      10
+    ],
+    "probabilidades": {
+      "grande": 1.6468939684276989,
+      "chica": 10.059521472660254,
+      "pares": 5.868464795233411,
+      "juego": 0,
+      "punto": 38.37335307814422
+    },
+    "piedrasEsperadas": 1.561382845023088,
+    "analisis": {
+      "tipoMano": "Pareja de 4s",
+      "estadoJuego": "Punto de 25",
+      "suma": 25,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "4,4,7,11": {
+    "mano": [
+      4,
+      4,
+      7,
+      11
+    ],
+    "probabilidades": {
+      "grande": 5.694860004877671,
+      "chica": 10.059521472660254,
+      "pares": 5.868464795233411,
+      "juego": 0,
+      "punto": 38.37335307814422
+    },
+    "piedrasEsperadas": 1.6423421657520876,
+    "analisis": {
+      "tipoMano": "Pareja de 4s",
+      "estadoJuego": "Punto de 25",
+      "suma": 25,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "4,4,7,12": {
+    "mano": [
+      4,
+      4,
+      7,
+      12
+    ],
+    "probabilidades": {
+      "grande": 24.631775452622147,
+      "chica": 10.0715609936967,
+      "pares": 6.359364788643604,
+      "juego": 0,
+      "punto": 38.37335307814422
+    },
+    "piedrasEsperadas": 2.036048264930012,
+    "analisis": {
+      "tipoMano": "Pareja de 4s",
+      "estadoJuego": "Punto de 25",
+      "suma": 25,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "4,4,10,10": {
+    "mano": [
+      4,
+      4,
+      10,
+      10
+    ],
+    "probabilidades": {
+      "grande": 2.345390982765844,
+      "chica": 9.946149316233724,
+      "pares": 89.46398863513258,
+      "juego": 0,
+      "punto": 85.93015031145559
+    },
+    "piedrasEsperadas": 6.402294860728962,
+    "analisis": {
+      "tipoMano": "Duples (10s y 4s)",
+      "estadoJuego": "Punto de 28",
+      "suma": 28,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "4,4,10,11": {
+    "mano": [
+      4,
+      4,
+      10,
+      11
+    ],
+    "probabilidades": {
+      "grande": 7.556884215917129,
+      "chica": 9.954175663591354,
+      "pares": 5.868464795233411,
+      "juego": 0,
+      "punto": 85.93015031145559
+    },
+    "piedrasEsperadas": 3.1041796507908392,
+    "analisis": {
+      "tipoMano": "Pareja de 4s",
+      "estadoJuego": "Punto de 28",
+      "suma": 28,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "4,4,10,12": {
+    "mano": [
+      4,
+      4,
+      10,
+      12
+    ],
+    "probabilidades": {
+      "grande": 34.31873865263906,
+      "chica": 9.9662151846278,
+      "pares": 6.359364788643604,
+      "juego": 0,
+      "punto": 85.93015031145559
+    },
+    "piedrasEsperadas": 3.654384529748313,
+    "analisis": {
+      "tipoMano": "Pareja de 4s",
+      "estadoJuego": "Punto de 28",
+      "suma": 28,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "4,4,11,11": {
+    "mano": [
+      4,
+      4,
+      11,
+      11
+    ],
+    "probabilidades": {
+      "grande": 9.99029422670069,
+      "chica": 9.946149316233724,
+      "pares": 91.00936322829544,
+      "juego": 0,
+      "punto": 85.93015031145559
+    },
+    "piedrasEsperadas": 6.617007909334173,
+    "analisis": {
+      "tipoMano": "Duples (11s y 4s)",
+      "estadoJuego": "Punto de 28",
+      "suma": 28,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "4,4,11,12": {
+    "mano": [
+      4,
+      4,
+      11,
+      12
+    ],
+    "probabilidades": {
+      "grande": 51.43689396748351,
+      "chica": 9.9662151846278,
+      "pares": 6.359364788643604,
+      "juego": 0,
+      "punto": 85.93015031145559
+    },
+    "piedrasEsperadas": 3.9967476360452023,
+    "analisis": {
+      "tipoMano": "Pareja de 4s",
+      "estadoJuego": "Punto de 28",
+      "suma": 28,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "4,4,12,12": {
+    "mano": [
+      4,
+      4,
+      12,
+      12
+    ],
+    "probabilidades": {
+      "grande": 78.67208365801574,
+      "chica": 9.960195424109578,
+      "pares": 96.84552821969493,
+      "juego": 0,
+      "punto": 85.93015031145559
+    },
+    "piedrasEsperadas": 8.224371219773971,
+    "analisis": {
+      "tipoMano": "Duples (12s y 4s)",
+      "estadoJuego": "Punto de 28",
+      "suma": 28,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "4,5,5,5": {
+    "mano": [
+      4,
+      5,
+      5,
+      5
+    ],
+    "probabilidades": {
+      "grande": 0.0016358044886475168,
+      "chica": 9.343169970991735,
+      "pares": 75.11543002023005,
+      "juego": 0,
+      "punto": 5.150741540559489
+    },
+    "piedrasEsperadas": 3.346035562535594,
+    "analisis": {
+      "tipoMano": "Medias de 5s",
+      "estadoJuego": "Punto de 19",
+      "suma": 19,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "4,5,5,6": {
+    "mano": [
+      4,
+      5,
+      5,
+      6
+    ],
+    "probabilidades": {
+      "grande": 0.030986810742094393,
+      "chica": 9.343169970991735,
+      "pares": 8.152259672420865,
+      "juego": 0,
+      "punto": 6.47464094507627
+    },
+    "piedrasEsperadas": 0.6262901541595906,
+    "analisis": {
+      "tipoMano": "Pareja de 5s",
+      "estadoJuego": "Punto de 20",
+      "suma": 20,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "4,5,5,7": {
+    "mano": [
+      4,
+      5,
+      5,
+      7
+    ],
+    "probabilidades": {
+      "grande": 0.1711498095715854,
+      "chica": 9.331392178673472,
+      "pares": 8.152259672420865,
+      "juego": 0,
+      "punto": 9.002340221144738
+    },
+    "piedrasEsperadas": 0.7046888365718693,
+    "analisis": {
+      "tipoMano": "Pareja de 5s",
+      "estadoJuego": "Punto de 21",
+      "suma": 21,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "4,5,5,10": {
+    "mano": [
+      4,
+      5,
+      5,
+      10
+    ],
+    "probabilidades": {
+      "grande": 0.9300801926595291,
+      "chica": 9.284281009400424,
+      "pares": 8.152259672420865,
+      "juego": 0,
+      "punto": 29.68028002174352
+    },
+    "piedrasEsperadas": 1.3392634148661307,
+    "analisis": {
+      "tipoMano": "Pareja de 5s",
+      "estadoJuego": "Punto de 24",
+      "suma": 24,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "4,5,5,11": {
+    "mano": [
+      4,
+      5,
+      5,
+      11
+    ],
+    "probabilidades": {
+      "grande": 4.176551599505208,
+      "chica": 9.284281009400424,
+      "pares": 8.152259672420865,
+      "juego": 0,
+      "punto": 29.68028002174352
+    },
+    "piedrasEsperadas": 1.4041928430030441,
+    "analisis": {
+      "tipoMano": "Pareja de 5s",
+      "estadoJuego": "Punto de 24",
+      "suma": 24,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "4,5,5,12": {
+    "mano": [
+      4,
+      5,
+      5,
+      12
+    ],
+    "probabilidades": {
+      "grande": 17.078053319956087,
+      "chica": 9.296058801718685,
+      "pares": 8.832616307386477,
+      "juego": 0,
+      "punto": 29.68028002174352
+    },
+    "piedrasEsperadas": 1.6828691323073954,
+    "analisis": {
+      "tipoMano": "Pareja de 5s",
+      "estadoJuego": "Punto de 24",
+      "suma": 24,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "4,5,6,6": {
+    "mano": [
+      4,
+      5,
+      6,
+      6
+    ],
+    "probabilidades": {
+      "grande": 0.042390704891522794,
+      "chica": 9.145891949660843,
+      "pares": 10.757798108739042,
+      "juego": 0,
+      "punto": 8.85704385502028
+    },
+    "piedrasEsperadas": 0.772210912003827,
+    "analisis": {
+      "tipoMano": "Pareja de 6s",
+      "estadoJuego": "Punto de 21",
+      "suma": 21,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "4,5,6,7": {
+    "mano": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "probabilidades": {
+      "grande": 0.31784875611349467,
+      "chica": 9.119493889172617,
+      "pares": 0,
+      "juego": 0,
+      "punto": 20.175411616849516
+    },
+    "piedrasEsperadas": 0.7940092014112077,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 22",
+      "suma": 22,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "4,5,6,10": {
+    "mano": [
+      4,
+      5,
+      6,
+      10
+    ],
+    "probabilidades": {
+      "grande": 1.2762419155143097,
+      "chica": 8.699735410394313,
+      "pares": 0,
+      "juego": 0,
+      "punto": 41.29422449388759
+    },
+    "piedrasEsperadas": 1.4383462813348,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 25",
+      "suma": 25,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "4,5,6,11": {
+    "mano": [
+      4,
+      5,
+      6,
+      11
+    ],
+    "probabilidades": {
+      "grande": 4.934910560442197,
+      "chica": 8.699735410394313,
+      "pares": 0,
+      "juego": 0,
+      "punto": 41.29422449388759
+    },
+    "piedrasEsperadas": 1.511519654233358,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 25",
+      "suma": 25,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "4,5,6,12": {
+    "mano": [
+      4,
+      5,
+      6,
+      12
+    ],
+    "probabilidades": {
+      "grande": 20.805427169688112,
+      "chica": 8.804185563395142,
+      "pares": 0,
+      "juego": 0,
+      "punto": 41.29422449388759
+    },
+    "piedrasEsperadas": 1.831018989478293,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 25",
+      "suma": 25,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "4,5,7,7": {
+    "mano": [
+      4,
+      5,
+      7,
+      7
+    ],
+    "probabilidades": {
+      "grande": 0.40511772174403854,
+      "chica": 8.466527474575633,
+      "pares": 16.38139291262609,
+      "juego": 0,
+      "punto": 25.03405447460958
+    },
+    "piedrasEsperadas": 1.4198963255434638,
+    "analisis": {
+      "tipoMano": "Pareja de 7s",
+      "estadoJuego": "Punto de 23",
+      "suma": 23,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "4,5,7,10": {
+    "mano": [
+      4,
+      5,
+      7,
+      10
+    ],
+    "probabilidades": {
+      "grande": 1.8070243569163937,
+      "chica": 8.134100561045532,
+      "pares": 0,
+      "juego": 0,
+      "punto": 52.606880245479935
+    },
+    "piedrasEsperadas": 1.7770289057236366,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 26",
+      "suma": 26,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "4,5,7,11": {
+    "mano": [
+      4,
+      5,
+      7,
+      11
+    ],
+    "probabilidades": {
+      "grande": 6.010468298958779,
+      "chica": 8.134100561045532,
+      "pares": 0,
+      "juego": 0,
+      "punto": 52.606880245479935
+    },
+    "piedrasEsperadas": 1.8610977845644845,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 26",
+      "suma": 26,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "4,5,7,12": {
+    "mano": [
+      4,
+      5,
+      7,
+      12
+    ],
+    "probabilidades": {
+      "grande": 26.244639022562204,
+      "chica": 8.236021802795342,
+      "pares": 0,
+      "juego": 0,
+      "punto": 52.606880245479935
+    },
+    "piedrasEsperadas": 2.267819623871549,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 26",
+      "suma": 26,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "4,5,10,10": {
+    "mano": [
+      4,
+      5,
+      10,
+      10
+    ],
+    "probabilidades": {
+      "grande": 2.3650617087769477,
+      "chica": 7.195987506136037,
+      "pares": 23.13372788963532,
+      "juego": 0,
+      "punto": 91.98389677363083
+    },
+    "piedrasEsperadas": 3.6447497241962443,
+    "analisis": {
+      "tipoMano": "Pareja de 10s",
+      "estadoJuego": "Punto de 29",
+      "suma": 29,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "4,5,10,11": {
+    "mano": [
+      4,
+      5,
+      10,
+      11
+    ],
+    "probabilidades": {
+      "grande": 7.91487896604693,
+      "chica": 7.261276924562929,
+      "pares": 0,
+      "juego": 0,
+      "punto": 91.98389677363083
+    },
+    "piedrasEsperadas": 3.063040021021122,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 29",
+      "suma": 29,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "4,5,10,12": {
+    "mano": [
+      4,
+      5,
+      10,
+      12
+    ],
+    "probabilidades": {
+      "grande": 36.22830741491999,
+      "chica": 7.359486377218498,
+      "pares": 0,
+      "juego": 0,
+      "punto": 91.98389677363083
+    },
+    "piedrasEsperadas": 3.6312727790516948,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 29",
+      "suma": 29,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "4,5,11,11": {
+    "mano": [
+      4,
+      5,
+      11,
+      11
+    ],
+    "probabilidades": {
+      "grande": 10.033435843747956,
+      "chica": 7.195987506136037,
+      "pares": 31.014803039766736,
+      "juego": 0,
+      "punto": 91.98389677363083
+    },
+    "piedrasEsperadas": 4.034549461399607,
+    "analisis": {
+      "tipoMano": "Pareja de 11s",
+      "estadoJuego": "Punto de 29",
+      "suma": 29,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "4,5,11,12": {
+    "mano": [
+      4,
+      5,
+      11,
+      12
+    ],
+    "probabilidades": {
+      "grande": 53.79868236774603,
+      "chica": 7.359486377218498,
+      "pares": 0,
+      "juego": 0,
+      "punto": 91.98389677363083
+    },
+    "piedrasEsperadas": 3.982680278108216,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 29",
+      "suma": 29,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "4,5,12,12": {
+    "mano": [
+      4,
+      5,
+      12,
+      12
+    ],
+    "probabilidades": {
+      "grande": 80.735529928424,
+      "chica": 7.310289875885635,
+      "pares": 72.60488511382725,
+      "juego": 0,
+      "punto": 91.98389677363083
+    },
+    "piedrasEsperadas": 6.698579852709935,
+    "analisis": {
+      "tipoMano": "Pareja de 12s",
+      "estadoJuego": "Punto de 29",
+      "suma": 29,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "4,6,6,6": {
+    "mano": [
+      4,
+      6,
+      6,
+      6
+    ],
+    "probabilidades": {
+      "grande": 0.04253091670483544,
+      "chica": 6.637430379169566,
+      "pares": 75.76513947523938,
+      "juego": 0,
+      "punto": 19.606031917526042
+    },
+    "piedrasEsperadas": 3.752385762452845,
+    "analisis": {
+      "tipoMano": "Medias de 6s",
+      "estadoJuego": "Punto de 22",
+      "suma": 22,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "4,6,6,7": {
+    "mano": [
+      4,
+      6,
+      6,
+      7
+    ],
+    "probabilidades": {
+      "grande": 0.34129557037363095,
+      "chica": 6.637430379169566,
+      "pares": 13.173510912468645,
+      "juego": 0,
+      "punto": 25.16481388505931
+    },
+    "piedrasEsperadas": 1.2897242629167027,
+    "analisis": {
+      "tipoMano": "Pareja de 6s",
+      "estadoJuego": "Punto de 23",
+      "suma": 23,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "4,6,6,10": {
+    "mano": [
+      4,
+      6,
+      6,
+      10
+    ],
+    "probabilidades": {
+      "grande": 1.327683505397305,
+      "chica": 6.596881689271927,
+      "pares": 13.173510912468645,
+      "juego": 0,
+      "punto": 56.138031209047575
+    },
+    "piedrasEsperadas": 2.2378375675388713,
+    "analisis": {
+      "tipoMano": "Pareja de 6s",
+      "estadoJuego": "Punto de 26",
+      "suma": 26,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "4,6,6,11": {
+    "mano": [
+      4,
+      6,
+      6,
+      11
+    ],
+    "probabilidades": {
+      "grande": 5.044204394266555,
+      "chica": 6.596881689271927,
+      "pares": 13.173510912468645,
+      "juego": 0,
+      "punto": 56.138031209047575
+    },
+    "piedrasEsperadas": 2.3121679853162567,
+    "analisis": {
+      "tipoMano": "Pareja de 6s",
+      "estadoJuego": "Punto de 26",
+      "suma": 26,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "4,6,6,12": {
+    "mano": [
+      4,
+      6,
+      6,
+      12
+    ],
+    "probabilidades": {
+      "grande": 21.34856977813204,
+      "chica": 6.6070188617463375,
+      "pares": 14.270311737821514,
+      "juego": 0,
+      "punto": 56.138031209047575
+    },
+    "piedrasEsperadas": 2.67136206120364,
+    "analisis": {
+      "tipoMano": "Pareja de 6s",
+      "estadoJuego": "Punto de 26",
+      "suma": 26,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "4,6,7,7": {
+    "mano": [
+      4,
+      6,
+      7,
+      7
+    ],
+    "probabilidades": {
+      "grande": 0.4137098261288538,
+      "chica": 6.498044257646431,
+      "pares": 16.38139291262609,
+      "juego": 0,
+      "punto": 28.66227235608977
+    },
+    "piedrasEsperadas": 1.4895450397369818,
+    "analisis": {
+      "tipoMano": "Pareja de 7s",
+      "estadoJuego": "Punto de 24",
+      "suma": 24,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "4,6,7,10": {
+    "mano": [
+      4,
+      6,
+      7,
+      10
+    ],
+    "probabilidades": {
+      "grande": 2.0003399074262127,
+      "chica": 6.204060874020961,
+      "pares": 0,
+      "juego": 0,
+      "punto": 69.07024792822803
+    },
+    "piedrasEsperadas": 2.2361954534757844,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 27",
+      "suma": 27,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "4,6,7,11": {
+    "mano": [
+      4,
+      6,
+      7,
+      11
+    ],
+    "probabilidades": {
+      "grande": 6.3845721117853556,
+      "chica": 6.204060874020961,
+      "pares": 0,
+      "juego": 0,
+      "punto": 69.07024792822803
+    },
+    "piedrasEsperadas": 2.323880097562967,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 27",
+      "suma": 27,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "4,6,7,12": {
+    "mano": [
+      4,
+      6,
+      7,
+      12
+    ],
+    "probabilidades": {
+      "grande": 28.169883748827672,
+      "chica": 6.294153337338576,
+      "pares": 0,
+      "juego": 0,
+      "punto": 69.07024792822803
+    },
+    "piedrasEsperadas": 2.761388179570166,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 27",
+      "suma": 27,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "4,6,10,10": {
+    "mano": [
+      4,
+      6,
+      10,
+      10
+    ],
+    "probabilidades": {
+      "grande": 2.387934645999162,
+      "chica": 5.377335482681292,
+      "pares": 23.13372788963532,
+      "juego": 0,
+      "punto": 100
+    },
+    "piedrasEsperadas": 3.8493172392626684,
+    "analisis": {
+      "tipoMano": "Pareja de 10s",
+      "estadoJuego": "Punto de 30",
+      "suma": 30,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "4,6,10,11": {
+    "mano": [
+      4,
+      6,
+      10,
+      11
+    ],
+    "probabilidades": {
+      "grande": 8.338269355674315,
+      "chica": 5.434739048820054,
+      "pares": 0,
+      "juego": 0,
+      "punto": 100
+    },
+    "piedrasEsperadas": 3.2754601680898876,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 30",
+      "suma": 30,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "4,6,10,12": {
+    "mano": [
+      4,
+      6,
+      10,
+      12
+    ],
+    "probabilidades": {
+      "grande": 38.498558178791114,
+      "chica": 5.521119723043429,
+      "pares": 0,
+      "juego": 0,
+      "punto": 100
+    },
+    "piedrasEsperadas": 3.880393558036691,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 30",
+      "suma": 30,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "4,6,11,11": {
+    "mano": [
+      4,
+      6,
+      11,
+      11
+    ],
+    "probabilidades": {
+      "grande": 10.083600514733146,
+      "chica": 5.377335482681292,
+      "pares": 31.014803039766736,
+      "juego": 0,
+      "punto": 100
+    },
+    "piedrasEsperadas": 4.239662811141291,
+    "analisis": {
+      "tipoMano": "Pareja de 11s",
+      "estadoJuego": "Punto de 30",
+      "suma": 30,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "4,6,11,12": {
+    "mano": [
+      4,
+      6,
+      11,
+      12
+    ],
+    "probabilidades": {
+      "grande": 56.59476991996786,
+      "chica": 5.521119723043429,
+      "pares": 0,
+      "juego": 0,
+      "punto": 100
+    },
+    "piedrasEsperadas": 4.242317792860225,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 30",
+      "suma": 30,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "4,6,12,12": {
+    "mano": [
+      4,
+      6,
+      12,
+      12
+    ],
+    "probabilidades": {
+      "grande": 83.15267961770611,
+      "chica": 5.477837610926664,
+      "pares": 72.60488511382725,
+      "juego": 0,
+      "punto": 100
+    },
+    "piedrasEsperadas": 6.950756897987473,
+    "analisis": {
+      "tipoMano": "Pareja de 12s",
+      "estadoJuego": "Punto de 30",
+      "suma": 30,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "4,7,7,7": {
+    "mano": [
+      4,
+      7,
+      7,
+      7
+    ],
+    "probabilidades": {
+      "grande": 0.4162874574442984,
+      "chica": 5.053317312363311,
+      "pares": 76.41817749826404,
+      "juego": 0,
+      "punto": 39.70042538125091
+    },
+    "piedrasEsperadas": 4.357131956764241,
+    "analisis": {
+      "tipoMano": "Medias de 7s",
+      "estadoJuego": "Punto de 25",
+      "suma": 25,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "4,7,7,10": {
+    "mano": [
+      4,
+      7,
+      7,
+      10
+    ],
+    "probabilidades": {
+      "grande": 2.1220403623073256,
+      "chica": 5.025978558073042,
+      "pares": 19.32350232563861,
+      "juego": 0,
+      "punto": 83.76769087143316
+    },
+    "piedrasEsperadas": 3.235696174319761,
+    "analisis": {
+      "tipoMano": "Pareja de 7s",
+      "estadoJuego": "Punto de 28",
+      "suma": 28,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "4,7,7,11": {
+    "mano": [
+      4,
+      7,
+      7,
+      11
+    ],
+    "probabilidades": {
+      "grande": 6.617156034220746,
+      "chica": 5.025978558073042,
+      "pares": 19.32350232563861,
+      "juego": 0,
+      "punto": 83.76769087143316
+    },
+    "piedrasEsperadas": 3.325598487758029,
+    "analisis": {
+      "tipoMano": "Pareja de 7s",
+      "estadoJuego": "Punto de 28",
+      "suma": 28,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "4,7,7,12": {
+    "mano": [
+      4,
+      7,
+      7,
+      12
+    ],
+    "probabilidades": {
+      "grande": 29.372635601582797,
+      "chica": 5.035091476169798,
+      "pares": 20.927435032370642,
+      "juego": 0,
+      "punto": 83.76769087143316
+    },
+    "piedrasEsperadas": 3.8290083186691657,
+    "analisis": {
+      "tipoMano": "Pareja de 7s",
+      "estadoJuego": "Punto de 28",
+      "suma": 28,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "4,7,10,10": {
+    "mano": [
+      4,
+      7,
+      10,
+      10
+    ],
+    "probabilidades": {
+      "grande": 2.418126923132485,
+      "chica": 4.352050052501535,
+      "pares": 23.13372788963532,
+      "juego": 100,
+      "punto": 0
+    },
+    "piedrasEsperadas": 3.82941537620174,
+    "analisis": {
+      "tipoMano": "Pareja de 10s",
+      "estadoJuego": "Juego de 31",
+      "suma": 31,
+      "valorPar": 1,
+      "valorJuego": 1
+    }
+  },
+  "4,7,10,11": {
+    "mano": [
+      4,
+      7,
+      10,
+      11
+    ],
+    "probabilidades": {
+      "grande": 8.908962027525137,
+      "chica": 4.404830877643807,
+      "pares": 0,
+      "juego": 100,
+      "punto": 0
+    },
+    "piedrasEsperadas": 3.266275858103379,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Juego de 31",
+      "suma": 31,
+      "valorPar": 0,
+      "valorJuego": 1
+    }
+  },
+  "4,7,10,12": {
+    "mano": [
+      4,
+      7,
+      10,
+      12
+    ],
+    "probabilidades": {
+      "grande": 41.57801068989972,
+      "chica": 4.484277440372448,
+      "pares": 0,
+      "juego": 100,
+      "punto": 0
+    },
+    "piedrasEsperadas": 3.9212457626054436,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Juego de 31",
+      "suma": 31,
+      "valorPar": 0,
+      "valorJuego": 1
+    }
+  },
+  "4,7,11,11": {
+    "mano": [
+      4,
+      7,
+      11,
+      11
+    ],
+    "probabilidades": {
+      "grande": 10.149817880433597,
+      "chica": 4.352050052501535,
+      "pares": 31.014803039766736,
+      "juego": 100,
+      "punto": 0
+    },
+    "piedrasEsperadas": 4.220481449851705,
+    "analisis": {
+      "tipoMano": "Pareja de 11s",
+      "estadoJuego": "Juego de 31",
+      "suma": 31,
+      "valorPar": 1,
+      "valorJuego": 1
+    }
+  },
+  "4,7,11,12": {
+    "mano": [
+      4,
+      7,
+      11,
+      12
+    ],
+    "probabilidades": {
+      "grande": 60.36832699169936,
+      "chica": 4.484277440372448,
+      "pares": 0,
+      "juego": 100,
+      "punto": 0
+    },
+    "piedrasEsperadas": 4.297052088641436,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Juego de 31",
+      "suma": 31,
+      "valorPar": 0,
+      "valorJuego": 1
+    }
+  },
+  "4,7,12,12": {
+    "mano": [
+      4,
+      7,
+      12,
+      12
+    ],
+    "probabilidades": {
+      "grande": 86.3728606014152,
+      "chica": 4.4444623840030495,
+      "pares": 72.60488511382725,
+      "juego": 100,
+      "punto": 0
+    },
+    "piedrasEsperadas": 6.994493013123182,
+    "analisis": {
+      "tipoMano": "Pareja de 12s",
+      "estadoJuego": "Juego de 31",
+      "suma": 31,
+      "valorPar": 1,
+      "valorJuego": 1
+    }
+  },
+  "4,10,10,10": {
+    "mano": [
+      4,
+      10,
+      10,
+      10
+    ],
+    "probabilidades": {
+      "grande": 2.4304783092324804,
+      "chica": 3.574232807694824,
+      "pares": 77.07454408930404,
+      "juego": 3.728829435775867,
+      "punto": 0
+    },
+    "piedrasEsperadas": 3.3895174576995015,
+    "analisis": {
+      "tipoMano": "Medias de 10s",
+      "estadoJuego": "Juego de 34 (bueno)",
+      "suma": 34,
+      "valorPar": 2,
+      "valorJuego": 3
+    }
+  },
+  "4,10,10,11": {
+    "mano": [
+      4,
+      10,
+      10,
+      11
+    ],
+    "probabilidades": {
+      "grande": 9.307836594036948,
+      "chica": 3.580448864751685,
+      "pares": 26.60223391193076,
+      "juego": 3.728829435775867,
+      "punto": 0
+    },
+    "piedrasEsperadas": 1.2422741983224888,
+    "analisis": {
+      "tipoMano": "Pareja de 10s",
+      "estadoJuego": "Juego de 34 (bueno)",
+      "suma": 34,
+      "valorPar": 1,
+      "valorJuego": 3
+    }
+  },
+  "4,10,10,12": {
+    "mano": [
+      4,
+      10,
+      10,
+      12
+    ],
+    "probabilidades": {
+      "grande": 43.74137567522374,
+      "chica": 3.5887369408274994,
+      "pares": 28.803986191033854,
+      "juego": 3.728829435775867,
+      "punto": 0
+    },
+    "piedrasEsperadas": 1.997163309840834,
+    "analisis": {
+      "tipoMano": "Pareja de 10s",
+      "estadoJuego": "Juego de 34 (bueno)",
+      "suma": 34,
+      "valorPar": 1,
+      "valorJuego": 3
+    }
+  },
+  "4,10,11,11": {
+    "mano": [
+      4,
+      10,
+      11,
+      11
+    ],
+    "probabilidades": {
+      "grande": 10.23208794084931,
+      "chica": 3.580448864751685,
+      "pares": 31.014803039766736,
+      "juego": 3.728829435775867,
+      "punto": 0
+    },
+    "piedrasEsperadas": 1.3931362990938152,
+    "analisis": {
+      "tipoMano": "Pareja de 11s",
+      "estadoJuego": "Juego de 34 (bueno)",
+      "suma": 34,
+      "valorPar": 1,
+      "valorJuego": 3
+    }
+  },
+  "4,10,11,12": {
+    "mano": [
+      4,
+      10,
+      11,
+      12
+    ],
+    "probabilidades": {
+      "grande": 65.19016309796916,
+      "chica": 3.7051982892459234,
+      "pares": 0,
+      "juego": 3.728829435775867,
+      "punto": 0
+    },
+    "piedrasEsperadas": 1.5643486995330953,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Juego de 34 (bueno)",
+      "suma": 34,
+      "valorPar": 0,
+      "valorJuego": 3
+    }
+  },
+  "4,10,12,12": {
+    "mano": [
+      4,
+      10,
+      12,
+      12
+    ],
+    "probabilidades": {
+      "grande": 90.42136199206146,
+      "chica": 3.667626621889528,
+      "pares": 72.60488511382725,
+      "juego": 3.728829435775867,
+      "punto": 0
+    },
+    "piedrasEsperadas": 4.24636779748263,
+    "analisis": {
+      "tipoMano": "Pareja de 12s",
+      "estadoJuego": "Juego de 34 (bueno)",
+      "suma": 34,
+      "valorPar": 1,
+      "valorJuego": 3
+    }
+  },
+  "4,11,11,11": {
+    "mano": [
+      4,
+      11,
+      11,
+      11
+    ],
+    "probabilidades": {
+      "grande": 10.271216384217759,
+      "chica": 3.574232807694824,
+      "pares": 77.73423924835939,
+      "juego": 3.728829435775867,
+      "punto": 0
+    },
+    "piedrasEsperadas": 3.5727200255614204,
+    "analisis": {
+      "tipoMano": "Medias de 11s",
+      "estadoJuego": "Juego de 34 (bueno)",
+      "suma": 34,
+      "valorPar": 2,
+      "valorJuego": 3
+    }
+  },
+  "4,11,11,12": {
+    "mano": [
+      4,
+      11,
+      11,
+      12
+    ],
+    "probabilidades": {
+      "grande": 68.80320908489462,
+      "chica": 3.5887369408274994,
+      "pares": 37.89996521381116,
+      "juego": 3.728829435775867,
+      "punto": 0
+    },
+    "piedrasEsperadas": 2.7712793487175706,
+    "analisis": {
+      "tipoMano": "Pareja de 11s",
+      "estadoJuego": "Juego de 34 (bueno)",
+      "suma": 34,
+      "valorPar": 1,
+      "valorJuego": 3
+    }
+  },
+  "4,11,12,12": {
+    "mano": [
+      4,
+      11,
+      12,
+      12
+    ],
+    "probabilidades": {
+      "grande": 95.32999912473838,
+      "chica": 3.667626621889528,
+      "pares": 72.60488511382725,
+      "juego": 3.728829435775867,
+      "punto": 0
+    },
+    "piedrasEsperadas": 4.344540540136169,
+    "analisis": {
+      "tipoMano": "Pareja de 12s",
+      "estadoJuego": "Juego de 34 (bueno)",
+      "suma": 34,
+      "valorPar": 1,
+      "valorJuego": 3
+    }
+  },
+  "4,12,12,12": {
+    "mano": [
+      4,
+      12,
+      12,
+      12
+    ],
+    "probabilidades": {
+      "grande": 99.30396400984637,
+      "chica": 3.5949529978843597,
+      "pares": 87.64110259654933,
+      "juego": 3.728829435775867,
+      "punto": 0
+    },
+    "piedrasEsperadas": 5.750063915805381,
+    "analisis": {
+      "tipoMano": "Medias de 12s",
+      "estadoJuego": "Juego de 34 (bueno)",
+      "suma": 34,
+      "valorPar": 2,
+      "valorJuego": 3
+    }
+  },
+  "5,5,5,5": {
+    "mano": [
+      5,
+      5,
+      5,
+      5
+    ],
+    "probabilidades": {
+      "grande": 0.0016358044886475168,
+      "chica": 2.4304783092324804,
+      "pares": 85.89706830944012,
+      "juego": 0,
+      "punto": 5.813468984445149
+    },
+    "piedrasEsperadas": 4.517899767279783,
+    "analisis": {
+      "tipoMano": "Cuaternas de 5s",
+      "estadoJuego": "Punto de 20",
+      "suma": 20,
+      "valorPar": 3,
+      "valorJuego": 0
+    }
+  },
+  "5,5,5,6": {
+    "mano": [
+      5,
+      5,
+      5,
+      6
+    ],
+    "probabilidades": {
+      "grande": 0.030986810742094393,
+      "chica": 2.4304783092324804,
+      "pares": 75.59170286254086,
+      "juego": 0,
+      "punto": 9.004507376527208
+    },
+    "piedrasEsperadas": 3.3430326381969415,
+    "analisis": {
+      "tipoMano": "Medias de 5s",
+      "estadoJuego": "Punto de 21",
+      "suma": 21,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "5,5,5,7": {
+    "mano": [
+      5,
+      5,
+      5,
+      7
+    ],
+    "probabilidades": {
+      "grande": 0.1711498095715854,
+      "chica": 2.4304783092324804,
+      "pares": 75.59170286254086,
+      "juego": 0,
+      "punto": 19.999692460867752
+    },
+    "piedrasEsperadas": 3.675691450703748,
+    "analisis": {
+      "tipoMano": "Medias de 5s",
+      "estadoJuego": "Punto de 22",
+      "suma": 22,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "5,5,5,10": {
+    "mano": [
+      5,
+      5,
+      5,
+      10
+    ],
+    "probabilidades": {
+      "grande": 0.9300801926595291,
+      "chica": 2.4304783092324804,
+      "pares": 75.59170286254086,
+      "juego": 0,
+      "punto": 43.83192171889929
+    },
+    "piedrasEsperadas": 4.405836936106453,
+    "analisis": {
+      "tipoMano": "Medias de 5s",
+      "estadoJuego": "Punto de 25",
+      "suma": 25,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "5,5,5,11": {
+    "mano": [
+      5,
+      5,
+      5,
+      11
+    ],
+    "probabilidades": {
+      "grande": 4.176551599505208,
+      "chica": 2.4304783092324804,
+      "pares": 75.59170286254086,
+      "juego": 0,
+      "punto": 43.83192171889929
+    },
+    "piedrasEsperadas": 4.470766364243366,
+    "analisis": {
+      "tipoMano": "Medias de 5s",
+      "estadoJuego": "Punto de 25",
+      "suma": 25,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "5,5,5,12": {
+    "mano": [
+      5,
+      5,
+      5,
+      12
+    ],
+    "probabilidades": {
+      "grande": 17.078053319956087,
+      "chica": 2.4304783092324804,
+      "pares": 78.07833728040322,
+      "juego": 0,
+      "punto": 43.83192171889929
+    },
+    "piedrasEsperadas": 4.828261775366879,
+    "analisis": {
+      "tipoMano": "Medias de 5s",
+      "estadoJuego": "Punto de 25",
+      "suma": 25,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "5,5,6,6": {
+    "mano": [
+      5,
+      5,
+      6,
+      6
+    ],
+    "probabilidades": {
+      "grande": 0.04253091670483544,
+      "chica": 2.4304783092324804,
+      "pares": 87.04993601142151,
+      "juego": 0,
+      "punto": 20.756227784442284
+    },
+    "piedrasEsperadas": 4.154144458508875,
+    "analisis": {
+      "tipoMano": "Duples (6s y 5s)",
+      "estadoJuego": "Punto de 22",
+      "suma": 22,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "5,5,6,7": {
+    "mano": [
+      5,
+      5,
+      6,
+      7
+    ],
+    "probabilidades": {
+      "grande": 0.3221953223261867,
+      "chica": 2.4291059329991476,
+      "pares": 10.287372471441925,
+      "juego": 0,
+      "punto": 24.288895569482904
+    },
+    "piedrasEsperadas": 1.0923140663342514,
+    "analisis": {
+      "tipoMano": "Pareja de 5s",
+      "estadoJuego": "Punto de 23",
+      "suma": 23,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "5,5,6,10": {
+    "mano": [
+      5,
+      5,
+      6,
+      10
+    ],
+    "probabilidades": {
+      "grande": 1.2858375021562876,
+      "chica": 2.4071479132658222,
+      "pares": 10.287372471441925,
+      "juego": 0,
+      "punto": 52.62511285163281
+    },
+    "piedrasEsperadas": 1.961234268000684,
+    "analisis": {
+      "tipoMano": "Pareja de 5s",
+      "estadoJuego": "Punto de 26",
+      "suma": 26,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "5,5,6,11": {
+    "mano": [
+      5,
+      5,
+      6,
+      11
+    ],
+    "probabilidades": {
+      "grande": 4.9553534428231805,
+      "chica": 2.4071479132658222,
+      "pares": 10.287372471441925,
+      "juego": 0,
+      "punto": 52.62511285163281
+    },
+    "piedrasEsperadas": 2.034624586814022,
+    "analisis": {
+      "tipoMano": "Pareja de 5s",
+      "estadoJuego": "Punto de 26",
+      "suma": 26,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "5,5,6,12": {
+    "mano": [
+      5,
+      5,
+      6,
+      12
+    ],
+    "probabilidades": {
+      "grande": 20.906918428543765,
+      "chica": 2.4126374181991537,
+      "pares": 11.146741465629347,
+      "juego": 0,
+      "punto": 52.62511285163281
+    },
+    "piedrasEsperadas": 2.379546746452723,
+    "analisis": {
+      "tipoMano": "Pareja de 5s",
+      "estadoJuego": "Punto de 26",
+      "suma": 26,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "5,5,7,7": {
+    "mano": [
+      5,
+      5,
+      7,
+      7
+    ],
+    "probabilidades": {
+      "grande": 0.40563324800712747,
+      "chica": 2.3947965271658265,
+      "pares": 88.16969444411494,
+      "juego": 0,
+      "punto": 28.652295076738515
+    },
+    "piedrasEsperadas": 4.442365225570213,
+    "analisis": {
+      "tipoMano": "Duples (7s y 5s)",
+      "estadoJuego": "Punto de 24",
+      "suma": 24,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "5,5,7,10": {
+    "mano": [
+      5,
+      5,
+      7,
+      10
+    ],
+    "probabilidades": {
+      "grande": 1.8183534714320555,
+      "chica": 2.3769556361324993,
+      "pares": 10.287372471441925,
+      "juego": 0,
+      "punto": 68.72124616388557
+    },
+    "piedrasEsperadas": 2.454164741211116,
+    "analisis": {
+      "tipoMano": "Pareja de 5s",
+      "estadoJuego": "Punto de 27",
+      "suma": 27,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "5,5,7,11": {
+    "mano": [
+      5,
+      5,
+      7,
+      11
+    ],
+    "probabilidades": {
+      "grande": 6.032644709213446,
+      "chica": 2.3769556361324993,
+      "pares": 10.287372471441925,
+      "juego": 0,
+      "punto": 68.72124616388557
+    },
+    "piedrasEsperadas": 2.538450565966744,
+    "analisis": {
+      "tipoMano": "Pareja de 5s",
+      "estadoJuego": "Punto de 27",
+      "suma": 27,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "5,5,7,12": {
+    "mano": [
+      5,
+      5,
+      7,
+      12
+    ],
+    "probabilidades": {
+      "grande": 26.35826497653364,
+      "chica": 2.3824451410658307,
+      "pares": 11.146741465629347,
+      "juego": 0,
+      "punto": 68.72124616388557
+    },
+    "piedrasEsperadas": 2.970853831237437,
+    "analisis": {
+      "tipoMano": "Pareja de 5s",
+      "estadoJuego": "Punto de 27",
+      "suma": 27,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "5,5,10,10": {
+    "mano": [
+      5,
+      5,
+      10,
+      10
+    ],
+    "probabilidades": {
+      "grande": 2.3664340850102805,
+      "chica": 2.325262798010295,
+      "pares": 89.49940079832096,
+      "juego": 0,
+      "punto": 100
+    },
+    "piedrasEsperadas": 6.6738099695932505,
+    "analisis": {
+      "tipoMano": "Duples (10s y 5s)",
+      "estadoJuego": "Punto de 30",
+      "suma": 30,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "5,5,10,11": {
+    "mano": [
+      5,
+      5,
+      10,
+      11
+    ],
+    "probabilidades": {
+      "grande": 7.940012570909646,
+      "chica": 2.3289224679658496,
+      "pares": 10.287372471441925,
+      "juego": 0,
+      "punto": 100
+    },
+    "piedrasEsperadas": 3.513999874920768,
+    "analisis": {
+      "tipoMano": "Pareja de 5s",
+      "estadoJuego": "Punto de 30",
+      "suma": 30,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "5,5,10,12": {
+    "mano": [
+      5,
+      5,
+      10,
+      12
+    ],
+    "probabilidades": {
+      "grande": 36.36263373114777,
+      "chica": 2.334411972899181,
+      "pares": 11.146741465629347,
+      "juego": 0,
+      "punto": 100
+    },
+    "piedrasEsperadas": 4.108343158049819,
+    "analisis": {
+      "tipoMano": "Pareja de 5s",
+      "estadoJuego": "Punto de 30",
+      "suma": 30,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "5,5,11,11": {
+    "mano": [
+      5,
+      5,
+      11,
+      11
+    ],
+    "probabilidades": {
+      "grande": 10.036445724007066,
+      "chica": 2.325262798010295,
+      "pares": 91.04517184912848,
+      "juego": 0,
+      "punto": 100
+    },
+    "piedrasEsperadas": 6.889041044405487,
+    "analisis": {
+      "tipoMano": "Duples (11s y 5s)",
+      "estadoJuego": "Punto de 30",
+      "suma": 30,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "5,5,11,12": {
+    "mano": [
+      5,
+      5,
+      11,
+      12
+    ],
+    "probabilidades": {
+      "grande": 53.96455889127485,
+      "chica": 2.334411972899181,
+      "pares": 11.146741465629347,
+      "juego": 0,
+      "punto": 100
+    },
+    "piedrasEsperadas": 4.460381661252361,
+    "analisis": {
+      "tipoMano": "Pareja de 5s",
+      "estadoJuego": "Punto de 30",
+      "suma": 30,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "5,5,12,12": {
+    "mano": [
+      5,
+      5,
+      12,
+      12
+    ],
+    "probabilidades": {
+      "grande": 80.8798843634936,
+      "chica": 2.3316672204325153,
+      "pares": 97.38896348576993,
+      "juego": 0,
+      "punto": 100
+    },
+    "piedrasEsperadas": 8.55978957110932,
+    "analisis": {
+      "tipoMano": "Duples (12s y 5s)",
+      "estadoJuego": "Punto de 30",
+      "suma": 30,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "5,6,6,6": {
+    "mano": [
+      5,
+      6,
+      6,
+      6
+    ],
+    "probabilidades": {
+      "grande": 0.04253091670483544,
+      "chica": 2.1326726665992517,
+      "pares": 75.76513947523938,
+      "juego": 0,
+      "punto": 25.568038693858842
+    },
+    "piedrasEsperadas": 3.8411508114914223,
+    "analisis": {
+      "tipoMano": "Medias de 6s",
+      "estadoJuego": "Punto de 23",
+      "suma": 23,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "5,6,6,7": {
+    "mano": [
+      5,
+      6,
+      6,
+      7
+    ],
+    "probabilidades": {
+      "grande": 0.34325457017336886,
+      "chica": 2.1326726665992517,
+      "pares": 13.173510912468645,
+      "juego": 0,
+      "punto": 28.409693142974252
+    },
+    "piedrasEsperadas": 1.2970146663987392,
+    "analisis": {
+      "tipoMano": "Pareja de 6s",
+      "estadoJuego": "Punto de 24",
+      "suma": 24,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "5,6,6,10": {
+    "mano": [
+      5,
+      6,
+      6,
+      10
+    ],
+    "probabilidades": {
+      "grande": 1.3319754031656144,
+      "chica": 2.1114080580153995,
+      "pares": 13.173510912468645,
+      "juego": 0,
+      "punto": 65.57787015218793
+    },
+    "piedrasEsperadas": 2.431409101163317,
+    "analisis": {
+      "tipoMano": "Pareja de 6s",
+      "estadoJuego": "Punto de 27",
+      "suma": 27,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "5,6,6,11": {
+    "mano": [
+      5,
+      6,
+      6,
+      11
+    ],
+    "probabilidades": {
+      "grande": 5.053317312363311,
+      "chica": 2.1114080580153995,
+      "pares": 13.173510912468645,
+      "juego": 0,
+      "punto": 65.57787015218793
+    },
+    "piedrasEsperadas": 2.5058359393472713,
+    "analisis": {
+      "tipoMano": "Pareja de 6s",
+      "estadoJuego": "Punto de 27",
+      "suma": 27,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "5,6,6,12": {
+    "mano": [
+      5,
+      6,
+      6,
+      12
+    ],
+    "probabilidades": {
+      "grande": 21.393867352448783,
+      "chica": 2.1167242101613626,
+      "pares": 14.270311737821514,
+      "juego": 0,
+      "punto": 65.57787015218793
+    },
+    "piedrasEsperadas": 2.8656572879524864,
+    "analisis": {
+      "tipoMano": "Pareja de 6s",
+      "estadoJuego": "Punto de 27",
+      "suma": 27,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "5,6,7,7": {
+    "mano": [
+      5,
+      6,
+      7,
+      7
+    ],
+    "probabilidades": {
+      "grande": 0.41577193118120953,
+      "chica": 2.0595755745922597,
+      "pares": 16.38139291262609,
+      "juego": 0,
+      "punto": 42.97396379502401
+    },
+    "piedrasEsperadas": 1.8301676513449723,
+    "analisis": {
+      "tipoMano": "Pareja de 7s",
+      "estadoJuego": "Punto de 25",
+      "suma": 25,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "5,6,7,10": {
+    "mano": [
+      5,
+      6,
+      7,
+      10
+    ],
+    "probabilidades": {
+      "grande": 2.047695810046134,
+      "chica": 1.9066070355738614,
+      "pares": 0,
+      "juego": 0,
+      "punto": 84.72881108122988
+    },
+    "piedrasEsperadas": 2.6209503893492965,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 28",
+      "suma": 28,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "5,6,7,11": {
+    "mano": [
+      5,
+      6,
+      7,
+      11
+    ],
+    "probabilidades": {
+      "grande": 6.475317197361298,
+      "chica": 1.9066070355738614,
+      "pares": 0,
+      "juego": 0,
+      "punto": 84.72881108122988
+    },
+    "piedrasEsperadas": 2.7095028170955997,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 28",
+      "suma": 28,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "5,6,7,12": {
+    "mano": [
+      5,
+      6,
+      7,
+      12
+    ],
+    "probabilidades": {
+      "grande": 28.63866367661434,
+      "chica": 1.953310315935455,
+      "pares": 0,
+      "juego": 0,
+      "punto": 84.72881108122988
+    },
+    "piedrasEsperadas": 3.153703812287892,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Punto de 28",
+      "suma": 28,
+      "valorPar": 0,
+      "valorJuego": 0
+    }
+  },
+  "5,6,10,10": {
+    "mano": [
+      5,
+      6,
+      10,
+      10
+    ],
+    "probabilidades": {
+      "grande": 2.3934241509324936,
+      "chica": 1.488463117070066,
+      "pares": 23.13372788963532,
+      "juego": 100,
+      "punto": 0
+    },
+    "piedrasEsperadas": 3.7716495820491107,
+    "analisis": {
+      "tipoMano": "Pareja de 10s",
+      "estadoJuego": "Juego de 31",
+      "suma": 31,
+      "valorPar": 1,
+      "valorJuego": 1
+    }
+  },
+  "5,6,10,11": {
+    "mano": [
+      5,
+      6,
+      10,
+      11
+    ],
+    "probabilidades": {
+      "grande": 8.440843219682453,
+      "chica": 1.5169405612381468,
+      "pares": 0,
+      "juego": 100,
+      "punto": 0
+    },
+    "piedrasEsperadas": 3.199155675618412,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Juego de 31",
+      "suma": 31,
+      "valorPar": 0,
+      "valorJuego": 1
+    }
+  },
+  "5,6,10,12": {
+    "mano": [
+      5,
+      6,
+      10,
+      12
+    ],
+    "probabilidades": {
+      "grande": 39.05013955560314,
+      "chica": 1.5599320525055,
+      "pares": 0,
+      "juego": 100,
+      "punto": 0
+    },
+    "piedrasEsperadas": 3.8122014321621727,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Juego de 31",
+      "suma": 31,
+      "valorPar": 0,
+      "valorJuego": 1
+    }
+  },
+  "5,6,11,11": {
+    "mano": [
+      5,
+      6,
+      11,
+      11
+    ],
+    "probabilidades": {
+      "grande": 10.095640035769591,
+      "chica": 1.488463117070066,
+      "pares": 31.014803039766736,
+      "juego": 100,
+      "punto": 0
+    },
+    "piedrasEsperadas": 4.162126154249796,
+    "analisis": {
+      "tipoMano": "Pareja de 11s",
+      "estadoJuego": "Juego de 31",
+      "suma": 31,
+      "valorPar": 1,
+      "valorJuego": 1
+    }
+  },
+  "5,6,11,12": {
+    "mano": [
+      5,
+      6,
+      11,
+      12
+    ],
+    "probabilidades": {
+      "grande": 57.27255212598404,
+      "chica": 1.5599320525055,
+      "pares": 0,
+      "juego": 100,
+      "punto": 0
+    },
+    "piedrasEsperadas": 4.17664968356979,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Juego de 31",
+      "suma": 31,
+      "valorPar": 0,
+      "valorJuego": 1
+    }
+  },
+  "5,6,12,12": {
+    "mano": [
+      5,
+      6,
+      12,
+      12
+    ],
+    "probabilidades": {
+      "grande": 83.73519596937774,
+      "chica": 1.5383445318667461,
+      "pares": 72.60488511382725,
+      "juego": 100,
+      "punto": 0
+    },
+    "piedrasEsperadas": 6.883617363439707,
+    "analisis": {
+      "tipoMano": "Pareja de 12s",
+      "estadoJuego": "Juego de 31",
+      "suma": 31,
+      "valorPar": 1,
+      "valorJuego": 1
+    }
+  },
+  "5,7,7,7": {
+    "mano": [
+      5,
+      7,
+      7,
+      7
+    ],
+    "probabilidades": {
+      "grande": 0.4162874574442984,
+      "chica": 1.3319754031656144,
+      "pares": 76.41817749826404,
+      "juego": 0,
+      "punto": 55.36517191253486
+    },
+    "piedrasEsperadas": 4.752647514518806,
+    "analisis": {
+      "tipoMano": "Medias de 7s",
+      "estadoJuego": "Punto de 26",
+      "suma": 26,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "5,7,7,10": {
+    "mano": [
+      5,
+      7,
+      7,
+      10
+    ],
+    "probabilidades": {
+      "grande": 2.1273565144532887,
+      "chica": 1.3190997098606863,
+      "pares": 19.32350232563861,
+      "juego": 0,
+      "punto": 90.2755296294405
+    },
+    "piedrasEsperadas": 3.356900083138653,
+    "analisis": {
+      "tipoMano": "Pareja de 7s",
+      "estadoJuego": "Punto de 29",
+      "suma": 29,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "5,7,7,11": {
+    "mano": [
+      5,
+      7,
+      7,
+      11
+    ],
+    "probabilidades": {
+      "grande": 6.627293206695156,
+      "chica": 1.3190997098606863,
+      "pares": 19.32350232563861,
+      "juego": 0,
+      "punto": 90.2755296294405
+    },
+    "piedrasEsperadas": 3.44689881698349,
+    "analisis": {
+      "tipoMano": "Pareja de 7s",
+      "estadoJuego": "Punto de 29",
+      "suma": 29,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "5,7,7,12": {
+    "mano": [
+      5,
+      7,
+      7,
+      12
+    ],
+    "probabilidades": {
+      "grande": 29.42510295654312,
+      "chica": 1.3233916076289955,
+      "pares": 20.927435032370642,
+      "juego": 0,
+      "punto": 90.2755296294405
+    },
+    "piedrasEsperadas": 3.9510588311377766,
+    "analisis": {
+      "tipoMano": "Pareja de 7s",
+      "estadoJuego": "Punto de 29",
+      "suma": 29,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "5,7,10,10": {
+    "mano": [
+      5,
+      7,
+      10,
+      10
+    ],
+    "probabilidades": {
+      "grande": 2.4236164280658166,
+      "chica": 1.0079529840048063,
+      "pares": 23.13372788963532,
+      "juego": 37.209842108856144,
+      "punto": 0
+    },
+    "piedrasEsperadas": 2.251036909284718,
+    "analisis": {
+      "tipoMano": "Pareja de 10s",
+      "estadoJuego": "Juego de 32",
+      "suma": 32,
+      "valorPar": 1,
+      "valorJuego": 2
+    }
+  },
+  "5,7,10,11": {
+    "mano": [
+      5,
+      7,
+      10,
+      11
+    ],
+    "probabilidades": {
+      "grande": 9.014064802784295,
+      "chica": 1.0318076871763977,
+      "pares": 0,
+      "juego": 37.209842108856144,
+      "punto": 0
+    },
+    "piedrasEsperadas": 1.6893111341534597,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Juego de 32",
+      "suma": 32,
+      "valorPar": 0,
+      "valorJuego": 2
+    }
+  },
+  "5,7,10,12": {
+    "mano": [
+      5,
+      7,
+      10,
+      12
+    ],
+    "probabilidades": {
+      "grande": 42.14729444546889,
+      "chica": 1.0678650669490164,
+      "pares": 0,
+      "juego": 37.209842108856144,
+      "punto": 0
+    },
+    "piedrasEsperadas": 2.3526968746026036,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Juego de 32",
+      "suma": 32,
+      "valorPar": 0,
+      "valorJuego": 2
+    }
+  },
+  "5,7,11,11": {
+    "mano": [
+      5,
+      7,
+      11,
+      11
+    ],
+    "probabilidades": {
+      "grande": 10.161857401470042,
+      "chica": 1.0079529840048063,
+      "pares": 31.014803039766736,
+      "juego": 37.209842108856144,
+      "punto": 0
+    },
+    "piedrasEsperadas": 2.642233983256745,
+    "analisis": {
+      "tipoMano": "Pareja de 11s",
+      "estadoJuego": "Juego de 32",
+      "suma": 32,
+      "valorPar": 1,
+      "valorJuego": 2
+    }
+  },
+  "5,7,11,12": {
+    "mano": [
+      5,
+      7,
+      11,
+      12
+    ],
+    "probabilidades": {
+      "grande": 61.0638115764727,
+      "chica": 1.0678650669490164,
+      "pares": 0,
+      "juego": 37.209842108856144,
+      "punto": 0
+    },
+    "piedrasEsperadas": 2.73102721722268,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Juego de 32",
+      "suma": 32,
+      "valorPar": 0,
+      "valorJuego": 2
+    }
+  },
+  "5,7,12,12": {
+    "mano": [
+      5,
+      7,
+      12,
+      12
+    ],
+    "probabilidades": {
+      "grande": 86.96169923121437,
+      "chica": 1.0497446020576295,
+      "pares": 72.60488511382725,
+      "juego": 37.209842108856144,
+      "punto": 0
+    },
+    "piedrasEsperadas": 5.426769114434504,
+    "analisis": {
+      "tipoMano": "Pareja de 12s",
+      "estadoJuego": "Juego de 32",
+      "suma": 32,
+      "valorPar": 1,
+      "valorJuego": 2
+    }
+  },
+  "5,10,10,10": {
+    "mano": [
+      5,
+      10,
+      10,
+      10
+    ],
+    "probabilidades": {
+      "grande": 2.4304783092324804,
+      "chica": 0.6724643543330974,
+      "pares": 77.07454408930404,
+      "juego": 8.598802486382375,
+      "punto": 0
+    },
+    "piedrasEsperadas": 3.574980741162592,
+    "analisis": {
+      "tipoMano": "Medias de 10s",
+      "estadoJuego": "Juego de 35 (bueno)",
+      "suma": 35,
+      "valorPar": 2,
+      "valorJuego": 3
+    }
+  },
+  "5,10,10,11": {
+    "mano": [
+      5,
+      10,
+      10,
+      11
+    ],
+    "probabilidades": {
+      "grande": 9.31961438635521,
+      "chica": 0.6750646461436227,
+      "pares": 26.60223391193076,
+      "juego": 8.598802486382375,
+      "punto": 0
+    },
+    "piedrasEsperadas": 1.4279007223270181,
+    "analisis": {
+      "tipoMano": "Pareja de 10s",
+      "estadoJuego": "Juego de 35 (bueno)",
+      "suma": 35,
+      "valorPar": 1,
+      "valorJuego": 3
+    }
+  },
+  "5,10,10,12": {
+    "mano": [
+      5,
+      10,
+      10,
+      12
+    ],
+    "probabilidades": {
+      "grande": 43.80532736909103,
+      "chica": 0.67853170189099,
+      "pares": 28.803986191033854,
+      "juego": 8.598802486382375,
+      "punto": 0
+    },
+    "piedrasEsperadas": 2.183736891469775,
+    "analisis": {
+      "tipoMano": "Pareja de 10s",
+      "estadoJuego": "Juego de 35 (bueno)",
+      "suma": 35,
+      "valorPar": 1,
+      "valorJuego": 3
+    }
+  },
+  "5,10,11,11": {
+    "mano": [
+      5,
+      10,
+      11,
+      11
+    ],
+    "probabilidades": {
+      "grande": 10.244127461885755,
+      "chica": 0.6750646461436227,
+      "pares": 31.014803039766736,
+      "juego": 8.598802486382375,
+      "punto": 0
+    },
+    "piedrasEsperadas": 1.5787680576727083,
+    "analisis": {
+      "tipoMano": "Pareja de 11s",
+      "estadoJuego": "Juego de 35 (bueno)",
+      "suma": 35,
+      "valorPar": 1,
+      "valorJuego": 3
+    }
+  },
+  "5,10,11,12": {
+    "mano": [
+      5,
+      10,
+      11,
+      12
+    ],
+    "probabilidades": {
+      "grande": 65.90791841730793,
+      "chica": 0.7274987657111586,
+      "pares": 0,
+      "juego": 8.598802486382375,
+      "punto": 0
+    },
+    "piedrasEsperadas": 1.7626484679795003,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Juego de 35 (bueno)",
+      "suma": 35,
+      "valorPar": 0,
+      "valorJuego": 3
+    }
+  },
+  "5,10,12,12": {
+    "mano": [
+      5,
+      10,
+      12,
+      12
+    ],
+    "probabilidades": {
+      "grande": 91.018154455634,
+      "chica": 0.7116216898327741,
+      "pares": 72.60488511382725,
+      "juego": 8.598802486382375,
+      "punto": 0
+    },
+    "piedrasEsperadas": 4.442682200643272,
+    "analisis": {
+      "tipoMano": "Pareja de 12s",
+      "estadoJuego": "Juego de 35 (bueno)",
+      "suma": 35,
+      "valorPar": 1,
+      "valorJuego": 3
+    }
+  },
+  "5,11,11,11": {
+    "mano": [
+      5,
+      11,
+      11,
+      11
+    ],
+    "probabilidades": {
+      "grande": 10.271216384217759,
+      "chica": 0.6724643543330974,
+      "pares": 77.73423924835939,
+      "juego": 8.598802486382375,
+      "punto": 0
+    },
+    "piedrasEsperadas": 3.7581833090245107,
+    "analisis": {
+      "tipoMano": "Medias de 11s",
+      "estadoJuego": "Juego de 35 (bueno)",
+      "suma": 35,
+      "valorPar": 2,
+      "valorJuego": 3
+    }
+  },
+  "5,11,11,12": {
+    "mano": [
+      5,
+      11,
+      11,
+      12
+    ],
+    "probabilidades": {
+      "grande": 68.88397486611188,
+      "chica": 0.67853170189099,
+      "pares": 37.89996521381116,
+      "juego": 8.598802486382375,
+      "punto": 0
+    },
+    "piedrasEsperadas": 2.9581892120935116,
+    "analisis": {
+      "tipoMano": "Pareja de 11s",
+      "estadoJuego": "Juego de 35 (bueno)",
+      "suma": 35,
+      "valorPar": 1,
+      "valorJuego": 3
+    }
+  },
+  "5,11,12,12": {
+    "mano": [
+      5,
+      11,
+      12,
+      12
+    ],
+    "probabilidades": {
+      "grande": 95.93637697773012,
+      "chica": 0.7116216898327741,
+      "pares": 72.60488511382725,
+      "juego": 8.598802486382375,
+      "punto": 0
+    },
+    "piedrasEsperadas": 4.541046651085194,
+    "analisis": {
+      "tipoMano": "Pareja de 12s",
+      "estadoJuego": "Juego de 35 (bueno)",
+      "suma": 35,
+      "valorPar": 1,
+      "valorJuego": 3
+    }
+  },
+  "5,12,12,12": {
+    "mano": [
+      5,
+      12,
+      12,
+      12
+    ],
+    "probabilidades": {
+      "grande": 99.43977591036415,
+      "chica": 0.6811319937015153,
+      "pares": 87.64110259654933,
+      "juego": 8.598802486382375,
+      "punto": 0
+    },
+    "piedrasEsperadas": 5.938002386262405,
+    "analisis": {
+      "tipoMano": "Medias de 12s",
+      "estadoJuego": "Juego de 35 (bueno)",
+      "suma": 35,
+      "valorPar": 2,
+      "valorJuego": 3
+    }
+  },
+  "6,6,6,6": {
+    "mano": [
+      6,
+      6,
+      6,
+      6
+    ],
+    "probabilidades": {
+      "grande": 0.04253091670483544,
+      "chica": 0.4162874574442984,
+      "pares": 86.93541889746643,
+      "juego": 0,
+      "punto": 27.878580047245404
+    },
+    "piedrasEsperadas": 5.192304713773666,
+    "analisis": {
+      "tipoMano": "Cuaternas de 6s",
+      "estadoJuego": "Punto de 24",
+      "suma": 24,
+      "valorPar": 3,
+      "valorJuego": 0
+    }
+  },
+  "6,6,6,7": {
+    "mano": [
+      6,
+      6,
+      6,
+      7
+    ],
+    "probabilidades": {
+      "grande": 0.34325457017336886,
+      "chica": 0.4162874574442984,
+      "pares": 76.24388008430448,
+      "juego": 0,
+      "punto": 43.00906359785918
+    },
+    "piedrasEsperadas": 4.355217951860308,
+    "analisis": {
+      "tipoMano": "Medias de 6s",
+      "estadoJuego": "Punto de 25",
+      "suma": 25,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "6,6,6,10": {
+    "mano": [
+      6,
+      6,
+      6,
+      10
+    ],
+    "probabilidades": {
+      "grande": 1.3319754031656144,
+      "chica": 0.4162874574442984,
+      "pares": 76.24388008430448,
+      "juego": 0,
+      "punto": 84.95738234950183
+    },
+    "piedrasEsperadas": 5.633441931069433,
+    "analisis": {
+      "tipoMano": "Medias de 6s",
+      "estadoJuego": "Punto de 28",
+      "suma": 28,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "6,6,6,11": {
+    "mano": [
+      6,
+      6,
+      6,
+      11
+    ],
+    "probabilidades": {
+      "grande": 5.053317312363311,
+      "chica": 0.4162874574442984,
+      "pares": 76.24388008430448,
+      "juego": 0,
+      "punto": 84.95738234950183
+    },
+    "piedrasEsperadas": 5.707868769253387,
+    "analisis": {
+      "tipoMano": "Medias de 6s",
+      "estadoJuego": "Punto de 28",
+      "suma": 28,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "6,6,6,12": {
+    "mano": [
+      6,
+      6,
+      6,
+      12
+    ],
+    "probabilidades": {
+      "grande": 21.393867352448783,
+      "chica": 0.4162874574442984,
+      "pares": 78.76165968010723,
+      "juego": 0,
+      "punto": 84.95738234950183
+    },
+    "piedrasEsperadas": 6.135390953887206,
+    "analisis": {
+      "tipoMano": "Medias de 6s",
+      "estadoJuego": "Punto de 28",
+      "suma": 28,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "6,6,7,7": {
+    "mano": [
+      6,
+      6,
+      7,
+      7
+    ],
+    "probabilidades": {
+      "grande": 0.4162874574442984,
+      "chica": 0.4162874574442984,
+      "pares": 88.20476678646504,
+      "juego": 0,
+      "punto": 59.30022376072452
+    },
+    "piedrasEsperadas": 5.323848882578109,
+    "analisis": {
+      "tipoMano": "Duples (7s y 6s)",
+      "estadoJuego": "Punto de 26",
+      "suma": 26,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "6,6,7,10": {
+    "mano": [
+      6,
+      6,
+      7,
+      10
+    ],
+    "probabilidades": {
+      "grande": 2.0595755745922597,
+      "chica": 0.4095856160241425,
+      "pares": 15.835020320772623,
+      "juego": 0,
+      "punto": 92.55813136137154
+    },
+    "piedrasEsperadas": 3.3011777742766526,
+    "analisis": {
+      "tipoMano": "Pareja de 6s",
+      "estadoJuego": "Punto de 29",
+      "suma": 29,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "6,6,7,11": {
+    "mano": [
+      6,
+      6,
+      7,
+      11
+    ],
+    "probabilidades": {
+      "grande": 6.498044257646431,
+      "chica": 0.4095856160241425,
+      "pares": 15.835020320772623,
+      "juego": 0,
+      "punto": 92.55813136137154
+    },
+    "piedrasEsperadas": 3.389947147937736,
+    "analisis": {
+      "tipoMano": "Pareja de 6s",
+      "estadoJuego": "Punto de 29",
+      "suma": 29,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "6,6,7,12": {
+    "mano": [
+      6,
+      6,
+      7,
+      12
+    ],
+    "probabilidades": {
+      "grande": 28.756144180799026,
+      "chica": 0.4116477210764981,
+      "pares": 17.15354600672918,
+      "juego": 0,
+      "punto": 92.55813136137154
+    },
+    "piedrasEsperadas": 3.8747061590805316,
+    "analisis": {
+      "tipoMano": "Pareja de 6s",
+      "estadoJuego": "Punto de 29",
+      "suma": 29,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "6,6,10,10": {
+    "mano": [
+      6,
+      6,
+      10,
+      10
+    ],
+    "probabilidades": {
+      "grande": 2.3947965271658265,
+      "chica": 0.3901674601144601,
+      "pares": 89.53481296150935,
+      "juego": 37.26613429877525,
+      "punto": 0
+    },
+    "piedrasEsperadas": 5.12773717015699,
+    "analisis": {
+      "tipoMano": "Duples (10s y 6s)",
+      "estadoJuego": "Juego de 32",
+      "suma": 32,
+      "valorPar": 2,
+      "valorJuego": 2
+    }
+  },
+  "6,6,10,11": {
+    "mano": [
+      6,
+      6,
+      10,
+      11
+    ],
+    "probabilidades": {
+      "grande": 8.466527474575633,
+      "chica": 0.39154219681603053,
+      "pares": 15.835020320772623,
+      "juego": 37.26613429877525,
+      "punto": 0
+    },
+    "piedrasEsperadas": 2.142857375002022,
+    "analisis": {
+      "tipoMano": "Pareja de 6s",
+      "estadoJuego": "Juego de 32",
+      "suma": 32,
+      "valorPar": 1,
+      "valorJuego": 2
+    }
+  },
+  "6,6,10,12": {
+    "mano": [
+      6,
+      6,
+      10,
+      12
+    ],
+    "probabilidades": {
+      "grande": 39.188320422044164,
+      "chica": 0.39360430186838613,
+      "pares": 17.15354600672918,
+      "juego": 37.26613429877525,
+      "punto": 0
+    },
+    "piedrasEsperadas": 2.7968902466311367,
+    "analisis": {
+      "tipoMano": "Pareja de 6s",
+      "estadoJuego": "Juego de 32",
+      "suma": 32,
+      "valorPar": 1,
+      "valorJuego": 2
+    }
+  },
+  "6,6,11,11": {
+    "mano": [
+      6,
+      6,
+      11,
+      11
+    ],
+    "probabilidades": {
+      "grande": 10.098649916028704,
+      "chica": 0.3901674601144601,
+      "pares": 91.08098046996153,
+      "juego": 37.26613429877525,
+      "punto": 0
+    },
+    "piedrasEsperadas": 5.343660938272334,
+    "analisis": {
+      "tipoMano": "Duples (11s y 6s)",
+      "estadoJuego": "Juego de 32",
+      "suma": 32,
+      "valorPar": 2,
+      "valorJuego": 2
+    }
+  },
+  "6,6,11,12": {
+    "mano": [
+      6,
+      6,
+      11,
+      12
+    ],
+    "probabilidades": {
+      "grande": 57.442283199726106,
+      "chica": 0.39360430186838613,
+      "pares": 17.15354600672918,
+      "juego": 37.26613429877525,
+      "punto": 0
+    },
+    "piedrasEsperadas": 3.1619695021847756,
+    "analisis": {
+      "tipoMano": "Pareja de 6s",
+      "estadoJuego": "Juego de 32",
+      "suma": 32,
+      "valorPar": 1,
+      "valorJuego": 2
+    }
+  },
+  "6,6,12,12": {
+    "mano": [
+      6,
+      6,
+      12,
+      12
+    ],
+    "probabilidades": {
+      "grande": 83.8809270295235,
+      "chica": 0.39257324934220833,
+      "pares": 97.93335874348236,
+      "juego": 37.26613429877525,
+      "punto": 0
+    },
+    "piedrasEsperadas": 7.093449727267617,
+    "analisis": {
+      "tipoMano": "Duples (12s y 6s)",
+      "estadoJuego": "Juego de 32",
+      "suma": 32,
+      "valorPar": 2,
+      "valorJuego": 2
+    }
+  },
+  "6,7,7,7": {
+    "mano": [
+      6,
+      7,
+      7,
+      7
+    ],
+    "probabilidades": {
+      "grande": 0.4162874574442984,
+      "chica": 0.34325457017336886,
+      "pares": 76.41817749826404,
+      "juego": 0,
+      "punto": 72.29289161680062
+    },
+    "piedrasEsperadas": 5.240704688986933,
+    "analisis": {
+      "tipoMano": "Medias de 7s",
+      "estadoJuego": "Punto de 27",
+      "suma": 27,
+      "valorPar": 2,
+      "valorJuego": 0
+    }
+  },
+  "6,7,7,10": {
+    "mano": [
+      6,
+      7,
+      7,
+      10
+    ],
+    "probabilidades": {
+      "grande": 2.1326726665992517,
+      "chica": 0.33737757077415526,
+      "pares": 19.32350232563861,
+      "juego": 0,
+      "punto": 100
+    },
+    "piedrasEsperadas": 3.6291060745166264,
+    "analisis": {
+      "tipoMano": "Pareja de 7s",
+      "estadoJuego": "Punto de 30",
+      "suma": 30,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "6,7,7,11": {
+    "mano": [
+      6,
+      7,
+      7,
+      11
+    ],
+    "probabilidades": {
+      "grande": 6.637430379169566,
+      "chica": 0.33737757077415526,
+      "pares": 19.32350232563861,
+      "juego": 0,
+      "punto": 100
+    },
+    "piedrasEsperadas": 3.719201228768033,
+    "analisis": {
+      "tipoMano": "Pareja de 7s",
+      "estadoJuego": "Punto de 30",
+      "suma": 30,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "6,7,7,12": {
+    "mano": [
+      6,
+      7,
+      7,
+      12
+    ],
+    "probabilidades": {
+      "grande": 29.477570311503438,
+      "chica": 0.3393365705738931,
+      "pares": 20.927435032370642,
+      "juego": 0,
+      "punto": 100
+    },
+    "piedrasEsperadas": 4.2241611886126655,
+    "analisis": {
+      "tipoMano": "Pareja de 7s",
+      "estadoJuego": "Punto de 30",
+      "suma": 30,
+      "valorPar": 1,
+      "valorJuego": 0
+    }
+  },
+  "6,7,10,10": {
+    "mano": [
+      6,
+      7,
+      10,
+      10
+    ],
+    "probabilidades": {
+      "grande": 2.4291059329991476,
+      "chica": 0.20178141705328775,
+      "pares": 23.13372788963532,
+      "juego": 0.24232435563750887,
+      "punto": 0
+    },
+    "piedrasEsperadas": 0.7587458014719838,
+    "analisis": {
+      "tipoMano": "Pareja de 10s",
+      "estadoJuego": "Juego de 33 (bueno)",
+      "suma": 33,
+      "valorPar": 1,
+      "valorJuego": 3
+    }
+  },
+  "6,7,10,11": {
+    "mano": [
+      6,
+      7,
+      10,
+      11
+    ],
+    "probabilidades": {
+      "grande": 9.119493889172617,
+      "chica": 0.21163873241344944,
+      "pares": 0,
+      "juego": 0.24232435563750887,
+      "punto": 0
+    },
+    "piedrasEsperadas": 0.19873887021359676,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Juego de 33 (bueno)",
+      "suma": 33,
+      "valorPar": 0,
+      "valorJuego": 3
+    }
+  },
+  "6,7,10,12": {
+    "mano": [
+      6,
+      7,
+      10,
+      12
+    ],
+    "probabilidades": {
+      "grande": 42.718862378942205,
+      "chica": 0.22670003046892398,
+      "pares": 0,
+      "juego": 0.24232435563750887,
+      "punto": 0
+    },
+    "piedrasEsperadas": 0.8710274659700981,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Juego de 33 (bueno)",
+      "suma": 33,
+      "valorPar": 0,
+      "valorJuego": 3
+    }
+  },
+  "6,7,11,11": {
+    "mano": [
+      6,
+      7,
+      11,
+      11
+    ],
+    "probabilidades": {
+      "grande": 10.173896922506488,
+      "chica": 0.20178141705328775,
+      "pares": 31.014803039766736,
+      "juego": 0.24232435563750887,
+      "punto": 0
+    },
+    "piedrasEsperadas": 1.150073875766073,
+    "analisis": {
+      "tipoMano": "Pareja de 11s",
+      "estadoJuego": "Juego de 33 (bueno)",
+      "suma": 33,
+      "valorPar": 1,
+      "valorJuego": 3
+    }
+  },
+  "6,7,11,12": {
+    "mano": [
+      6,
+      7,
+      11,
+      12
+    ],
+    "probabilidades": {
+      "grande": 61.76158033915019,
+      "chica": 0.22670003046892398,
+      "pares": 0,
+      "juego": 0.24232435563750887,
+      "punto": 0
+    },
+    "piedrasEsperadas": 1.2518818251742578,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Juego de 33 (bueno)",
+      "suma": 33,
+      "valorPar": 0,
+      "valorJuego": 3
+    }
+  },
+  "6,7,12,12": {
+    "mano": [
+      6,
+      7,
+      12,
+      12
+    ],
+    "probabilidades": {
+      "grande": 87.55135363883646,
+      "chica": 0.21907760643610935,
+      "pares": 72.60488511382725,
+      "juego": 0.24232435563750887,
+      "punto": 0
+    },
+    "piedrasEsperadas": 3.945671396102145,
+    "analisis": {
+      "tipoMano": "Pareja de 12s",
+      "estadoJuego": "Juego de 33 (bueno)",
+      "suma": 33,
+      "valorPar": 1,
+      "valorJuego": 3
+    }
+  },
+  "6,10,10,10": {
+    "mano": [
+      6,
+      10,
+      10,
+      10
+    ],
+    "probabilidades": {
+      "grande": 2.4304783092324804,
+      "chica": 0.0803361759980225,
+      "pares": 77.07454408930404,
+      "juego": 12.781975786117322,
+      "punto": 0
+    },
+    "piedrasEsperadas": 3.772296842582638,
+    "analisis": {
+      "tipoMano": "Medias de 10s",
+      "estadoJuego": "Juego de 36 (bueno)",
+      "suma": 36,
+      "valorPar": 2,
+      "valorJuego": 3
+    }
+  },
+  "6,10,10,11": {
+    "mano": [
+      6,
+      10,
+      10,
+      11
+    ],
+    "probabilidades": {
+      "grande": 9.331392178673472,
+      "chica": 0.08118679433211921,
+      "pares": 26.60223391193076,
+      "juego": 12.781975786117322,
+      "punto": 0
+    },
+    "piedrasEsperadas": 1.6254173861239007,
+    "analisis": {
+      "tipoMano": "Pareja de 10s",
+      "estadoJuego": "Juego de 36 (bueno)",
+      "suma": 36,
+      "valorPar": 1,
+      "valorJuego": 3
+    }
+  },
+  "6,10,10,12": {
+    "mano": [
+      6,
+      10,
+      10,
+      12
+    ],
+    "probabilidades": {
+      "grande": 43.86927906295831,
+      "chica": 0.08232095211091481,
+      "pares": 28.803986191033854,
+      "juego": 12.781975786117322,
+      "punto": 0
+    },
+    "piedrasEsperadas": 2.3822503753382662,
+    "analisis": {
+      "tipoMano": "Pareja de 10s",
+      "estadoJuego": "Juego de 36 (bueno)",
+      "suma": 36,
+      "valorPar": 1,
+      "valorJuego": 3
+    }
+  },
+  "6,10,11,11": {
+    "mano": [
+      6,
+      10,
+      11,
+      11
+    ],
+    "probabilidades": {
+      "grande": 10.2561669829222,
+      "chica": 0.08118679433211921,
+      "pares": 31.014803039766736,
+      "juego": 12.781975786117322,
+      "punto": 0
+    },
+    "piedrasEsperadas": 1.7762899560439545,
+    "analisis": {
+      "tipoMano": "Pareja de 11s",
+      "estadoJuego": "Juego de 36 (bueno)",
+      "suma": 36,
+      "valorPar": 1,
+      "valorJuego": 3
+    }
+  },
+  "6,10,11,12": {
+    "mano": [
+      6,
+      10,
+      11,
+      12
+    ],
+    "probabilidades": {
+      "grande": 66.62795791455086,
+      "chica": 0.0986274443710811,
+      "pares": 0,
+      "juego": 12.781975786117322,
+      "punto": 0
+    },
+    "piedrasEsperadas": 1.9736304964843048,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Juego de 36 (bueno)",
+      "suma": 36,
+      "valorPar": 0,
+      "valorJuego": 3
+    }
+  },
+  "6,10,12,12": {
+    "mano": [
+      6,
+      10,
+      12,
+      12
+    ],
+    "probabilidades": {
+      "grande": 91.61576269702947,
+      "chica": 0.09324840935126874,
+      "pares": 72.60488511382725,
+      "juego": 12.781975786117322,
+      "punto": 0
+    },
+    "piedrasEsperadas": 4.6514255648482985,
+    "analisis": {
+      "tipoMano": "Pareja de 12s",
+      "estadoJuego": "Juego de 36 (bueno)",
+      "suma": 36,
+      "valorPar": 1,
+      "valorJuego": 3
+    }
+  },
+  "6,11,11,11": {
+    "mano": [
+      6,
+      11,
+      11,
+      11
+    ],
+    "probabilidades": {
+      "grande": 10.271216384217759,
+      "chica": 0.0803361759980225,
+      "pares": 77.73423924835939,
+      "juego": 12.781975786117322,
+      "punto": 0
+    },
+    "piedrasEsperadas": 3.955499410444557,
+    "analisis": {
+      "tipoMano": "Medias de 11s",
+      "estadoJuego": "Juego de 36 (bueno)",
+      "suma": 36,
+      "valorPar": 2,
+      "valorJuego": 3
+    }
+  },
+  "6,11,11,12": {
+    "mano": [
+      6,
+      11,
+      11,
+      12
+    ],
+    "probabilidades": {
+      "grande": 68.96474064732915,
+      "chica": 0.08232095211091481,
+      "pares": 37.89996521381116,
+      "juego": 12.781975786117322,
+      "punto": 0
+    },
+    "piedrasEsperadas": 3.1570389777090018,
+    "analisis": {
+      "tipoMano": "Pareja de 11s",
+      "estadoJuego": "Juego de 36 (bueno)",
+      "suma": 36,
+      "valorPar": 1,
+      "valorJuego": 3
+    }
+  },
+  "6,11,12,12": {
+    "mano": [
+      6,
+      11,
+      12,
+      12
+    ],
+    "probabilidades": {
+      "grande": 96.54357060854475,
+      "chica": 0.09324840935126874,
+      "pares": 72.60488511382725,
+      "juego": 12.781975786117322,
+      "punto": 0
+    },
+    "piedrasEsperadas": 4.749981723078604,
+    "analisis": {
+      "tipoMano": "Pareja de 12s",
+      "estadoJuego": "Juego de 36 (bueno)",
+      "suma": 36,
+      "valorPar": 1,
+      "valorJuego": 3
+    }
+  },
+  "6,12,12,12": {
+    "mano": [
+      6,
+      12,
+      12,
+      12
+    ],
+    "probabilidades": {
+      "grande": 99.57558781088193,
+      "chica": 0.08317157044501153,
+      "pares": 87.64110259654933,
+      "juego": 12.781975786117322,
+      "punto": 0
+    },
+    "piedrasEsperadas": 6.137918080794378,
+    "analisis": {
+      "tipoMano": "Medias de 12s",
+      "estadoJuego": "Juego de 36 (bueno)",
+      "suma": 36,
+      "valorPar": 2,
+      "valorJuego": 3
+    }
+  },
+  "7,7,7,7": {
+    "mano": [
+      7,
+      7,
+      7,
+      7
+    ],
+    "probabilidades": {
+      "grande": 0.4162874574442984,
+      "chica": 0.04253091670483544,
+      "pares": 88.17209832924856,
+      "juego": 0,
+      "punto": 78.85849656126187
+    },
+    "piedrasEsperadas": 6.783536180783266,
+    "analisis": {
+      "tipoMano": "Cuaternas de 7s",
+      "estadoJuego": "Punto de 28",
+      "suma": 28,
+      "valorPar": 3,
+      "valorJuego": 0
+    }
+  },
+  "7,7,7,10": {
+    "mano": [
+      7,
+      7,
+      7,
+      10
+    ],
+    "probabilidades": {
+      "grande": 2.1326726665992517,
+      "chica": 0.04253091670483544,
+      "pares": 76.89938587408345,
+      "juego": 100,
+      "punto": 0
+    },
+    "piedrasEsperadas": 6.119479506629419,
+    "analisis": {
+      "tipoMano": "Medias de 7s",
+      "estadoJuego": "Juego de 31",
+      "suma": 31,
+      "valorPar": 2,
+      "valorJuego": 1
+    }
+  },
+  "7,7,7,11": {
+    "mano": [
+      7,
+      7,
+      7,
+      11
+    ],
+    "probabilidades": {
+      "grande": 6.637430379169566,
+      "chica": 0.04253091670483544,
+      "pares": 76.89938587408345,
+      "juego": 100,
+      "punto": 0
+    },
+    "piedrasEsperadas": 6.2095746608808255,
+    "analisis": {
+      "tipoMano": "Medias de 7s",
+      "estadoJuego": "Juego de 31",
+      "suma": 31,
+      "valorPar": 2,
+      "valorJuego": 1
+    }
+  },
+  "7,7,7,12": {
+    "mano": [
+      7,
+      7,
+      7,
+      12
+    ],
+    "probabilidades": {
+      "grande": 29.477570311503438,
+      "chica": 0.04253091670483544,
+      "pares": 79.44849466687859,
+      "juego": 100,
+      "punto": 0
+    },
+    "piedrasEsperadas": 6.768341811239309,
+    "analisis": {
+      "tipoMano": "Medias de 7s",
+      "estadoJuego": "Juego de 31",
+      "suma": 31,
+      "valorPar": 2,
+      "valorJuego": 1
+    }
+  },
+  "7,7,10,10": {
+    "mano": [
+      7,
+      7,
+      10,
+      10
+    ],
+    "probabilidades": {
+      "grande": 2.4304783092324804,
+      "chica": 0.038324562305456104,
+      "pares": 89.57022512469773,
+      "juego": 2.754531108029267,
+      "punto": 0
+    },
+    "piedrasEsperadas": 3.7699116178201315,
+    "analisis": {
+      "tipoMano": "Duples (10s y 7s)",
+      "estadoJuego": "Juego de 34 (bueno)",
+      "suma": 34,
+      "valorPar": 2,
+      "valorJuego": 3
+    }
+  },
+  "7,7,10,11": {
+    "mano": [
+      7,
+      7,
+      10,
+      11
+    ],
+    "probabilidades": {
+      "grande": 9.145891949660843,
+      "chica": 0.03869846047428983,
+      "pares": 22.511408343225504,
+      "juego": 2.754531108029267,
+      "punto": 0
+    },
+    "piedrasEsperadas": 0.9967606139009312,
+    "analisis": {
+      "tipoMano": "Pareja de 7s",
+      "estadoJuego": "Juego de 34 (bueno)",
+      "suma": 34,
+      "valorPar": 1,
+      "valorJuego": 3
+    }
+  },
+  "7,7,10,12": {
+    "mano": [
+      7,
+      7,
+      10,
+      12
+    ],
+    "probabilidades": {
+      "grande": 42.86203988454855,
+      "chica": 0.03925930772754041,
+      "pares": 24.379778411943093,
+      "juego": 2.754531108029267,
+      "punto": 0
+    },
+    "piedrasEsperadas": 1.727145891605278,
+    "analisis": {
+      "tipoMano": "Pareja de 7s",
+      "estadoJuego": "Juego de 34 (bueno)",
+      "suma": 34,
+      "valorPar": 1,
+      "valorJuego": 3
+    }
+  },
+  "7,7,11,11": {
+    "mano": [
+      7,
+      7,
+      11,
+      11
+    ],
+    "probabilidades": {
+      "grande": 10.1769068027656,
+      "chica": 0.038324562305456104,
+      "pares": 91.11678909079455,
+      "juego": 2.754531108029267,
+      "punto": 0
+    },
+    "piedrasEsperadas": 3.986702746334667,
+    "analisis": {
+      "tipoMano": "Duples (11s y 7s)",
+      "estadoJuego": "Juego de 34 (bueno)",
+      "suma": 34,
+      "valorPar": 2,
+      "valorJuego": 3
+    }
+  },
+  "7,7,11,12": {
+    "mano": [
+      7,
+      7,
+      11,
+      12
+    ],
+    "probabilidades": {
+      "grande": 61.936308052057576,
+      "chica": 0.03925930772754041,
+      "pares": 24.379778411943093,
+      "juego": 2.754531108029267,
+      "punto": 0
+    },
+    "piedrasEsperadas": 2.1086312549554584,
+    "analisis": {
+      "tipoMano": "Pareja de 7s",
+      "estadoJuego": "Juego de 34 (bueno)",
+      "suma": 34,
+      "valorPar": 1,
+      "valorJuego": 3
+    }
+  },
+  "7,7,12,12": {
+    "mano": [
+      7,
+      7,
+      12,
+      12
+    ],
+    "probabilidades": {
+      "grande": 87.69886921296984,
+      "chica": 0.038978884100915115,
+      "pares": 98.47871399283218,
+      "juego": 2.754531108029267,
+      "punto": 0
+    },
+    "piedrasEsperadas": 5.831632077056166,
+    "analisis": {
+      "tipoMano": "Duples (12s y 7s)",
+      "estadoJuego": "Juego de 34 (bueno)",
+      "suma": 34,
+      "valorPar": 2,
+      "valorJuego": 3
+    }
+  },
+  "7,10,10,10": {
+    "mano": [
+      7,
+      10,
+      10,
+      10
+    ],
+    "probabilidades": {
+      "grande": 2.4304783092324804,
+      "chica": 0.004253091670483544,
+      "pares": 77.07454408930404,
+      "juego": 18.7267980946892,
+      "punto": 0
+    },
+    "piedrasEsperadas": 4.068016296324681,
+    "analisis": {
+      "tipoMano": "Medias de 10s",
+      "estadoJuego": "Juego de 37 (bueno)",
+      "suma": 37,
+      "valorPar": 2,
+      "valorJuego": 3
+    }
+  },
+  "7,10,10,11": {
+    "mano": [
+      7,
+      10,
+      10,
+      11
+    ],
+    "probabilidades": {
+      "grande": 9.343169970991735,
+      "chica": 0.004431543069245091,
+      "pares": 26.60223391193076,
+      "juego": 18.7267980946892,
+      "punto": 0
+    },
+    "piedrasEsperadas": 1.9213589523736023,
+    "analisis": {
+      "tipoMano": "Pareja de 10s",
+      "estadoJuego": "Juego de 37 (bueno)",
+      "suma": 37,
+      "valorPar": 1,
+      "valorJuego": 3
+    }
+  },
+  "7,10,10,12": {
+    "mano": [
+      7,
+      10,
+      10,
+      12
+    ],
+    "probabilidades": {
+      "grande": 43.9332307568256,
+      "chica": 0.004669478267593821,
+      "pares": 28.803986191033854,
+      "juego": 18.7267980946892,
+      "punto": 0
+    },
+    "piedrasEsperadas": 2.6792174951673395,
+    "analisis": {
+      "tipoMano": "Pareja de 10s",
+      "estadoJuego": "Juego de 37 (bueno)",
+      "suma": 37,
+      "valorPar": 1,
+      "valorJuego": 3
+    }
+  },
+  "7,10,11,11": {
+    "mano": [
+      7,
+      10,
+      11,
+      11
+    ],
+    "probabilidades": {
+      "grande": 10.268206503958647,
+      "chica": 0.004431543069245091,
+      "pares": 31.014803039766736,
+      "juego": 18.7267980946892,
+      "punto": 0
+    },
+    "piedrasEsperadas": 2.07223675686802,
+    "analisis": {
+      "tipoMano": "Pareja de 11s",
+      "estadoJuego": "Juego de 37 (bueno)",
+      "suma": 37,
+      "valorPar": 1,
+      "valorJuego": 3
+    }
+  },
+  "7,10,11,12": {
+    "mano": [
+      7,
+      10,
+      11,
+      12
+    ],
+    "probabilidades": {
+      "grande": 67.35028158969794,
+      "chica": 0.00842885440150375,
+      "pares": 0,
+      "juego": 18.7267980946892,
+      "punto": 0
+    },
+    "piedrasEsperadas": 2.283514113616449,
+    "analisis": {
+      "tipoMano": "Sin pares",
+      "estadoJuego": "Juego de 37 (bueno)",
+      "suma": 37,
+      "valorPar": 0,
+      "valorJuego": 3
+    }
+  },
+  "7,10,12,12": {
+    "mano": [
+      7,
+      10,
+      12,
+      12
+    ],
+    "probabilidades": {
+      "grande": 92.21418671624782,
+      "chica": 0.007082820993702365,
+      "pares": 72.60488511382725,
+      "juego": 18.7267980946892,
+      "punto": 0
+    },
+    "piedrasEsperadas": 4.958911848894108,
+    "analisis": {
+      "tipoMano": "Pareja de 12s",
+      "estadoJuego": "Juego de 37 (bueno)",
+      "suma": 37,
+      "valorPar": 1,
+      "valorJuego": 3
+    }
+  },
+  "7,11,11,11": {
+    "mano": [
+      7,
+      11,
+      11,
+      11
+    ],
+    "probabilidades": {
+      "grande": 10.271216384217759,
+      "chica": 0.004253091670483544,
+      "pares": 77.73423924835939,
+      "juego": 18.7267980946892,
+      "punto": 0
+    },
+    "piedrasEsperadas": 4.2512188641866,
+    "analisis": {
+      "tipoMano": "Medias de 11s",
+      "estadoJuego": "Juego de 37 (bueno)",
+      "suma": 37,
+      "valorPar": 2,
+      "valorJuego": 3
+    }
+  },
+  "7,11,11,12": {
+    "mano": [
+      7,
+      11,
+      11,
+      12
+    ],
+    "probabilidades": {
+      "grande": 69.04550642854642,
+      "chica": 0.004669478267593821,
+      "pares": 37.89996521381116,
+      "juego": 18.7267980946892,
+      "punto": 0
+    },
+    "piedrasEsperadas": 3.454342379285075,
+    "analisis": {
+      "tipoMano": "Pareja de 11s",
+      "estadoJuego": "Juego de 37 (bueno)",
+      "suma": 37,
+      "valorPar": 1,
+      "valorJuego": 3
+    }
+  },
+  "7,11,12,12": {
+    "mano": [
+      7,
+      11,
+      12,
+      12
+    ],
+    "probabilidades": {
+      "grande": 97.15158001718231,
+      "chica": 0.007082820993702365,
+      "pares": 72.60488511382725,
+      "juego": 18.7267980946892,
+      "punto": 0
+    },
+    "piedrasEsperadas": 5.0576597149127975,
+    "analisis": {
+      "tipoMano": "Pareja de 12s",
+      "estadoJuego": "Juego de 37 (bueno)",
+      "suma": 37,
+      "valorPar": 1,
+      "valorJuego": 3
+    }
+  },
+  "7,12,12,12": {
+    "mano": [
+      7,
+      12,
+      12,
+      12
+    ],
+    "probabilidades": {
+      "grande": 99.71139971139971,
+      "chica": 0.004847929666355368,
+      "pares": 87.64110259654933,
+      "juego": 18.7267980946892,
+      "punto": 0
+    },
+    "piedrasEsperadas": 6.436308961417755,
+    "analisis": {
+      "tipoMano": "Medias de 12s",
+      "estadoJuego": "Juego de 37 (bueno)",
+      "suma": 37,
+      "valorPar": 2,
+      "valorJuego": 3
+    }
+  },
+  "10,10,10,10": {
+    "mano": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "probabilidades": {
+      "grande": 2.4304783092324804,
+      "chica": 0,
+      "pares": 89.61253267176652,
+      "juego": 21.83308541162265,
+      "punto": 0
+    },
+    "piedrasEsperadas": 5.620890470354109,
+    "analisis": {
+      "tipoMano": "Cuaternas de 10s",
+      "estadoJuego": "Juego de 40 (bueno)",
+      "suma": 40,
+      "valorPar": 3,
+      "valorJuego": 3
+    }
+  },
+  "10,10,10,11": {
+    "mano": [
+      10,
+      10,
+      10,
+      11
+    ],
+    "probabilidades": {
+      "grande": 9.343169970991735,
+      "chica": 0,
+      "pares": 77.55822023187775,
+      "juego": 21.83308541162265,
+      "punto": 0
+    },
+    "piedrasEsperadas": 4.3808464792760775,
+    "analisis": {
+      "tipoMano": "Medias de 10s",
+      "estadoJuego": "Juego de 40 (bueno)",
+      "suma": 40,
+      "valorPar": 2,
+      "valorJuego": 3
+    }
+  },
+  "10,10,10,12": {
+    "mano": [
+      10,
+      10,
+      10,
+      12
+    ],
+    "probabilidades": {
+      "grande": 43.9332307568256,
+      "chica": 0,
+      "pares": 80.13884224071731,
+      "juego": 21.83308541162265,
+      "punto": 0
+    },
+    "piedrasEsperadas": 5.175872575346337,
+    "analisis": {
+      "tipoMano": "Medias de 10s",
+      "estadoJuego": "Juego de 40 (bueno)",
+      "suma": 40,
+      "valorPar": 2,
+      "valorJuego": 3
+    }
+  },
+  "10,10,11,11": {
+    "mano": [
+      10,
+      10,
+      11,
+      11
+    ],
+    "probabilidades": {
+      "grande": 10.271216384217759,
+      "chica": 0,
+      "pares": 91.15259771162759,
+      "juego": 21.83308541162265,
+      "punto": 0
+    },
+    "piedrasEsperadas": 4.943182506730592,
+    "analisis": {
+      "tipoMano": "Duples (11s y 10s)",
+      "estadoJuego": "Juego de 40 (bueno)",
+      "suma": 40,
+      "valorPar": 2,
+      "valorJuego": 3
+    }
+  },
+  "10,10,11,12": {
+    "mano": [
+      10,
+      10,
+      11,
+      12
+    ],
+    "probabilidades": {
+      "grande": 67.53114803072272,
+      "chica": 0,
+      "pares": 32.825438681271095,
+      "juego": 21.83308541162265,
+      "punto": 0
+    },
+    "piedrasEsperadas": 3.42704039163372,
+    "analisis": {
+      "tipoMano": "Pareja de 10s",
+      "estadoJuego": "Juego de 40 (bueno)",
+      "suma": 40,
+      "valorPar": 1,
+      "valorJuego": 3
+    }
+  },
+  "10,10,12,12": {
+    "mano": [
+      10,
+      10,
+      12,
+      12
+    ],
+    "probabilidades": {
+      "grande": 92.36389469328029,
+      "chica": 0,
+      "pares": 99.02502923381942,
+      "juego": 21.83308541162265,
+      "punto": 0
+    },
+    "piedrasEsperadas": 6.899933333799515,
+    "analisis": {
+      "tipoMano": "Duples (12s y 10s)",
+      "estadoJuego": "Juego de 40 (bueno)",
+      "suma": 40,
+      "valorPar": 2,
+      "valorJuego": 3
+    }
+  },
+  "10,11,11,11": {
+    "mano": [
+      10,
+      11,
+      11,
+      11
+    ],
+    "probabilidades": {
+      "grande": 10.271216384217759,
+      "chica": 0,
+      "pares": 77.73423924835939,
+      "juego": 21.83308541162265,
+      "punto": 0
+    },
+    "piedrasEsperadas": 4.406448168199863,
+    "analisis": {
+      "tipoMano": "Medias de 11s",
+      "estadoJuego": "Juego de 40 (bueno)",
+      "suma": 40,
+      "valorPar": 2,
+      "valorJuego": 3
+    }
+  },
+  "10,11,11,12": {
+    "mano": [
+      10,
+      11,
+      11,
+      12
+    ],
+    "probabilidades": {
+      "grande": 69.12627220976367,
+      "chica": 0,
+      "pares": 37.89996521381116,
+      "juego": 21.83308541162265,
+      "punto": 0
+    },
+    "piedrasEsperadas": 3.611178671190741,
+    "analisis": {
+      "tipoMano": "Pareja de 11s",
+      "estadoJuego": "Juego de 40 (bueno)",
+      "suma": 40,
+      "valorPar": 1,
+      "valorJuego": 3
+    }
+  },
+  "10,11,12,12": {
+    "mano": [
+      10,
+      11,
+      12,
+      12
+    ],
+    "probabilidades": {
+      "grande": 97.76040520364279,
+      "chica": 0.00015295834179561196,
+      "pares": 72.60488511382725,
+      "juego": 21.83308541162265,
+      "punto": 0
+    },
+    "piedrasEsperadas": 5.225011987235642,
+    "analisis": {
+      "tipoMano": "Pareja de 12s",
+      "estadoJuego": "Juego de 40 (bueno)",
+      "suma": 40,
+      "valorPar": 1,
+      "valorJuego": 3
+    }
+  },
+  "10,12,12,12": {
+    "mano": [
+      10,
+      12,
+      12,
+      12
+    ],
+    "probabilidades": {
+      "grande": 99.8472116119175,
+      "chica": 0,
+      "pares": 87.64110259654933,
+      "juego": 21.83308541162265,
+      "punto": 0
+    },
+    "piedrasEsperadas": 6.594242606681456,
+    "analisis": {
+      "tipoMano": "Medias de 12s",
+      "estadoJuego": "Juego de 40 (bueno)",
+      "suma": 40,
+      "valorPar": 2,
+      "valorJuego": 3
+    }
+  },
+  "11,11,11,11": {
+    "mano": [
+      11,
+      11,
+      11,
+      11
+    ],
+    "probabilidades": {
+      "grande": 10.271216384217759,
+      "chica": 0,
+      "pares": 91.26307376646149,
+      "juego": 21.83308541162265,
+      "punto": 0
+    },
+    "piedrasEsperadas": 5.8602322865885625,
+    "analisis": {
+      "tipoMano": "Cuaternas de 11s",
+      "estadoJuego": "Juego de 40 (bueno)",
+      "suma": 40,
+      "valorPar": 3,
+      "valorJuego": 3
+    }
+  },
+  "11,11,11,12": {
+    "mano": [
+      11,
+      11,
+      11,
+      12
+    ],
+    "probabilidades": {
+      "grande": 69.12627220976367,
+      "chica": 0,
+      "pares": 80.8327024016234,
+      "juego": 21.83308541162265,
+      "punto": 0
+    },
+    "piedrasEsperadas": 5.707487810841341,
+    "analisis": {
+      "tipoMano": "Medias de 11s",
+      "estadoJuego": "Juego de 40 (bueno)",
+      "suma": 40,
+      "valorPar": 2,
+      "valorJuego": 3
+    }
+  },
+  "11,11,12,12": {
+    "mano": [
+      11,
+      11,
+      12,
+      12
+    ],
+    "probabilidades": {
+      "grande": 97.91271347248576,
+      "chica": 0,
+      "pares": 99.57230446644405,
+      "juego": 21.83308541162265,
+      "punto": 0
+    },
+    "piedrasEsperadas": 7.03280071868861,
+    "analisis": {
+      "tipoMano": "Duples (12s y 11s)",
+      "estadoJuego": "Juego de 40 (bueno)",
+      "suma": 40,
+      "valorPar": 2,
+      "valorJuego": 3
+    }
+  },
+  "11,12,12,12": {
+    "mano": [
+      11,
+      12,
+      12,
+      12
+    ],
+    "probabilidades": {
+      "grande": 99.98302351243528,
+      "chica": 0,
+      "pares": 87.64110259654933,
+      "juego": 21.83308541162265,
+      "punto": 0
+    },
+    "piedrasEsperadas": 6.5969588446918115,
+    "analisis": {
+      "tipoMano": "Medias de 12s",
+      "estadoJuego": "Juego de 40 (bueno)",
+      "suma": 40,
+      "valorPar": 2,
+      "valorJuego": 3
+    }
+  },
+  "12,12,12,12": {
+    "mano": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "probabilidades": {
+      "grande": 100,
+      "chica": 0,
+      "pares": 100,
+      "juego": 21.83308541162265,
+      "punto": 0
+    },
+    "piedrasEsperadas": 8.091654270581133,
+    "analisis": {
+      "tipoMano": "Cuaternas de 12s",
+      "estadoJuego": "Juego de 40 (bueno)",
+      "suma": 40,
+      "valorPar": 3,
+      "valorJuego": 3
+    }
+  }
+}
